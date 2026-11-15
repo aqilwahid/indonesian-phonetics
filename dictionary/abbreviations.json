@@ -1,0 +1,3150 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "abbreviations",
+  "version": "1.0.0",
+  "description": "Alfabet (nama huruf Indonesia + varian nama huruf Inggris) dan singkatan tertulis: singkatan umum, gelar, administrasi/alamat, dan singkatan obrolan informal.",
+  "entries": [
+    {
+      "id": "abbr-0001",
+      "text": "A",
+      "normalized_text": "a",
+      "spoken_form": "a",
+      "respelling": null,
+      "ipa": "/a/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "ei",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: AI (e ay), CTA (si ti e), Q&A (kyu en ei), QA (kyu ey).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0002",
+      "text": "B",
+      "normalized_text": "b",
+      "spoken_form": "be",
+      "respelling": null,
+      "ipa": "/be/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "bi",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: OBS (o bi es).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015",
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ]. HDI memakai 'be' untuk huruf B tunggal (mis. rencana B).",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0003",
+      "text": "C",
+      "normalized_text": "c",
+      "spoken_form": "ce",
+      "respelling": null,
+      "ipa": "/tʃe/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "se",
+          "register": "informal",
+          "letter_system": "mixed",
+          "context": "Warisan nama huruf Belanda pada sebagian singkatan, mis. AC (a se), CPM (se pe em)",
+          "note": "Teramati HDI pada CPM dan CER; pada AC berdasarkan pengamatan maintainer, perlu validasi.",
+          "source": [
+            "hdi-kamus-2026",
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "si",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: CTR, CTA, CEO.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0004",
+      "text": "D",
+      "normalized_text": "d",
+      "spoken_form": "de",
+      "respelling": null,
+      "ipa": "/de/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "di",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: DM (di em).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0005",
+      "text": "E",
+      "normalized_text": "e",
+      "spoken_form": "e",
+      "respelling": null,
+      "ipa": "/e/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "i",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: CEO (si i o), ER (i er).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0006",
+      "text": "F",
+      "normalized_text": "f",
+      "spoken_form": "ef",
+      "respelling": null,
+      "ipa": "/ef/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0007",
+      "text": "G",
+      "normalized_text": "g",
+      "spoken_form": "ge",
+      "respelling": null,
+      "ipa": "/ge/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "ji",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris",
+          "note": "Respelling kanonik repo; belum ada bukti korpus.",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0008",
+      "text": "H",
+      "normalized_text": "h",
+      "spoken_form": "ha",
+      "respelling": null,
+      "ipa": "/ha/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "eic",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: HTML (eich ti em el).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0009",
+      "text": "I",
+      "normalized_text": "i",
+      "spoken_form": "i",
+      "respelling": null,
+      "ipa": "/i/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "ai",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: ID (aidi).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0010",
+      "text": "J",
+      "normalized_text": "j",
+      "spoken_form": "je",
+      "respelling": null,
+      "ipa": "/dʒe/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "jei",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris",
+          "note": "Respelling kanonik repo; belum ada bukti korpus.",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0011",
+      "text": "K",
+      "normalized_text": "k",
+      "spoken_form": "ka",
+      "respelling": null,
+      "ipa": "/ka/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "kei",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris",
+          "note": "Respelling kanonik repo; belum ada bukti korpus.",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0012",
+      "text": "L",
+      "normalized_text": "l",
+      "spoken_form": "el",
+      "respelling": null,
+      "ipa": "/el/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0013",
+      "text": "M",
+      "normalized_text": "m",
+      "spoken_form": "em",
+      "respelling": null,
+      "ipa": "/em/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0014",
+      "text": "N",
+      "normalized_text": "n",
+      "spoken_form": "en",
+      "respelling": null,
+      "ipa": "/en/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0015",
+      "text": "O",
+      "normalized_text": "o",
+      "spoken_form": "o",
+      "respelling": null,
+      "ipa": "/o/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0016",
+      "text": "P",
+      "normalized_text": "p",
+      "spoken_form": "pe",
+      "respelling": null,
+      "ipa": "/pe/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "pi",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: RPM, YPP, VPN.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0017",
+      "text": "Q",
+      "normalized_text": "q",
+      "spoken_form": "ki",
+      "respelling": null,
+      "ipa": "/ki/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "kyu",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: FAQ, QR, QC.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ]. Nama huruf baku 'ki', bukan 'kyu'.",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0018",
+      "text": "R",
+      "normalized_text": "r",
+      "spoken_form": "er",
+      "respelling": null,
+      "ipa": "/er/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "ar",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: CTR, RPM.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0019",
+      "text": "S",
+      "normalized_text": "s",
+      "spoken_form": "es",
+      "respelling": null,
+      "ipa": "/es/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0020",
+      "text": "T",
+      "normalized_text": "t",
+      "spoken_form": "te",
+      "respelling": null,
+      "ipa": "/te/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "ti",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: CTR, CTA, UTC.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0021",
+      "text": "U",
+      "normalized_text": "u",
+      "spoken_form": "u",
+      "respelling": null,
+      "ipa": "/u/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "yu",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: UTC (yu ti si), US Letter.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0022",
+      "text": "V",
+      "normalized_text": "v",
+      "spoken_form": "ve",
+      "respelling": null,
+      "ipa": "/ve/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "fe",
+          "ipa": "/fe/",
+          "register": "neutral",
+          "letter_system": "id",
+          "context": "Realisasi umum penutur; mis. HVS dibaca ha fe es",
+          "note": "PUEBI menulis pengucapan 'vé', tetapi banyak penutur merealisasikan v sebagai [f].",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        },
+        {
+          "spoken_form": "vi",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: VO (vi o), TV, VPN.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ]. Huruf v dalam kata serapan umumnya dilafalkan [f] (lihat knowledge/consonants.md).",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0023",
+      "text": "W",
+      "normalized_text": "w",
+      "spoken_form": "we",
+      "respelling": null,
+      "ipa": "/we/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "dabelyu",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris",
+          "note": "Respelling kanonik repo; belum ada bukti korpus.",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0024",
+      "text": "X",
+      "normalized_text": "x",
+      "spoken_form": "eks",
+      "respelling": null,
+      "ipa": "/eks/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0025",
+      "text": "Y",
+      "normalized_text": "y",
+      "spoken_form": "ye",
+      "respelling": null,
+      "ipa": "/je/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [
+        {
+          "spoken_form": "wai",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Initialism asal Inggris, terutama istilah teknologi/kreator",
+          "note": "Teramati di korpus VO HDI: YPP (wai pi pi).",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0026",
+      "text": "Z",
+      "normalized_text": "z",
+      "spoken_form": "zet",
+      "respelling": null,
+      "ipa": "/zet/",
+      "language": "id",
+      "category": "alphabet",
+      "subcategory": "letter-id",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Mengeja huruf tunggal atau initialism Indonesia",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama huruf menurut tabel abjad PUEBI 2015 (pengucapan tertulis di tabel). IPA fonemis; realisasi /e/ pada suku tertutup cenderung [ɛ].",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "abbr-0027",
+      "text": "dll.",
+      "normalized_text": "dll.",
+      "spoken_form": "dan lain-lain",
+      "respelling": null,
+      "ipa": "/dan la.in la.in/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015",
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI 27 Okt 2026 (ElevenLabs Multilingual v2, Pratama): 'dll.' salah baca (dibaca seperti satu kata, bukan diekspansi). Selalu ekspansi.",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0028",
+      "text": "dsb.",
+      "normalized_text": "dsb.",
+      "spoken_form": "dan sebagainya",
+      "respelling": null,
+      "ipa": "/dan sə.ba.gai̯.ɲa/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015",
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "tts_notes": "HDI: perlakukan sama seperti dll.",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0029",
+      "text": "dst.",
+      "normalized_text": "dst.",
+      "spoken_form": "dan seterusnya",
+      "respelling": null,
+      "ipa": "/dan sə.tə.rus.ɲa/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0030",
+      "text": "dkk.",
+      "normalized_text": "dkk.",
+      "spoken_form": "dan kawan-kawan",
+      "respelling": null,
+      "ipa": "/dan ka.wan ka.wan/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0031",
+      "text": "hlm.",
+      "normalized_text": "hlm.",
+      "spoken_form": "halaman",
+      "respelling": null,
+      "ipa": "/ha.la.man/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0032",
+      "text": "sda.",
+      "normalized_text": "sda.",
+      "spoken_form": "sama dengan atas",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0033",
+      "text": "Yth.",
+      "normalized_text": "yth.",
+      "spoken_form": "Yang terhormat",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Lazim di awal surat."
+    },
+    {
+      "id": "abbr-0034",
+      "text": "a.n.",
+      "normalized_text": "a.n.",
+      "spoken_form": "atas nama",
+      "respelling": null,
+      "ipa": "/a.tas na.ma/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0035",
+      "text": "u.b.",
+      "normalized_text": "u.b.",
+      "spoken_form": "untuk beliau",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0036",
+      "text": "d.a.",
+      "normalized_text": "d.a.",
+      "spoken_form": "dengan alamat",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0037",
+      "text": "u.p.",
+      "normalized_text": "u.p.",
+      "spoken_form": "untuk perhatian",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0038",
+      "text": "s.d.",
+      "normalized_text": "s.d.",
+      "spoken_form": "sampai dengan",
+      "respelling": null,
+      "ipa": "/sam.pai̯ də.ŋan/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0039",
+      "text": "tsb.",
+      "normalized_text": "tsb.",
+      "spoken_form": "tersebut",
+      "respelling": null,
+      "ipa": "/tər.sə.but/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Juga muncul tanpa titik dalam obrolan (tsb)."
+    },
+    {
+      "id": "abbr-0040",
+      "text": "tgl.",
+      "normalized_text": "tgl.",
+      "spoken_form": "tanggal",
+      "respelling": null,
+      "ipa": "/taŋ.gal/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0041",
+      "text": "thn.",
+      "normalized_text": "thn.",
+      "spoken_form": "tahun",
+      "respelling": null,
+      "ipa": "/ta.hun/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Varian tulis: th."
+    },
+    {
+      "id": "abbr-0042",
+      "text": "Hal.",
+      "normalized_text": "hal.",
+      "spoken_form": "perihal",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "halaman",
+          "context": "Rujukan pustaka atau nomor halaman",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Kop/badan surat → 'perihal'; rujukan pustaka atau 'Hal. 5' → 'halaman'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dalam kop surat 'Hal.' = perihal; dalam daftar pustaka bisa berarti halaman. Tentukan dari konteks."
+    },
+    {
+      "id": "abbr-0043",
+      "text": "Lamp.",
+      "normalized_text": "lamp.",
+      "spoken_form": "lampiran",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kop surat resmi."
+    },
+    {
+      "id": "abbr-0044",
+      "text": "Telp.",
+      "normalized_text": "telp.",
+      "spoken_form": "telepon",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Varian: Tlp., Tel."
+    },
+    {
+      "id": "abbr-0045",
+      "text": "No.",
+      "normalized_text": "no.",
+      "spoken_form": "nomor",
+      "respelling": null,
+      "ipa": "/no.mor/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Diikuti angka/identitas → 'nomor'; berdiri sendiri dalam kalimat Inggris → 'no'.",
+      "source": [
+        "hdi-kamus-2026",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "HDI menyarankan menghindari singkatan bertitik di teks TTS.",
+      "notes": "Jangan tertukar dengan kata Inggris 'no' (tidak). 'No.' diikuti angka hampir pasti 'nomor'."
+    },
+    {
+      "id": "abbr-0046",
+      "text": "e.g.",
+      "normalized_text": "e.g.",
+      "spoken_form": "contohnya",
+      "respelling": null,
+      "ipa": null,
+      "language": "la",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "misalnya",
+          "context": "Padanan netral",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Singkatan Latin/Inggris (exempli gratia); dalam VO bahasa Indonesia diganti 'contohnya' atau 'misalnya'."
+    },
+    {
+      "id": "abbr-0047",
+      "text": "i.e.",
+      "normalized_text": "i.e.",
+      "spoken_form": "maksudnya",
+      "respelling": null,
+      "ipa": null,
+      "language": "la",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "yaitu",
+          "register": "formal",
+          "context": "Padanan formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Singkatan Latin (id est); padanan: 'yaitu', 'maksudnya'."
+    },
+    {
+      "id": "abbr-0048",
+      "text": "vs",
+      "normalized_text": "vs",
+      "spoken_form": "versus",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "lawan",
+          "register": "neutral",
+          "context": "Pertandingan olahraga: 'Persija vs Persib' → 'Persija lawan Persib'",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI: 'vs' sudah terbaca 'versus' tanpa diubah, tetapi menulis 'versus' lebih aman.",
+      "notes": "Varian tulis: vs., v."
+    },
+    {
+      "id": "abbr-0049",
+      "text": "etc.",
+      "normalized_text": "etc.",
+      "spoken_form": "dan lain-lain",
+      "respelling": null,
+      "ipa": null,
+      "language": "la",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan Latin (et cetera) dalam teks Indonesia; bacaan Inggris 'et setera' dipakai bila konteks bahasa Inggris."
+    },
+    {
+      "id": "abbr-0050",
+      "text": "cc",
+      "normalized_text": "cc",
+      "spoken_form": "tembusan",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "written-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "si si",
+          "register": "informal",
+          "letter_system": "en",
+          "context": "Surel ('cc-in saya') atau mesin kendaraan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "sentimeter kubik",
+          "register": "formal",
+          "context": "Volume mesin; '150 cc'",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Konteks surel/surat → 'tembusan' atau 'si si'; konteks kendaraan/volume → 'sentimeter kubik' atau 'si si'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Ambigu: 'cc' surel = tembusan (dibaca 'si si' atau 'tembusan'); 'cc' mesin = sentimeter kubik ('se se' / 'sentimeter kubik'), mis. 'motor 150 cc'."
+    },
+    {
+      "id": "abbr-0051",
+      "text": "Dr.",
+      "normalized_text": "dr.",
+      "spoken_form": "doktor",
+      "respelling": null,
+      "ipa": "/dok.tor/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "D kapital + r → gelar doktor; d kecil 'dr.' → dokter (medis).",
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Gelar akademik doktor (huruf D kapital). Bandingkan dr. (dokter)."
+    },
+    {
+      "id": "abbr-0052",
+      "text": "dr.",
+      "normalized_text": "dr.",
+      "spoken_form": "dokter",
+      "respelling": null,
+      "ipa": "/dok.tər/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "dari",
+          "register": "informal",
+          "context": "Singkatan obrolan 'dr' (tanpa titik)",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Diikuti nama orang → 'dokter'; dalam obrolan tanpa titik ('dr rumah') → 'dari'.",
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dokter (medis), huruf kecil. Bandingkan Dr. (doktor). Dalam obrolan 'dr' juga bisa singkatan 'dari'."
+    },
+    {
+      "id": "abbr-0053",
+      "text": "drg.",
+      "normalized_text": "drg.",
+      "spoken_form": "dokter gigi",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0054",
+      "text": "Prof.",
+      "normalized_text": "prof.",
+      "spoken_form": "profesor",
+      "respelling": null,
+      "ipa": "/pro.fe.sor/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0055",
+      "text": "Ir.",
+      "normalized_text": "ir.",
+      "spoken_form": "insinyur",
+      "respelling": null,
+      "ipa": "/in.si.ɲur/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0056",
+      "text": "Hj.",
+      "normalized_text": "hj.",
+      "spoken_form": "hajah",
+      "respelling": null,
+      "ipa": "/ha.dʒah/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0057",
+      "text": "H.",
+      "normalized_text": "h.",
+      "spoken_form": "haji",
+      "respelling": null,
+      "ipa": "/ha.dʒi/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "ha",
+          "letter_system": "id",
+          "context": "Inisial nama",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Jika ada konvensi gelar keagamaan di dokumen atau 'Hj.' muncul berdampingan → 'haji'; jika inisial nama → 'ha'. Ragu → tandai.",
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Sebelum nama orang Muslim bisa berarti 'haji', tetapi juga bisa inisial nama (mis. H. Purnomo)."
+    },
+    {
+      "id": "abbr-0058",
+      "text": "S.Kom.",
+      "normalized_text": "s.kom.",
+      "spoken_form": "es kom",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana komputer",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Gelar sarjana komputer. Dalam pengumuman lisan lazim dieja/dibaca singkat; ekspansi tersedia di varian. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0059",
+      "text": "S.T.",
+      "normalized_text": "s.t.",
+      "spoken_form": "es te",
+      "respelling": null,
+      "ipa": "/es te/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana teknik",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sarjana teknik. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0060",
+      "text": "S.E.",
+      "normalized_text": "s.e.",
+      "spoken_form": "es e",
+      "respelling": null,
+      "ipa": "/es e/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana ekonomi",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sarjana ekonomi. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0061",
+      "text": "S.H.",
+      "normalized_text": "s.h.",
+      "spoken_form": "es ha",
+      "respelling": null,
+      "ipa": "/es ha/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana hukum",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sarjana hukum. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0062",
+      "text": "S.Pd.",
+      "normalized_text": "s.pd.",
+      "spoken_form": "es pe de",
+      "respelling": null,
+      "ipa": "/es pe de/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana pendidikan",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sarjana pendidikan. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0063",
+      "text": "S.Si.",
+      "normalized_text": "s.si.",
+      "spoken_form": "es si",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "sarjana sains",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sarjana sains. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0064",
+      "text": "M.T.",
+      "normalized_text": "m.t.",
+      "spoken_form": "em te",
+      "respelling": null,
+      "ipa": "/em te/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "magister teknik",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Magister teknik. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0065",
+      "text": "M.Kom.",
+      "normalized_text": "m.kom.",
+      "spoken_form": "em kom",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "magister komputer",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Magister komputer. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0066",
+      "text": "M.M.",
+      "normalized_text": "m.m.",
+      "spoken_form": "em em",
+      "respelling": null,
+      "ipa": "/em em/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "magister manajemen",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Magister manajemen. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0067",
+      "text": "M.Pd.",
+      "normalized_text": "m.pd.",
+      "spoken_form": "em pe de",
+      "respelling": null,
+      "ipa": "/em pe de/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "magister pendidikan",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Magister pendidikan. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0068",
+      "text": "A.Md.",
+      "normalized_text": "a.md.",
+      "spoken_form": "a em de",
+      "respelling": null,
+      "ipa": "/a em de/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "ahli madya",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Ahli madya (diploma tiga). Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0069",
+      "text": "M.Sc.",
+      "normalized_text": "m.sc.",
+      "spoken_form": "em es si",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "master of science",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "em es se",
+          "letter_system": "mixed",
+          "context": "Campuran nama huruf",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Master of Science; huruf c dibaca 'si' (Inggris). Varian 'em es se' (campuran) juga terdengar. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0070",
+      "text": "Ph.D.",
+      "normalized_text": "ph.d.",
+      "spoken_form": "pi eic di",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "title-degree",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "formal",
+      "variants": [
+        {
+          "spoken_form": "doctor of philosophy",
+          "register": "formal",
+          "context": "Pembacaan resmi lengkap (wisuda, surat)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "pe ha de",
+          "letter_system": "id",
+          "context": "Lazim di kampus Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Gelar asing; varian Indonesia 'pe ha de' umum di lingkungan akademik. Konvensi lisan bervariasi antarinstitusi; perlu validasi."
+    },
+    {
+      "id": "abbr-0071",
+      "text": "Jl.",
+      "normalized_text": "jl.",
+      "spoken_form": "jalan",
+      "respelling": null,
+      "ipa": "/dʒa.lan/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0072",
+      "text": "Gg.",
+      "normalized_text": "gg.",
+      "spoken_form": "gang",
+      "respelling": null,
+      "ipa": "/gaŋ/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0073",
+      "text": "Kel.",
+      "normalized_text": "kel.",
+      "spoken_form": "kelurahan",
+      "respelling": null,
+      "ipa": "/kə.lu.ra.han/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0074",
+      "text": "Kec.",
+      "normalized_text": "kec.",
+      "spoken_form": "kecamatan",
+      "respelling": null,
+      "ipa": "/kə.tʃa.ma.tan/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0075",
+      "text": "Kab.",
+      "normalized_text": "kab.",
+      "spoken_form": "kabupaten",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "IPA dikosongkan: kualitas vokal suku akhir 'ten' ([ən] atau [ɛn]) perlu dicek terhadap KBBI."
+    },
+    {
+      "id": "abbr-0076",
+      "text": "Prov.",
+      "normalized_text": "prov.",
+      "spoken_form": "provinsi",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "IPA dikosongkan: 'v' bisa [f] atau [v] tergantung penutur."
+    },
+    {
+      "id": "abbr-0077",
+      "text": "Ds.",
+      "normalized_text": "ds.",
+      "spoken_form": "desa",
+      "respelling": null,
+      "ipa": "/de.sa/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0078",
+      "text": "Kp.",
+      "normalized_text": "kp.",
+      "spoken_form": "kampung",
+      "respelling": null,
+      "ipa": "/kam.puŋ/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0079",
+      "text": "Komp.",
+      "normalized_text": "komp.",
+      "spoken_form": "kompleks",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "IPA dikosongkan: realisasi gugus akhir 'ks' bervariasi."
+    },
+    {
+      "id": "abbr-0080",
+      "text": "Bpk.",
+      "normalized_text": "bpk.",
+      "spoken_form": "Bapak",
+      "respelling": null,
+      "ipa": "/ba.pak/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Final k pada 'bapak' direalisasikan [ʔ]. Varian tulis: Bp."
+    },
+    {
+      "id": "abbr-0081",
+      "text": "Sdr.",
+      "normalized_text": "sdr.",
+      "spoken_form": "Saudara",
+      "respelling": null,
+      "ipa": "/sau̯.da.ra/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0082",
+      "text": "Sdri.",
+      "normalized_text": "sdri.",
+      "spoken_form": "Saudari",
+      "respelling": null,
+      "ipa": "/sau̯.da.ri/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0083",
+      "text": "Ny.",
+      "normalized_text": "ny.",
+      "spoken_form": "Nyonya",
+      "respelling": null,
+      "ipa": "/ɲo.ɲa/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0084",
+      "text": "Tn.",
+      "normalized_text": "tn.",
+      "spoken_form": "Tuan",
+      "respelling": null,
+      "ipa": "/tu.an/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0085",
+      "text": "Lt.",
+      "normalized_text": "lt.",
+      "spoken_form": "lantai",
+      "respelling": null,
+      "ipa": "/lan.tai̯/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "address-admin",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lantai gedung (Lt. 3). Dalam konteks militer 'Lt.' bisa berarti letnan; perlu konteks."
+    },
+    {
+      "id": "abbr-0086",
+      "text": "yg",
+      "normalized_text": "yg",
+      "spoken_form": "yang",
+      "respelling": null,
+      "ipa": "/jaŋ/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0087",
+      "text": "dgn",
+      "normalized_text": "dgn",
+      "spoken_form": "dengan",
+      "respelling": null,
+      "ipa": "/də.ŋan/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0088",
+      "text": "utk",
+      "normalized_text": "utk",
+      "spoken_form": "untuk",
+      "respelling": null,
+      "ipa": "/un.tuk/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0089",
+      "text": "tdk",
+      "normalized_text": "tdk",
+      "spoken_form": "tidak",
+      "respelling": null,
+      "ipa": "/ti.dak/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Final k → [ʔ]."
+    },
+    {
+      "id": "abbr-0090",
+      "text": "sdh",
+      "normalized_text": "sdh",
+      "spoken_form": "sudah",
+      "respelling": null,
+      "ipa": "/su.dah/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0091",
+      "text": "blm",
+      "normalized_text": "blm",
+      "spoken_form": "belum",
+      "respelling": null,
+      "ipa": "/bə.lum/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0092",
+      "text": "krn",
+      "normalized_text": "krn",
+      "spoken_form": "karena",
+      "respelling": null,
+      "ipa": "/ka.rə.na/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0093",
+      "text": "jg",
+      "normalized_text": "jg",
+      "spoken_form": "juga",
+      "respelling": null,
+      "ipa": "/dʒu.ga/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0094",
+      "text": "bgt",
+      "normalized_text": "bgt",
+      "spoken_form": "banget",
+      "respelling": null,
+      "ipa": "/ba.ŋət/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal; formal: sekali."
+    },
+    {
+      "id": "abbr-0095",
+      "text": "skrg",
+      "normalized_text": "skrg",
+      "spoken_form": "sekarang",
+      "respelling": null,
+      "ipa": "/sə.ka.raŋ/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0096",
+      "text": "kmrn",
+      "normalized_text": "kmrn",
+      "spoken_form": "kemarin",
+      "respelling": null,
+      "ipa": "/kə.ma.rin/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0097",
+      "text": "dlm",
+      "normalized_text": "dlm",
+      "spoken_form": "dalam",
+      "respelling": null,
+      "ipa": "/da.lam/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0098",
+      "text": "pd",
+      "normalized_text": "pd",
+      "spoken_form": "pada",
+      "respelling": null,
+      "ipa": "/pa.da/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0099",
+      "text": "spt",
+      "normalized_text": "spt",
+      "spoken_form": "seperti",
+      "respelling": null,
+      "ipa": "/sə.pər.ti/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0100",
+      "text": "bbrp",
+      "normalized_text": "bbrp",
+      "spoken_form": "beberapa",
+      "respelling": null,
+      "ipa": "/bə.bə.ra.pa/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0101",
+      "text": "msh",
+      "normalized_text": "msh",
+      "spoken_form": "masih",
+      "respelling": null,
+      "ipa": "/ma.sih/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0102",
+      "text": "tp",
+      "normalized_text": "tp",
+      "spoken_form": "tapi",
+      "respelling": null,
+      "ipa": "/ta.pi/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'tetapi'."
+    },
+    {
+      "id": "abbr-0103",
+      "text": "sm",
+      "normalized_text": "sm",
+      "spoken_form": "sama",
+      "respelling": null,
+      "ipa": "/sa.ma/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "abbr-0104",
+      "text": "gpp",
+      "normalized_text": "gpp",
+      "spoken_form": "nggak apa-apa",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Juga ditulis 'gapapa'. Bentuk formal: tidak apa-apa."
+    },
+    {
+      "id": "abbr-0105",
+      "text": "org",
+      "normalized_text": "org",
+      "spoken_form": "orang",
+      "respelling": null,
+      "ipa": "/o.raŋ/",
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Dalam kalimat obrolan → 'orang'; menempel pada domain (contoh.org) → bagian URL.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Ambigu dengan domain '.org' (dibaca 'dot o er ji' atau 'dot org')."
+    },
+    {
+      "id": "abbr-0106",
+      "text": "OTW",
+      "normalized_text": "otw",
+      "spoken_form": "o te we",
+      "respelling": null,
+      "ipa": "/o te we/",
+      "language": "en",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "on de wei",
+          "letter_system": "na",
+          "context": "Ekspansi Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "dalam perjalanan",
+          "register": "formal",
+          "context": "Padanan Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "On the way. Umum dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "abbr-0107",
+      "text": "BTW",
+      "normalized_text": "btw",
+      "spoken_form": "bi ti dabelyu",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "be te we",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "ngomong-ngomong",
+          "context": "Ekspansi padanan Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "By the way. Varian 'be te we' (nama huruf Indonesia) juga lazim."
+    },
+    {
+      "id": "abbr-0108",
+      "text": "FYI",
+      "normalized_text": "fyi",
+      "spoken_form": "ef wai ai",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "For your information."
+    },
+    {
+      "id": "abbr-0109",
+      "text": "ASAP",
+      "normalized_text": "asap",
+      "spoken_form": "ei es ei pi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "eisap",
+          "context": "Dibaca sebagai kata",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "secepatnya",
+          "context": "Padanan Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "As soon as possible. Varian dibaca sebagai kata 'eisap'."
+    },
+    {
+      "id": "abbr-0110",
+      "text": "wkwk",
+      "normalized_text": "wkwk",
+      "spoken_form": "(tawa)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "abbreviation",
+      "subcategory": "informal-chat",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Ikuti arahan naskah: hapus untuk narasi netral; ganti tawa bila naskah meminta ekspresi.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Representasi tawa di obrolan. Untuk TTS: hapus, atau ganti dengan tawa/ekspresi sesuai arahan naskah. Jangan dibaca 'we ka we ka'."
+    }
+  ]
+}

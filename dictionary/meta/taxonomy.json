@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "description": "Kosakata terkendali (controlled vocabulary) untuk seluruh dataset dictionary/. Divalidasi oleh scripts/validate-dictionary.py.",
+  "files": {
+    "abbreviations.json": {
+      "id_prefix": "abbr",
+      "categories": [
+        "alphabet",
+        "abbreviation"
+      ]
+    },
+    "acronyms.json": {
+      "id_prefix": "acr",
+      "categories": [
+        "acronym"
+      ]
+    },
+    "technology.json": {
+      "id_prefix": "tech",
+      "categories": [
+        "technology"
+      ]
+    },
+    "loanwords.json": {
+      "id_prefix": "loan",
+      "categories": [
+        "loanword"
+      ]
+    },
+    "numbers.json": {
+      "id_prefix": "num",
+      "categories": [
+        "number",
+        "currency",
+        "unit"
+      ]
+    },
+    "symbols.json": {
+      "id_prefix": "sym",
+      "categories": [
+        "symbol"
+      ]
+    },
+    "dates-and-times.json": {
+      "id_prefix": "dt",
+      "categories": [
+        "date-time"
+      ]
+    },
+    "pronunciation-dictionary.json": {
+      "id_prefix": "word",
+      "categories": [
+        "general"
+      ]
+    }
+  },
+  "subcategories": {
+    "alphabet": [
+      "letter-id"
+    ],
+    "abbreviation": [
+      "written-abbreviation",
+      "title-degree",
+      "informal-chat",
+      "address-admin"
+    ],
+    "acronym": [
+      "initialism",
+      "acronym-word",
+      "mixed",
+      "alphanumeric"
+    ],
+    "technology": [
+      "computing",
+      "ai-ml",
+      "data-science",
+      "programming",
+      "web-internet",
+      "software-brand",
+      "platform-brand",
+      "social-media",
+      "content-creator",
+      "security",
+      "file-format",
+      "hardware"
+    ],
+    "loanword": [
+      "english-unadapted",
+      "english-adapted",
+      "arabic",
+      "dutch",
+      "regional",
+      "adapted-spelling"
+    ],
+    "number": [
+      "cardinal",
+      "ordinal",
+      "fraction",
+      "decimal",
+      "multiplier",
+      "range",
+      "magnitude",
+      "pattern",
+      "identifier"
+    ],
+    "currency": [
+      "symbol",
+      "code",
+      "abbreviation"
+    ],
+    "unit": [
+      "measurement",
+      "digital",
+      "media"
+    ],
+    "symbol": [
+      "math",
+      "punctuation",
+      "web-code",
+      "typography",
+      "approximation"
+    ],
+    "date-time": [
+      "month",
+      "month-abbreviation",
+      "day",
+      "day-abbreviation",
+      "time-zone",
+      "time-format",
+      "date-format",
+      "period",
+      "era"
+    ],
+    "general": [
+      "homograph",
+      "e-quality",
+      "glottal-stop",
+      "consonant-digraph",
+      "informal-form",
+      "professional-academic",
+      "proper-name"
+    ]
+  },
+  "entry_types": {
+    "lexical": "Satu bentuk tulis tetap (kata, singkatan, nama).",
+    "pattern": "Pola produktif; wajib punya field `pattern` (regex) dan contoh di `examples`.",
+    "example": "Contoh konkret penerapan pola (bukan entri leksikal)."
+  },
+  "reading_types": {
+    "letter-by-letter": "Dieja per huruf (initialism).",
+    "word": "Dibaca sebagai satu kata (akronim, kata biasa).",
+    "mixed": "Sebagian dieja, sebagian dibaca sebagai kata/angka.",
+    "expansion": "Diganti bentuk panjangnya (dll. -> dan lain-lain).",
+    "context-dependent": "Bacaan bergantung konteks; lihat variants."
+  },
+  "registers": [
+    "formal",
+    "neutral",
+    "informal",
+    "technical"
+  ],
+  "letter_systems": {
+    "id": "Nama huruf Indonesia (a, be, ce, de, ...).",
+    "en": "Nama huruf Inggris yang diadaptasi (ei, bi, si, di, ...).",
+    "mixed": "Campuran nama huruf Indonesia dan Inggris dalam satu bacaan.",
+    "na": "Tidak relevan (bukan bacaan per huruf)."
+  },
+  "confidence": {
+    "standard": "Didokumentasikan di sumber normatif (EYD/PUEBI, KBBI, Badan Bahasa). Rujukan wajib dicantumkan.",
+    "attested": "Terbukti dipakai dalam praktik nyata pada sumber yang dicantumkan (mis. korpus VO). Bukan norma baku.",
+    "derived": "Diturunkan secara sistematis dari aturan yang terdokumentasi di repo (mis. nama huruf, sistem bilangan).",
+    "needs_validation": "Belum pasti: ambigu, sumber lemah, atau interpretasi yang perlu dicek penutur/ahli."
+  },
+  "review_status": {
+    "unreviewed": "Belum melalui tinjauan linguis/penutur independen.",
+    "reviewed": "Sudah ditinjau; wajib mencatat reviewer di notes atau CHANGELOG."
+  },
+  "provenance": {
+    "zip-reference": "Seluruh sumber entri berasal dari materi referensi ZIP (HDI).",
+    "external-source": "Seluruh sumber entri berasal dari literatur/sumber eksternal.",
+    "interpretation": "Entri hasil interpretasi/rekomendasi maintainer tanpa sumber eksternal langsung.",
+    "mixed": "Gabungan lebih dari satu jenis sumber di atas."
+  },
+  "languages": {
+    "id": "Indonesia",
+    "en": "Inggris",
+    "ar": "Arab",
+    "nl": "Belanda",
+    "jv": "Jawa",
+    "su": "Sunda",
+    "ace": "Aceh",
+    "sa": "Sanskerta",
+    "la": "Latin",
+    "fr": "Prancis",
+    "ja": "Jepang",
+    "zh": "Tionghoa",
+    "mul": "Campuran/multibahasa",
+    "zxx": "Bukan bahasa (simbol)"
+  }
+}

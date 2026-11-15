@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aqilwahid/indonesian-phonetics/schemas/sources.schema.json",
+  "title": "Source registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "description", "sources"],
+  "properties": {
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+    "description": {"type": "string"},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "type", "title", "author", "year", "url", "license", "accessed_in_build", "notes"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "type": {"enum": ["zip-reference", "external", "interpretation"]},
+          "title": {"type": "string", "minLength": 3},
+          "author": {"type": "string"},
+          "year": {"type": "integer", "minimum": 1800, "maximum": 2100},
+          "url": {"type": ["string", "null"], "pattern": "^https://"},
+          "license": {"type": "string"},
+          "accessed_in_build": {"type": "boolean"},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

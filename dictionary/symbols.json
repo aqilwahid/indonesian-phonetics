@@ -1,0 +1,1162 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "symbols",
+  "version": "1.0.0",
+  "description": "Simbol dan tanda baca: bacaan bergantung konteks (matematika, teks, URL/kode, tipografi). Tanda baca yang tidak diucapkan dicatat sebagai petunjuk jeda/prosodi.",
+  "entries": [
+    {
+      "id": "sym-0001",
+      "text": "&",
+      "normalized_text": "&",
+      "spoken_form": "dan",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "en",
+          "register": "technical",
+          "context": "Di dalam singkatan/nama Inggris (Q&A, R&D, AT&T)",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Di antara kata Indonesia → 'dan'. Di dalam singkatan Inggris tanpa spasi (Q&A, R&D) → 'en'. Nama merek → ikuti nama resmi.",
+      "examples": [
+        {
+          "input": "Riset & Pengembangan",
+          "output": "Riset dan Pengembangan"
+        },
+        {
+          "input": "Q&A",
+          "output": "kyu en ei"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Ampersand. Pengecualian HDI: 'Q&A' dibaca 'kyu en ei'."
+    },
+    {
+      "id": "sym-0002",
+      "text": "/",
+      "normalized_text": "/",
+      "spoken_form": "per",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "atau",
+          "context": "Pilihan: 'A/B', 'dan/atau'",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        },
+        {
+          "spoken_form": "garis miring",
+          "register": "technical",
+          "context": "Menyebut simbol secara harfiah (alamat file, instruksi)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "slash",
+          "register": "informal",
+          "context": "URL/jalur file dalam bahasa teknis informal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Satuan/rasio (km/jam, views/hari) → 'per'. Alternatif (A/B, Bapak/Ibu) → 'atau'. Tanggal (1/2/2027) → tanggal. Pecahan (3/4) → pecahan. URL → 'garis miring'/'slash' atau dihilangkan.",
+      "examples": [
+        {
+          "input": "views/hari",
+          "output": "views per hari"
+        },
+        {
+          "input": "A/B",
+          "output": "A atau B"
+        },
+        {
+          "input": "km/jam",
+          "output": "kilometer per jam"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI 27 Okt 2026: garis miring tidak dibaca oleh mesin.",
+      "notes": "Garis miring tidak boleh dibiarkan: Galeri Tes HDI menunjukkan garis miring pada 'views/hari' tidak dibaca sehingga maknanya bergeser."
+    },
+    {
+      "id": "sym-0003",
+      "text": "+",
+      "normalized_text": "+",
+      "spoken_form": "tambah",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "plus",
+          "context": "Nama produk, nilai tambahan, kode negara telepon (+62), atau 'C++'",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        },
+        {
+          "spoken_form": "dan",
+          "context": "Penggabungan dalam judul ('Desain + Kode')",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Operasi hitung → 'tambah'. Kode telepon/nilai/nama produk → 'plus'. Penghubung judul → 'dan'.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "HDI: tulis kata sesuai maksud."
+    },
+    {
+      "id": "sym-0004",
+      "text": "-",
+      "normalized_text": "-",
+      "spoken_form": "(tidak dibaca)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "sampai",
+          "context": "Rentang angka/waktu (10-15)",
+          "source": [
+            "hdi-ebook-2026"
+          ]
+        },
+        {
+          "spoken_form": "minus",
+          "context": "Bilangan negatif (-5)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "strip",
+          "register": "informal",
+          "context": "Mengeja kode/nomor secara harfiah",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Reduplikasi (anak-anak) → kata diulang tanpa jeda khusus. Rentang angka → 'sampai'. Bilangan negatif → 'minus'. Pemisah nomor telepon → jeda singkat. Prefiks + singkatan (di-DM) → disambung.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda hubung (-) multifungsi."
+    },
+    {
+      "id": "sym-0005",
+      "text": "–",
+      "normalized_text": "–",
+      "spoken_form": "sampai",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda pisah en dash; umumnya rentang."
+    },
+    {
+      "id": "sym-0006",
+      "text": "—",
+      "normalized_text": "—",
+      "spoken_form": "(jeda)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda pisah em dash: jeda/keterangan sisipan. Untuk TTS ganti dengan koma."
+    },
+    {
+      "id": "sym-0007",
+      "text": "( )",
+      "normalized_text": "( )",
+      "spoken_form": "(ganti koma)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "examples": [
+        {
+          "input": "Pakai median (bukan rata-rata) ya.",
+          "output": "Pakai median, bukan rata-rata, ya."
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI: kalimat dengan kurung terbaca benar; versi dengan koma jedanya lebih jelas.",
+      "notes": "Kurung tidak membuat salah baca, tetapi jeda hilang. HDI: hapus kurung, jadikan isinya anak kalimat dengan koma."
+    },
+    {
+      "id": "sym-0008",
+      "text": "%",
+      "normalized_text": "%",
+      "spoken_form": "persen",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Lihat pola persen di numbers.json."
+    },
+    {
+      "id": "sym-0009",
+      "text": "=",
+      "normalized_text": "=",
+      "spoken_form": "sama dengan",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0010",
+      "text": "≠",
+      "normalized_text": "≠",
+      "spoken_form": "tidak sama dengan",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0011",
+      "text": "<",
+      "normalized_text": "<",
+      "spoken_form": "kurang dari",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Matematika → 'kurang dari'. Kode/HTML (<div>) → tidak dibaca atau 'kurung sudut'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0012",
+      "text": ">",
+      "normalized_text": ">",
+      "spoken_form": "lebih dari",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Matematika → 'lebih dari'. Kutipan surel/markdown (> teks) → tidak dibaca.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0013",
+      "text": "≤",
+      "normalized_text": "≤",
+      "spoken_form": "kurang dari atau sama dengan",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0014",
+      "text": "≥",
+      "normalized_text": "≥",
+      "spoken_form": "lebih dari atau sama dengan",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0015",
+      "text": "×",
+      "normalized_text": "×",
+      "spoken_form": "kali",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Perkalian → 'kali'. Dimensi (1920×1080) → 'kali'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0016",
+      "text": "÷",
+      "normalized_text": "÷",
+      "spoken_form": "bagi",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0017",
+      "text": "±",
+      "normalized_text": "±",
+      "spoken_form": "kurang lebih",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "approximation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "plus minus",
+          "register": "technical",
+          "context": "Notasi ilmiah/toleransi (5 ± 0,1)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Di depan angka dalam teks umum → 'kurang lebih'. Di antara nilai dan galat → 'plus minus'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dalam teks Indonesia sering bermakna 'kurang lebih/sekitar' (±10 menit). Dalam sains: 'plus minus'."
+    },
+    {
+      "id": "sym-0018",
+      "text": "~",
+      "normalized_text": "~",
+      "spoken_form": "sekitar",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "approximation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "tilde",
+          "register": "technical",
+          "context": "Kode/jalur file (~/Documents)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Di depan angka → 'sekitar'. Di kode/jalur → 'tilde' atau tidak dibaca.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0019",
+      "text": "°",
+      "normalized_text": "°",
+      "spoken_form": "derajat",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "math",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "°C → derajat Celsius (lihat numbers.json)."
+    },
+    {
+      "id": "sym-0020",
+      "text": "@",
+      "normalized_text": "@",
+      "spoken_form": "et",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "at",
+          "register": "informal",
+          "context": "Bacaan Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "(tidak dibaca)",
+          "context": "Handle media sosial di narasi",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Alamat surel → 'et'. Handle (@nama) dalam narasi → baca nama saja atau 'akun …'. Harga satuan '@Rp5.000' → 'masing-masing'.",
+      "source": [
+        "hdi-kamus-2026",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Surel: 'nama et gmail dot com' (bacaan 'et' umum di Indonesia). Handle media sosial: HDI membaca handle sebagai frasa tanpa '@' (@hidupdariinternet → 'hidup dari internet')."
+    },
+    {
+      "id": "sym-0021",
+      "text": "#",
+      "normalized_text": "#",
+      "spoken_form": "tagar",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "nomor",
+          "context": "Di depan angka (#1 → nomor satu)",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "pagar",
+          "register": "informal",
+          "context": "Menyebut simbol (tombol telepon)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "syarp",
+          "register": "technical",
+          "context": "Notasi musik/bahasa C# ",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "#kata → 'tagar' + kata. #angka → 'nomor'. Di kode/markdown heading → tidak dibaca.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "'Tagar' adalah padanan Badan Bahasa untuk hashtag."
+    },
+    {
+      "id": "sym-0022",
+      "text": "*",
+      "normalized_text": "*",
+      "spoken_form": "bintang",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Catatan kaki/penanda → tidak dibaca atau 'catatan'. Perkalian di kode (2*3) → 'kali'. Penekanan markdown (*teks*) → tidak dibaca.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0023",
+      "text": "_",
+      "normalized_text": "_",
+      "spoken_form": "garis bawah",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "underscore",
+          "register": "informal",
+          "context": "Bahasa teknis informal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0024",
+      "text": "\\",
+      "normalized_text": "\\",
+      "spoken_form": "garis miring terbalik",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "backslash",
+          "register": "informal",
+          "context": "Bahasa teknis informal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0025",
+      "text": "|",
+      "normalized_text": "|",
+      "spoken_form": "garis tegak",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemisah judul ('Judul | Channel') → jeda, tidak dibaca."
+    },
+    {
+      "id": "sym-0026",
+      "text": ".",
+      "normalized_text": ".",
+      "spoken_form": "titik",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "dot",
+          "register": "neutral",
+          "context": "Domain/URL (konten.com → konten dot com)",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        },
+        {
+          "spoken_form": "(jeda)",
+          "context": "Akhir kalimat",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Akhir kalimat → jeda. Di dalam domain → 'dot' (lazim) atau 'titik' (formal). Di antara digit → ribuan (Indonesia), desimal (Inggris), versi, atau jam (19.00).",
+      "source": [
+        "hdi-kamus-2026",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Akhir kalimat → jeda panjang, tidak dibaca."
+    },
+    {
+      "id": "sym-0027",
+      "text": ",",
+      "normalized_text": ",",
+      "spoken_form": "(jeda pendek)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "koma",
+          "context": "Desimal atau menyebut tanda secara harfiah",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Di antara digit → 'koma' desimal (lihat numbers.json)."
+    },
+    {
+      "id": "sym-0028",
+      "text": ":",
+      "normalized_text": ":",
+      "spoken_form": "(jeda)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "banding",
+          "context": "Rasio (1:2 → satu banding dua)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "titik dua",
+          "context": "Menyebut tanda secara harfiah",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Rasio angka → 'banding'. Jam gaya 19:00 → baca sebagai waktu. Pengantar daftar → jeda.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0029",
+      "text": "...",
+      "normalized_text": "...",
+      "spoken_form": "(jeda)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "dan seterusnya",
+          "context": "Daftar yang terpotong (1, 2, 3, ...)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-ebook-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "HDI: titik tiga bisa menambah jeda tetapi sering membuat suara terdengar ragu. Untuk jeda terkendali gunakan pemisahan paragraf atau tag jeda mesin bila didukung."
+    },
+    {
+      "id": "sym-0030",
+      "text": "\"",
+      "normalized_text": "\"",
+      "spoken_form": "(tidak dibaca)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda petik: tidak dibaca; bisa diberi jeda tipis. Sebut 'kutipan' hanya jika naskah meminta."
+    },
+    {
+      "id": "sym-0031",
+      "text": "!",
+      "normalized_text": "!",
+      "spoken_form": "(intonasi seru)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tidak dibaca; memengaruhi intonasi."
+    },
+    {
+      "id": "sym-0032",
+      "text": "?",
+      "normalized_text": "?",
+      "spoken_form": "(intonasi tanya)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "punctuation",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tidak dibaca; memicu kontur tanya (lihat knowledge/stress-and-intonation.md)."
+    },
+    {
+      "id": "sym-0033",
+      "text": "©",
+      "normalized_text": "©",
+      "spoken_form": "hak cipta",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0034",
+      "text": "®",
+      "normalized_text": "®",
+      "spoken_form": "merek terdaftar",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dalam narasi umumnya dihilangkan."
+    },
+    {
+      "id": "sym-0035",
+      "text": "™",
+      "normalized_text": "™",
+      "spoken_form": "merek dagang",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dalam narasi umumnya dihilangkan."
+    },
+    {
+      "id": "sym-0036",
+      "text": "→",
+      "normalized_text": "→",
+      "spoken_form": "menjadi",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "context-dependent",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ke",
+          "context": "Arah/urutan langkah",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "menuju",
+          "context": "Navigasi",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Transformasi (A → B) → 'menjadi'. Langkah/arah → 'ke' atau 'lalu'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "sym-0037",
+      "text": "emoji",
+      "normalized_text": "emoji",
+      "spoken_form": "(hapus)",
+      "respelling": null,
+      "ipa": null,
+      "language": "zxx",
+      "category": "symbol",
+      "subcategory": "typography",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-ebook-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Prompt P1 HDI: hapus emoji, markdown, heading, catatan [VISUAL], dan instruksi editor dari teks TTS."
+    },
+    {
+      "id": "sym-0038",
+      "text": "@hidupdariinternet",
+      "normalized_text": "@hidupdariinternet",
+      "spoken_form": "hidup dari internet",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "symbol",
+      "subcategory": "web-code",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Contoh aturan HDI: handle ditulis sebagai frasa."
+    }
+  ]
+}

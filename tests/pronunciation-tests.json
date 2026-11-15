@@ -1,0 +1,1224 @@
+{
+  "$schema": "../schemas/tests.schema.json",
+  "version": "1.0.0",
+  "description": "Kasus uji pelafalan & normalisasi. Dijalankan oleh scripts/run-tests.py terhadap leksikon skill dan scripts/normalize.py. Kasus bertanda sumber HDI mengikuti hasil Galeri Tes/kamus HDI (fakta, bukan salinan).",
+  "tests": [
+    {
+      "id": "t-001",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "enak",
+      "expected": {
+        "ipa": "/e.nak/"
+      },
+      "rationale": "e taling pada suku pertama.",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-002",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "besar",
+      "expected": {
+        "ipa": "/bə.sar/"
+      },
+      "rationale": "e pepet.",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-003",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "kemeja",
+      "expected": {
+        "ipa": "/kə.me.dʒa/"
+      },
+      "rationale": "Satu kata dengan /ə/ dan /e/.",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-004",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "saat",
+      "expected": {
+        "ipa": "/sa.ʔat/"
+      },
+      "rationale": "Hentian glotal di antara vokal sama.",
+      "source": [
+        "soderberg-olson-2008"
+      ]
+    },
+    {
+      "id": "t-005",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "nyanyi",
+      "expected": {
+        "ipa": "/ɲa.ɲi/"
+      },
+      "rationale": "Gabungan ny = /ɲ/.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-006",
+      "category": "common-word",
+      "type": "ipa",
+      "input": "mangga",
+      "expected": {
+        "ipa": "/maŋ.ga/"
+      },
+      "rationale": "ngg = /ŋ/ + /g/.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-007",
+      "category": "common-word",
+      "type": "lookup",
+      "input": "nggak",
+      "expected": {
+        "spoken_form": "nggak"
+      },
+      "rationale": "Bentuk informal tercatat.",
+      "source": [
+        "sneddon-2006"
+      ]
+    },
+    {
+      "id": "t-008",
+      "category": "variation",
+      "type": "variant",
+      "input": "nggak",
+      "expected": {
+        "spoken_form": "tidak"
+      },
+      "rationale": "Bentuk baku tersedia sebagai varian formal.",
+      "source": [
+        "sneddon-2006"
+      ]
+    },
+    {
+      "id": "t-009",
+      "category": "ipa",
+      "type": "ipa",
+      "input": "Q",
+      "expected": {
+        "ipa": "/ki/"
+      },
+      "rationale": "Nama huruf Q menurut PUEBI adalah 'ki'.",
+      "source": [
+        "puebi-2015"
+      ]
+    },
+    {
+      "id": "t-010",
+      "category": "ipa",
+      "type": "ipa",
+      "input": "KTP",
+      "expected": {
+        "ipa": "/ka te pe/"
+      },
+      "rationale": "IPA initialism disusun dari nama huruf PUEBI.",
+      "source": [
+        "puebi-2015"
+      ]
+    },
+    {
+      "id": "t-011",
+      "category": "abbreviation",
+      "type": "lookup",
+      "input": "dll.",
+      "expected": {
+        "spoken_form": "dan lain-lain"
+      },
+      "rationale": "Galeri HDI: 'dll.' salah baca; ekspansi wajib.",
+      "source": [
+        "puebi-2015",
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-012",
+      "category": "abbreviation",
+      "type": "lookup",
+      "input": "s.d.",
+      "expected": {
+        "spoken_form": "sampai dengan"
+      },
+      "rationale": "Singkatan surat-menyurat EYD.",
+      "source": [
+        "puebi-2015"
+      ]
+    },
+    {
+      "id": "t-013",
+      "category": "abbreviation",
+      "type": "lookup",
+      "input": "Yth.",
+      "expected": {
+        "spoken_form": "Yang terhormat"
+      },
+      "rationale": "Singkatan baku surat.",
+      "source": [
+        "puebi-2015"
+      ]
+    },
+    {
+      "id": "t-014",
+      "category": "abbreviation",
+      "type": "normalize",
+      "input": "Siapkan tripod, lampu, dll. Lalu rekam.",
+      "expected": {
+        "output": "Siapkan tripod, lampu, dan lain-lain. Lalu rekam."
+      },
+      "rationale": "Titik singkatan sekaligus akhir kalimat dipertahankan.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-015",
+      "category": "abbreviation",
+      "type": "normalize",
+      "input": "Lihat No. 5 di daftar.",
+      "expected": {
+        "output": "Lihat nomor lima di daftar."
+      },
+      "rationale": "Aturan konteks: No. + angka.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-016",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "HDI",
+      "expected": {
+        "spoken_form": "ha de i"
+      },
+      "rationale": "Initialism dieja nama huruf Indonesia.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-017",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "UMKM",
+      "expected": {
+        "spoken_form": "u em ka em"
+      },
+      "rationale": "Initialism Indonesia.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-018",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "NIK",
+      "expected": {
+        "spoken_form": "nik"
+      },
+      "rationale": "Akronim dibaca sebagai kata.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-019",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "QRIS",
+      "expected": {
+        "spoken_form": "kris"
+      },
+      "rationale": "Bacaan resmi kampanye BI.",
+      "source": [
+        "bi-qris"
+      ]
+    },
+    {
+      "id": "t-020",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "Q&A",
+      "expected": {
+        "spoken_form": "kyu en ei"
+      },
+      "rationale": "Pengecualian & dalam singkatan Inggris.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-021",
+      "category": "acronym",
+      "type": "lookup",
+      "input": "QA",
+      "expected": {
+        "spoken_form": "kyu ei",
+        "respelling": "kyu ey"
+      },
+      "rationale": "Konsolidasi respelling HDI ke bentuk kanonik.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-022",
+      "category": "acronym",
+      "type": "normalize",
+      "input": "Urus KTP dan NPWP dulu.",
+      "expected": {
+        "output": "Urus ka te pe dan en pe we pe dulu."
+      },
+      "rationale": "Initialism Indonesia dieja.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-023",
+      "category": "loanword",
+      "type": "lookup",
+      "input": "prewed",
+      "expected": {
+        "spoken_form": "prewed",
+        "respelling": "priwed"
+      },
+      "rationale": "Kata Inggris dengan respelling HDI.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-024",
+      "category": "loanword",
+      "type": "lookup",
+      "input": "OK",
+      "expected": {
+        "spoken_form": "oke"
+      },
+      "rationale": "Kamus skrip HDI.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-025",
+      "category": "loanword",
+      "type": "ipa",
+      "input": "maaf",
+      "expected": {
+        "ipa": "/ma.ʔaf/"
+      },
+      "rationale": "Serapan Arab dengan hentian glotal.",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-026",
+      "category": "loanword",
+      "type": "variant",
+      "input": "khusus",
+      "expected": {
+        "spoken_form": "khusus"
+      },
+      "rationale": "Varian realisasi tanpa /x/ tercatat (respelling 'kusus').",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-027",
+      "category": "loanword",
+      "type": "normalize",
+      "input": "Besok deploy, OK?",
+      "expected": {
+        "output": "Besok diploi, oke?"
+      },
+      "rationale": "Mode TTS memakai respelling teratest.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-028",
+      "category": "technology",
+      "type": "lookup",
+      "input": "AI",
+      "expected": {
+        "spoken_form": "ei ai",
+        "respelling": "e ay"
+      },
+      "rationale": "Respelling TTS HDI untuk AI.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-029",
+      "category": "technology",
+      "type": "lookup",
+      "input": "Shorts",
+      "expected": {
+        "spoken_form": "Shorts",
+        "respelling": "syorts"
+      },
+      "rationale": "Istilah YouTube.",
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-030",
+      "category": "technology",
+      "type": "lookup",
+      "input": "AdSense",
+      "expected": {
+        "spoken_form": "AdSense",
+        "respelling": "ed sens"
+      },
+      "rationale": "Nama program iklan.",
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-031",
+      "category": "technology",
+      "type": "lookup",
+      "input": "konten.com",
+      "expected": {
+        "spoken_form": "konten dot com"
+      },
+      "rationale": "Titik domain dibaca 'dot'.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-032",
+      "category": "technology",
+      "type": "normalize",
+      "input": "Bulan ini CTR kanal kita 4,2%.",
+      "expected": {
+        "output": "Bulan ini si ti ar kanal kita empat koma dua persen."
+      },
+      "rationale": "Fenomena Galeri HDI tes 02 (kalimat diparafrasekan).",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-033",
+      "category": "technology",
+      "type": "normalize",
+      "input": "Simpan hasil render dalam MP4.",
+      "expected": {
+        "output": "Simpan hasil render dalam em pe empat."
+      },
+      "rationale": "Galeri HDI tes 10.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-034",
+      "category": "technology",
+      "type": "normalize",
+      "input": "Targetnya 3 Shorts setiap minggu.",
+      "expected": {
+        "output": "Targetnya tiga syorts setiap minggu."
+      },
+      "rationale": "Galeri HDI tes 04.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-035",
+      "category": "technology",
+      "type": "normalize",
+      "input": "Untuk YPP butuh 4.000 jam tayang.",
+      "expected": {
+        "output": "Untuk wai pi pi butuh empat ribu jam tayang."
+      },
+      "rationale": "Galeri HDI tes 03.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-036",
+      "category": "technology",
+      "type": "normalize",
+      "input": "Saya pakai AI untuk menyusun naskah.",
+      "options": {
+        "mode": "spoken"
+      },
+      "expected": {
+        "output": "Saya pakai ei ai untuk menyusun naskah."
+      },
+      "rationale": "Mode spoken memakai spoken_form, bukan respelling.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-037",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Paketnya Rp25.000 saja.",
+      "expected": {
+        "output": "Paketnya dua puluh lima ribu rupiah saja."
+      },
+      "rationale": "Galeri HDI tes 05: tulis lengkap dengan 'rupiah'.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-038",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Penghasilan Rp1,5 jt per bulan.",
+      "expected": {
+        "output": "Penghasilan satu setengah juta rupiah per bulan."
+      },
+      "rationale": "Galeri HDI tes 06: 'jt' salah baca.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-039",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Prosesnya 10x lebih cepat.",
+      "expected": {
+        "output": "Prosesnya sepuluh kali lebih cepat."
+      },
+      "rationale": "Galeri HDI tes 09.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-040",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Kisaran Rp2-7 juta.",
+      "expected": {
+        "output": "Kisaran dua sampai tujuh juta rupiah."
+      },
+      "rationale": "Aturan HDI: rentang pakai 'sampai'.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-041",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Harga $12 per bulan.",
+      "expected": {
+        "output": "Harga dua belas dolar per bulan."
+      },
+      "rationale": "Simbol mata uang dibaca setelah bilangan.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-042",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Total 1.514 kata, 0,7 detik.",
+      "expected": {
+        "output": "Total seribu lima ratus empat belas kata, nol koma tujuh detik."
+      },
+      "rationale": "Titik ribuan, koma desimal.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-043",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Penduduknya 1.250.000 jiwa.",
+      "expected": {
+        "output": "Penduduknya satu juta dua ratus lima puluh ribu jiwa."
+      },
+      "rationale": "Bilangan besar.",
+      "source": [
+        "sneddon-2010"
+      ]
+    },
+    {
+      "id": "t-044",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Biaya Rp 10.000,- saja.",
+      "expected": {
+        "output": "Biaya sepuluh ribu rupiah saja."
+      },
+      "rationale": "',-' tidak dibaca.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-045",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Juara ke-2 dan ke-11.",
+      "expected": {
+        "output": "Juara kedua dan kesebelas."
+      },
+      "rationale": "Ordinal ke-.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-046",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Sudah 3/4 jalan.",
+      "expected": {
+        "output": "Sudah tiga perempat jalan."
+      },
+      "rationale": "Pecahan ditulis serangkai.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-047",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Hubungi 0812-3456-7890.",
+      "expected": {
+        "output": "Hubungi nol delapan satu dua, tiga empat lima enam, tujuh delapan sembilan nol."
+      },
+      "rationale": "Nomor telepon dibaca per digit.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-048",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Musik tahun 1990-an.",
+      "expected": {
+        "output": "Musik tahun seribu sembilan ratus sembilan puluhan."
+      },
+      "rationale": "Akhiran -an.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-049",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Kecepatan 60 km/jam.",
+      "expected": {
+        "output": "Kecepatan enam puluh kilometer per jam."
+      },
+      "rationale": "Satuan setelah angka; garis miring satuan = per.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-050",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Rata-rata views/hari meningkat.",
+      "expected": {
+        "output": "Rata-rata views per hari meningkat."
+      },
+      "rationale": "Galeri HDI tes 14: garis miring tidak dibaca.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-051",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Pilih A/B.",
+      "expected": {
+        "output": "Pilih A atau B."
+      },
+      "rationale": "Garis miring alternatif.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-052",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Gunakan median (bukan rata-rata) di laporan.",
+      "expected": {
+        "output": "Gunakan median, bukan rata-rata, di laporan."
+      },
+      "rationale": "Kurung → koma tanpa mengubah kata (lihat analisis ZIP).",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-053",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Riset & pengembangan",
+      "expected": {
+        "output": "Riset dan pengembangan"
+      },
+      "rationale": "& di antara kata = dan.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-054",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Durasi ±10 menit.",
+      "expected": {
+        "output": "Durasi kurang lebih sepuluh menit."
+      },
+      "rationale": "± di depan angka dalam teks umum.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-055",
+      "category": "symbol",
+      "type": "lookup",
+      "input": "&",
+      "expected": {
+        "spoken_form": "dan"
+      },
+      "rationale": "Bacaan default simbol &.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-056",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Kebijakan berlaku 1/2/2027.",
+      "expected": {
+        "output": "Kebijakan berlaku satu Februari dua ribu dua puluh tujuh."
+      },
+      "rationale": "Galeri HDI tes 08.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-057",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Siaran dimulai 19.00 WIB.",
+      "options": {
+        "time_style": "casual"
+      },
+      "expected": {
+        "output": "Siaran dimulai jam tujuh malam, we i be."
+      },
+      "rationale": "Galeri HDI tes 12 (gaya santai).",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-058",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Siaran dimulai 19.00 WIB.",
+      "options": {
+        "time_style": "formal"
+      },
+      "expected": {
+        "output": "Siaran dimulai pukul sembilan belas we i be."
+      },
+      "rationale": "Gaya formal 24 jam.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-059",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Kumpul jam 07.30.",
+      "options": {
+        "time_style": "casual"
+      },
+      "expected": {
+        "output": "Kumpul jam setengah delapan pagi."
+      },
+      "rationale": "Setengah delapan = 07.30.",
+      "source": [
+        "sneddon-2010"
+      ]
+    },
+    {
+      "id": "t-060",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Rilis 2026-11-15.",
+      "expected": {
+        "output": "Rilis lima belas November dua ribu dua puluh enam."
+      },
+      "rationale": "Tanggal ISO.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-061",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Tayang 1 Feb 2027.",
+      "expected": {
+        "output": "Tayang satu Februari dua ribu dua puluh tujuh."
+      },
+      "rationale": "Singkatan bulan diekspansi.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-062",
+      "category": "date-time",
+      "type": "lookup",
+      "input": "24/7",
+      "expected": {
+        "spoken_form": "dua puluh empat jam sehari"
+      },
+      "rationale": "Aturan HDI: ubah ke kalimat.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-063",
+      "category": "date-time",
+      "type": "lookup",
+      "input": "WITA",
+      "expected": {
+        "spoken_form": "wita"
+      },
+      "rationale": "Zona waktu dibaca sebagai kata.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-064",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "apel",
+      "expected": {
+        "min_variants": 2
+      },
+      "rationale": "Homograf buah vs upacara.",
+      "source": [
+        "kbbi-daring"
+      ]
+    },
+    {
+      "id": "t-065",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "teras",
+      "expected": {
+        "min_variants": 2
+      },
+      "rationale": "Homograf PUEBI téras/têras.",
+      "source": [
+        "puebi-2015"
+      ]
+    },
+    {
+      "id": "t-066",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "CV",
+      "expected": {
+        "min_variants": 2
+      },
+      "rationale": "Curriculum vitae vs badan usaha CV.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-067",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "HP",
+      "expected": {
+        "min_variants": 1
+      },
+      "rationale": "Telepon vs merek vs horsepower.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-068",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "AIR",
+      "expected": {
+        "min_variants": 1
+      },
+      "rationale": "Kata Inggris, kata Indonesia, atau singkatan.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-069",
+      "category": "ambiguity",
+      "type": "ambiguity",
+      "input": "¥",
+      "expected": {
+        "min_variants": 1
+      },
+      "rationale": "Yen vs yuan.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-070",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Cek notifikasi lewat HP kamu.",
+      "expected": {
+        "contains": "HP"
+      },
+      "rationale": "Entri ambigu tidak diubah otomatis; masuk RAGU.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-071",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Rilis Python 3.12 besok.",
+      "expected": {
+        "contains": "3.12"
+      },
+      "rationale": "Titik non-ribuan: versi/desimal/jam.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-072",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Biaya 5 m untuk kabel.",
+      "expected": {
+        "contains": "5 m"
+      },
+      "rationale": "Satuan m ambigu.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-073",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Jadwal 02/13/2027.",
+      "expected": {
+        "contains": "02/13/2027"
+      },
+      "rationale": "Bulan > 12: format AS, tidak diubah.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-074",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Memasuki abad XXI.",
+      "expected": {
+        "output": "Memasuki abad kedua puluh satu."
+      },
+      "rationale": "Angka Romawi pada abad dibaca ordinal.",
+      "source": [
+        "eyd-v-2022"
+      ]
+    },
+    {
+      "id": "t-075",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Skor 2-1 untuk tuan rumah.",
+      "expected": {
+        "contains": "2-1"
+      },
+      "rationale": "Bukan rentang (angka kedua lebih kecil); token dilindungi utuh.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-076",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Harganya ¥100.",
+      "expected": {
+        "contains": "¥100"
+      },
+      "rationale": "¥ = yen atau yuan.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-077",
+      "category": "ambiguity",
+      "type": "flag",
+      "input": "Naik 1.5 juta.",
+      "expected": {
+        "contains": "1.5"
+      },
+      "rationale": "Titik dengan 1 digit bukan pemisah ribuan Indonesia.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-078",
+      "category": "symbol",
+      "type": "flag",
+      "input": "Kirim ke nama@gmail.com ya.",
+      "expected": {
+        "contains": "nama@gmail.com"
+      },
+      "rationale": "Surel dilindungi utuh dan diberi usulan bacaan di RAGU.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-079",
+      "category": "date-time",
+      "type": "normalize",
+      "input": "Rapat pukul 09.00–11.30 WIB.",
+      "expected": {
+        "output": "Rapat pukul sembilan sampai pukul sebelas lewat tiga puluh menit we i be."
+      },
+      "rationale": "Rentang jam: tanda pisah = sampai; zona di akhir.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-080",
+      "category": "symbol",
+      "type": "normalize",
+      "input": "Yth. Bapak/Ibu peserta",
+      "expected": {
+        "output": "Yang terhormat Bapak atau Ibu peserta"
+      },
+      "rationale": "Garis miring di antara dua kata berhuruf awal kapital = atau; Yth. bukan akhir kalimat.",
+      "source": [
+        "puebi-2015",
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-081",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Biaya Rp7.500.000/peserta.",
+      "expected": {
+        "output": "Biaya tujuh juta lima ratus ribu rupiah per peserta."
+      },
+      "rationale": "Mata uang + garis miring + satuan hitung = per.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-082",
+      "category": "number-currency",
+      "type": "normalize",
+      "input": "Kurs Rp16.250 per USD.",
+      "expected": {
+        "output": "Kurs enam belas ribu dua ratus lima puluh rupiah per dolar Amerika."
+      },
+      "rationale": "Kode mata uang tanpa angka tetap diekspansi.",
+      "source": [
+        "iso-4217"
+      ]
+    },
+    {
+      "id": "t-083",
+      "category": "acronym",
+      "type": "flag",
+      "input": "Sertifikasi ISO/IEC 27001:2022 wajib.",
+      "expected": {
+        "contains": "27001"
+      },
+      "rationale": "Nomor standar: per digit atau bilangan? Dilindungi dan ditanyakan.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-084",
+      "category": "acronym",
+      "type": "flag",
+      "input": "Target Q3 tercapai.",
+      "expected": {
+        "contains": "Q3"
+      },
+      "rationale": "Kuartal: 'kuartal tiga' atau 'kyu tiga'.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-085",
+      "category": "uncertainty",
+      "type": "flag",
+      "input": "Kami pakai XYZQ untuk deploy.",
+      "expected": {
+        "contains": "XYZQ"
+      },
+      "rationale": "Singkatan tak dikenal ditandai, tidak ditebak.",
+      "source": [
+        "hdi-ebook-2026"
+      ]
+    },
+    {
+      "id": "t-086",
+      "category": "uncertainty",
+      "type": "flag",
+      "input": "Nyalakan 2FA sekarang.",
+      "expected": {
+        "contains": "2FA"
+      },
+      "rationale": "2FA meragukan di Galeri HDI; entri needs_validation tidak disubstitusi otomatis.",
+      "source": [
+        "hdi-galeri-2026"
+      ]
+    },
+    {
+      "id": "t-087",
+      "category": "uncertainty",
+      "type": "ipa",
+      "input": "Februari",
+      "expected": {
+        "ipa": null
+      },
+      "rationale": "IPA dikosongkan karena variasi f/p — jangan ditebak.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-088",
+      "category": "variation",
+      "type": "variant",
+      "input": "CPM",
+      "expected": {
+        "spoken_form": "se pe em"
+      },
+      "rationale": "HDI memakai dua bentuk; keduanya dicatat.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-089",
+      "category": "variation",
+      "type": "variant",
+      "input": "HTML",
+      "expected": {
+        "spoken_form": "eic ti em el"
+      },
+      "rationale": "Varian nama huruf Inggris.",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-090",
+      "category": "variation",
+      "type": "variant",
+      "input": "V",
+      "expected": {
+        "spoken_form": "fe"
+      },
+      "rationale": "Realisasi umum huruf v sebagai [f].",
+      "source": [
+        "hdi-kamus-2026"
+      ]
+    },
+    {
+      "id": "t-091",
+      "category": "variation",
+      "type": "variant",
+      "input": "meme",
+      "expected": {
+        "spoken_form": "meme"
+      },
+      "rationale": "Bacaan sesuai ejaan vs Inggris.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    },
+    {
+      "id": "t-092",
+      "category": "variation",
+      "type": "variant",
+      "input": "Februari",
+      "expected": {
+        "spoken_form": "Pebruari"
+      },
+      "rationale": "Realisasi f→p dicatat sebagai varian tidak baku.",
+      "source": [
+        "maintainer-interpretation"
+      ]
+    }
+  ]
+}

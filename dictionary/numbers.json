@@ -1,0 +1,2463 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "numbers",
+  "version": "1.0.0",
+  "description": "Bilangan, angka, mata uang, dan satuan: leksem dasar sistem bilangan Indonesia, pola normalisasi (desimal, rentang, kelipatan, telepon, versi), mata uang, dan satuan ukur/digital/media.",
+  "entries": [
+    {
+      "id": "num-0001",
+      "text": "0",
+      "normalized_text": "0",
+      "spoken_form": "nol",
+      "respelling": null,
+      "ipa": "/nol/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kosong",
+          "ipa": "/ko.soŋ/",
+          "register": "informal",
+          "context": "Membaca deret digit (nomor telepon, kode) dalam ragam santai",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "'nol' untuk nilai bilangan; 'kosong' lazim saat mengeja digit nomor telepon."
+    },
+    {
+      "id": "num-0002",
+      "text": "1",
+      "normalized_text": "1",
+      "spoken_form": "satu",
+      "respelling": null,
+      "ipa": "/sa.tu/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0003",
+      "text": "2",
+      "normalized_text": "2",
+      "spoken_form": "dua",
+      "respelling": null,
+      "ipa": "/du.a/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0004",
+      "text": "3",
+      "normalized_text": "3",
+      "spoken_form": "tiga",
+      "respelling": null,
+      "ipa": "/ti.ga/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0005",
+      "text": "4",
+      "normalized_text": "4",
+      "spoken_form": "empat",
+      "respelling": null,
+      "ipa": "/əm.pat/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0006",
+      "text": "5",
+      "normalized_text": "5",
+      "spoken_form": "lima",
+      "respelling": null,
+      "ipa": "/li.ma/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0007",
+      "text": "6",
+      "normalized_text": "6",
+      "spoken_form": "enam",
+      "respelling": null,
+      "ipa": "/ə.nam/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0008",
+      "text": "7",
+      "normalized_text": "7",
+      "spoken_form": "tujuh",
+      "respelling": null,
+      "ipa": "/tu.dʒuh/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0009",
+      "text": "8",
+      "normalized_text": "8",
+      "spoken_form": "delapan",
+      "respelling": null,
+      "ipa": "/də.la.pan/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0010",
+      "text": "9",
+      "normalized_text": "9",
+      "spoken_form": "sembilan",
+      "respelling": null,
+      "ipa": "/səm.bi.lan/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Leksem dasar sistem bilangan."
+    },
+    {
+      "id": "num-0011",
+      "text": "10",
+      "normalized_text": "10",
+      "spoken_form": "sepuluh",
+      "respelling": null,
+      "ipa": "/sə.pu.luh/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Prefiks se- (= satu) dipakai untuk 10, 11, 100, 1.000."
+    },
+    {
+      "id": "num-0012",
+      "text": "11",
+      "normalized_text": "11",
+      "spoken_form": "sebelas",
+      "respelling": null,
+      "ipa": "/sə.bə.las/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Prefiks se- (= satu) dipakai untuk 10, 11, 100, 1.000."
+    },
+    {
+      "id": "num-0013",
+      "text": "100",
+      "normalized_text": "100",
+      "spoken_form": "seratus",
+      "respelling": null,
+      "ipa": "/sə.ra.tus/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Prefiks se- (= satu) dipakai untuk 10, 11, 100, 1.000."
+    },
+    {
+      "id": "num-0014",
+      "text": "1000",
+      "normalized_text": "1000",
+      "spoken_form": "seribu",
+      "respelling": null,
+      "ipa": "/sə.ri.bu/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "cardinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Prefiks se- (= satu) dipakai untuk 10, 11, 100, 1.000. Ditulis 1.000 dalam teks Indonesia (titik pemisah ribuan)."
+    },
+    {
+      "id": "num-0015",
+      "text": "belas",
+      "normalized_text": "belas",
+      "spoken_form": "belas",
+      "respelling": null,
+      "ipa": "/bə.las/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Pembentuk 12–19: dua belas … sembilan belas."
+    },
+    {
+      "id": "num-0016",
+      "text": "puluh",
+      "normalized_text": "puluh",
+      "spoken_form": "puluh",
+      "respelling": null,
+      "ipa": "/pu.luh/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Pembentuk puluhan: dua puluh … sembilan puluh."
+    },
+    {
+      "id": "num-0017",
+      "text": "ratus",
+      "normalized_text": "ratus",
+      "spoken_form": "ratus",
+      "respelling": null,
+      "ipa": "/ra.tus/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Pembentuk ratusan: dua ratus …"
+    },
+    {
+      "id": "num-0018",
+      "text": "ribu",
+      "normalized_text": "ribu",
+      "spoken_form": "ribu",
+      "respelling": null,
+      "ipa": "/ri.bu/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Ribuan; 1.000 = seribu, 2.000 = dua ribu."
+    },
+    {
+      "id": "num-0019",
+      "text": "juta",
+      "normalized_text": "juta",
+      "spoken_form": "juta",
+      "respelling": null,
+      "ipa": "/dʒu.ta/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "10⁶. 1.000.000 = satu juta (juga 'sejuta')."
+    },
+    {
+      "id": "num-0020",
+      "text": "miliar",
+      "normalized_text": "miliar",
+      "spoken_form": "miliar",
+      "respelling": null,
+      "ipa": "/mi.li.ar/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010",
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "10⁹. Bentuk baku 'miliar', bukan 'milyar'. Realisasi umum [miljar]."
+    },
+    {
+      "id": "num-0021",
+      "text": "triliun",
+      "normalized_text": "triliun",
+      "spoken_form": "triliun",
+      "respelling": null,
+      "ipa": "/tri.li.un/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "10¹². Realisasi umum [triljun]."
+    },
+    {
+      "id": "num-0022",
+      "text": "bilangan bulat dengan titik ribuan",
+      "normalized_text": "bilangan bulat dengan titik ribuan",
+      "spoken_form": "(ekspansi bilangan)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "pattern",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'1.500' dalam teks Indonesia = seribu lima ratus; dalam teks berbahasa Inggris '1.5' = satu koma lima. Periksa bahasa dokumen dan jumlah digit setelah titik (tepat 3 digit → ribuan).",
+      "pattern": "\\b\\d{1,3}(?:\\.\\d{3})+\\b",
+      "examples": [
+        {
+          "input": "8.000",
+          "output": "delapan ribu",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "1.514",
+          "output": "seribu lima ratus empat belas",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "1.250.000",
+          "output": "satu juta dua ratus lima puluh ribu"
+        },
+        {
+          "input": "2.026",
+          "output": "dua ribu dua puluh enam"
+        }
+      ],
+      "source": [
+        "sneddon-2010",
+        "hdi-kamus-2026",
+        "hdi-ebook-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Teks Indonesia memakai titik sebagai pemisah ribuan. HDI dan panduan resmi ElevenLabs (via HDI) menyarankan angka ditulis sebagai kata di teks TTS."
+    },
+    {
+      "id": "num-0023",
+      "text": "bilangan desimal dengan koma",
+      "normalized_text": "bilangan desimal dengan koma",
+      "spoken_form": "(bilangan) koma (digit)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "decimal",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "tiga koma empat belas",
+          "register": "informal",
+          "context": "Sebagian penutur membaca bagian desimal sebagai bilangan (untuk 3,14)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "'1,500' dalam teks Inggris = seribu lima ratus; dalam teks Indonesia = satu koma lima. Untuk dokumen campuran, cek konteks satuan.",
+      "pattern": "\\b\\d+,\\d+\\b",
+      "examples": [
+        {
+          "input": "0,7",
+          "output": "nol koma tujuh",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "3,14",
+          "output": "tiga koma satu empat",
+          "note": "Digit desimal dibaca satu per satu (konvensi repo)"
+        },
+        {
+          "input": "2,5",
+          "output": "dua koma lima"
+        }
+      ],
+      "source": [
+        "sneddon-2010",
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Koma adalah pemisah desimal. Konvensi repo: digit di belakang koma dibaca satu per satu."
+    },
+    {
+      "id": "num-0024",
+      "text": "persen",
+      "normalized_text": "persen",
+      "spoken_form": "persen",
+      "respelling": null,
+      "ipa": "/pər.sen/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "decimal",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\b\\d+(?:,\\d+)?\\s?%",
+      "examples": [
+        {
+          "input": "4,2%",
+          "output": "empat koma dua persen",
+          "note": "Contoh HDI; Galeri Tes: lolos, HDI tetap menulis kata"
+        },
+        {
+          "input": "50%",
+          "output": "lima puluh persen"
+        },
+        {
+          "input": "100 %",
+          "output": "seratus persen"
+        }
+      ],
+      "source": [
+        "sneddon-2010",
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda % dibaca 'persen' setelah bilangan."
+    },
+    {
+      "id": "num-0025",
+      "text": "kali (kelipatan)",
+      "normalized_text": "kali (kelipatan)",
+      "spoken_form": "kali",
+      "respelling": null,
+      "ipa": "/ka.li/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "multiplier",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'2x' kelipatan → 'dua kali'. 'x' di antara dua bilangan (3 x 4) → 'kali' (perkalian). 'x' pada resolusi (1920x1080) → 'kali' atau 'eks'.",
+      "pattern": "(?<![\\d.,])\\d+(?:,\\d+)?[xX×](?![\\w])",
+      "examples": [
+        {
+          "input": "2x",
+          "output": "dua kali",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "10x",
+          "output": "sepuluh kali",
+          "note": "Galeri Tes HDI: tidak terbukti salah, tetap ditulis kata"
+        },
+        {
+          "input": "1,5x",
+          "output": "satu koma lima kali"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Angka + x/× menyatakan kelipatan atau frekuensi."
+    },
+    {
+      "id": "num-0026",
+      "text": "rentang bilangan",
+      "normalized_text": "rentang bilangan",
+      "spoken_form": "sampai",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "range",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "hingga",
+          "register": "formal",
+          "context": "Ragam formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Bukan rentang jika: skor pertandingan (2-1 → 'dua satu'/'dua lawan satu'), nomor telepon/kode (0812-3456 → dibaca per digit), atau tanggal ISO (2026-11-15).",
+      "pattern": "(?<![\\d.,])\\d+(?:[.,]\\d+)?\\s?[-–]\\s?\\d+(?:[.,]\\d+)?(?![\\d])",
+      "examples": [
+        {
+          "input": "10-15",
+          "output": "sepuluh sampai lima belas",
+          "note": "Aturan prompt HDI"
+        },
+        {
+          "input": "Rp2-7 juta",
+          "output": "dua sampai tujuh juta rupiah",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "2020–2025",
+          "output": "dua ribu dua puluh sampai dua ribu dua puluh lima"
+        }
+      ],
+      "source": [
+        "hdi-ebook-2026",
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Tanda hubung/pisah di antara dua bilangan dibaca 'sampai' (atau 'hingga')."
+    },
+    {
+      "id": "num-0027",
+      "text": "bilangan ordinal (ke-)",
+      "normalized_text": "bilangan ordinal (ke-)",
+      "spoken_form": "ke-",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "ordinal",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\bke-\\d+\\b",
+      "examples": [
+        {
+          "input": "ke-2",
+          "output": "kedua"
+        },
+        {
+          "input": "ke-10",
+          "output": "kesepuluh"
+        },
+        {
+          "input": "ke-21",
+          "output": "kedua puluh satu"
+        }
+      ],
+      "source": [
+        "eyd-v-2022",
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Bentuk ke- + angka dibaca 'ke' + bilangan disambung. Pengecualian: 'pertama' untuk urutan satu (ke-1 jarang)."
+    },
+    {
+      "id": "num-0028",
+      "text": "pertama",
+      "normalized_text": "pertama",
+      "spoken_form": "pertama",
+      "respelling": null,
+      "ipa": "/pər.ta.ma/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "ordinal",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kesatu",
+          "ipa": "/kə.sa.tu/",
+          "register": "formal",
+          "context": "Penomoran formal (pihak kesatu)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Ordinal untuk satu; 'kesatu' dipakai dalam penomoran formal tertentu."
+    },
+    {
+      "id": "num-0029",
+      "text": "abad dengan angka Romawi",
+      "normalized_text": "abad dengan angka romawi",
+      "spoken_form": "abad ke-",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "ordinal",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "abad dua puluh satu",
+          "register": "informal",
+          "context": "Ragam santai tanpa ke-",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "pattern": "\\babad\\s+[IVXLC]+\\b",
+      "examples": [
+        {
+          "input": "abad XXI",
+          "output": "abad kedua puluh satu"
+        },
+        {
+          "input": "abad XX",
+          "output": "abad kedua puluh"
+        }
+      ],
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Angka Romawi pada abad dibaca sebagai ordinal."
+    },
+    {
+      "id": "num-0030",
+      "text": "pecahan",
+      "normalized_text": "pecahan",
+      "spoken_form": "per",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "fraction",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Garis miring juga dipakai untuk tanggal (1/2/2027) dan 'per' satuan (km/jam). Pecahan murni: dua bilangan saja tanpa tahun dan tanpa satuan.",
+      "pattern": "\\b\\d+/\\d+\\b",
+      "examples": [
+        {
+          "input": "1/2",
+          "output": "setengah"
+        },
+        {
+          "input": "1/3",
+          "output": "sepertiga"
+        },
+        {
+          "input": "1/4",
+          "output": "seperempat"
+        },
+        {
+          "input": "3/4",
+          "output": "tiga perempat"
+        },
+        {
+          "input": "2/5",
+          "output": "dua perlima",
+          "note": "Pecahan ditulis serangkai: dua pertiga, tiga perempat"
+        }
+      ],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Pembilang 1 memakai se- (seperdua jarang; 'setengah' lazim). Unsur per- pecahan ditulis serangkai (EYD): dua pertiga, tiga perempat."
+    },
+    {
+      "id": "num-0031",
+      "text": "setengah",
+      "normalized_text": "setengah",
+      "spoken_form": "setengah",
+      "respelling": null,
+      "ipa": "/sə.tə.ŋah/",
+      "language": "id",
+      "category": "number",
+      "subcategory": "fraction",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "1/2. 'satu setengah' = 1,5. Jangan tertukar dengan penunjuk waktu 'setengah delapan' = 07.30."
+    },
+    {
+      "id": "num-0032",
+      "text": "bilangan negatif",
+      "normalized_text": "bilangan negatif",
+      "spoken_form": "minus",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "pattern",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "negatif",
+          "register": "formal",
+          "context": "Ragam matematika formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Tanda hubung di awal butir daftar bukan minus.",
+      "pattern": "(?<![\\w\\d])-\\d+(?:,\\d+)?",
+      "examples": [
+        {
+          "input": "-5",
+          "output": "minus lima"
+        },
+        {
+          "input": "-2,5",
+          "output": "minus dua koma lima"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tanda minus di depan bilangan."
+    },
+    {
+      "id": "num-0033",
+      "text": "singkatan besaran: rb",
+      "normalized_text": "singkatan besaran: rb",
+      "spoken_form": "ribu",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "pattern": "(?<![\\d.,])\\d+(?:,\\d+)?\\s?rb\\b",
+      "examples": [
+        {
+          "input": "50rb",
+          "output": "lima puluh ribu"
+        },
+        {
+          "input": "1,5 rb",
+          "output": "seribu lima ratus"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan informal 'ribu'."
+    },
+    {
+      "id": "num-0034",
+      "text": "singkatan besaran: jt",
+      "normalized_text": "singkatan besaran: jt",
+      "spoken_form": "juta",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "satu koma lima juta rupiah",
+          "context": "Pembacaan literal desimal (untuk Rp1,5 jt)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "pattern": "(?<![\\d.,])\\d+(?:,\\d+)?\\s?jt\\b",
+      "examples": [
+        {
+          "input": "Rp1,5 jt",
+          "output": "satu setengah juta rupiah",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "3 jt",
+          "output": "tiga juta"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI 27 Okt 2026: 'jt' salah baca (dieja, bukan 'juta') pada dua transkrip. Selalu ekspansi.",
+      "notes": "1,5 juta lazim diucapkan 'satu setengah juta'; 'satu koma lima juta' juga benar."
+    },
+    {
+      "id": "num-0035",
+      "text": "singkatan besaran: M (miliar)",
+      "normalized_text": "singkatan besaran: m (miliar)",
+      "spoken_form": "miliar",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'M' Indonesia = miliar (10⁹); 'M' Inggris (USD 5M) = million (juta). Tentukan dari mata uang/bahasa dokumen. 'M' juga bisa meter atau ukuran baju.",
+      "pattern": "(?<![\\d.,])\\d+(?:,\\d+)?\\s?M\\b",
+      "examples": [
+        {
+          "input": "Rp2 M",
+          "output": "dua miliar rupiah"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dalam teks keuangan Indonesia 'M' = miliar."
+    },
+    {
+      "id": "num-0036",
+      "text": "singkatan besaran: K (ribu)",
+      "normalized_text": "singkatan besaran: k (ribu)",
+      "spoken_form": "ribu",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "magnitude",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ten kei",
+          "register": "informal",
+          "context": "Dibaca Inggris di konteks media sosial",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "'10K' angka pengikut/subscriber → sepuluh ribu. '4K' resolusi video → 'empat ka'/'for kei' (lihat entri 4K). 'K' bisa juga kelvin.",
+      "pattern": "(?<![\\d.,])\\d+(?:,\\d+)?K\\b",
+      "examples": [
+        {
+          "input": "10K",
+          "output": "sepuluh ribu"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Pengaruh Inggris (kilo). Informal."
+    },
+    {
+      "id": "num-0037",
+      "text": "nomor telepon",
+      "normalized_text": "nomor telepon",
+      "spoken_form": "(digit dibaca satu per satu)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "identifier",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kosong delapan satu dua …",
+          "register": "informal",
+          "context": "Digit 0 dibaca 'kosong' dalam ragam santai",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "pattern": "(?:\\+62[- ]?|(?<!\\d)0)\\d{2,3}[- ]?\\d{3,4}[- ]?\\d{3,5}(?!\\d)",
+      "examples": [
+        {
+          "input": "0812-3456-7890",
+          "output": "nol delapan satu dua, tiga empat lima enam, tujuh delapan sembilan nol",
+          "note": "Kelompok dipisah jeda (koma)"
+        },
+        {
+          "input": "+62 812 3456 7890",
+          "output": "plus enam dua, delapan satu dua, tiga empat lima enam, tujuh delapan sembilan nol"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nomor telepon, NIK, nomor rekening, dan kode dibaca per digit, tidak sebagai bilangan."
+    },
+    {
+      "id": "num-0038",
+      "text": "tahun",
+      "normalized_text": "tahun",
+      "spoken_form": "(bilangan penuh)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "pattern",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "sembilan delapan",
+          "register": "informal",
+          "context": "Ragam santai dua digit akhir ('tahun 98')",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Bilangan empat digit belum tentu tahun (1998 orang, kode 2026). Anggap tahun jika didahului 'tahun', berada di tanggal, atau konteks waktu jelas.",
+      "pattern": "\\b(?:1[5-9]|20)\\d{2}\\b",
+      "examples": [
+        {
+          "input": "2026",
+          "output": "dua ribu dua puluh enam"
+        },
+        {
+          "input": "1998",
+          "output": "seribu sembilan ratus sembilan puluh delapan"
+        }
+      ],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tahun dibaca sebagai bilangan penuh dalam ragam netral/formal."
+    },
+    {
+      "id": "num-0039",
+      "text": "dasawarsa (-an)",
+      "normalized_text": "dasawarsa (-an)",
+      "spoken_form": "-an",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "pattern",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\b\\d{2,4}-an\\b",
+      "examples": [
+        {
+          "input": "1990-an",
+          "output": "seribu sembilan ratus sembilan puluhan"
+        },
+        {
+          "input": "90-an",
+          "output": "sembilan puluhan"
+        }
+      ],
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Akhiran -an pada angka dibaca menempel pada bilangan."
+    },
+    {
+      "id": "num-0040",
+      "text": "nomor versi",
+      "normalized_text": "nomor versi",
+      "spoken_form": "(versi) titik",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "number",
+      "subcategory": "identifier",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "versi dua koma lima",
+          "register": "informal",
+          "context": "Sebagian penutur memakai 'koma'",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "tiga titik satu dua",
+          "register": "technical",
+          "context": "Digit dibaca satu per satu",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "'3.12' bisa versi, desimal gaya Inggris, atau jam (03.12). Gunakan konteks (kata 'versi', nama software, 'pukul').",
+      "pattern": "\\b[vV]?\\d+(?:\\.\\d+){1,3}\\b",
+      "examples": [
+        {
+          "input": "v2.5",
+          "output": "versi dua titik lima"
+        },
+        {
+          "input": "Python 3.12",
+          "output": "Python tiga titik dua belas"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Nomor versi perangkat lunak memakai titik sebagai pemisah, bukan desimal maupun ribuan."
+    },
+    {
+      "id": "num-0041",
+      "text": "Rp",
+      "normalized_text": "rp",
+      "spoken_form": "rupiah",
+      "respelling": null,
+      "ipa": "/ru.pi.ah/",
+      "language": "id",
+      "category": "currency",
+      "subcategory": "symbol",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "Rp\\.?\\s?\\d[\\d.]*(?:,\\d+)?(?:,-)?",
+      "examples": [
+        {
+          "input": "Rp25.000",
+          "output": "dua puluh lima ribu rupiah",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "Rp 10.000,-",
+          "output": "sepuluh ribu rupiah",
+          "note": "',-' menandai tanpa sen; tidak dibaca"
+        },
+        {
+          "input": "Rp1,5 jt",
+          "output": "satu setengah juta rupiah",
+          "note": "Contoh HDI"
+        }
+      ],
+      "source": [
+        "iso-4217",
+        "hdi-kamus-2026",
+        "hdi-ebook-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI: 'Rp25.000' meragukan — kata 'rupiah' kemungkinan terlewat. Tulis lengkap.",
+      "notes": "Simbol ditulis sebelum angka tetapi dibaca SETELAH bilangan."
+    },
+    {
+      "id": "num-0042",
+      "text": "$",
+      "normalized_text": "$",
+      "spoken_form": "dolar",
+      "respelling": null,
+      "ipa": "/do.lar/",
+      "language": "id",
+      "category": "currency",
+      "subcategory": "symbol",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'$' tanpa keterangan negara biasanya dolar AS, tetapi bisa dolar Singapura/Australia. Dalam kode pemrograman '$' adalah simbol variabel (lihat symbols.json).",
+      "pattern": "(?:US)?\\$\\s?\\d[\\d.,]*",
+      "examples": [
+        {
+          "input": "$12",
+          "output": "dua belas dolar",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "US$5",
+          "output": "lima dolar Amerika"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Dibaca setelah bilangan. 'US$' → 'dolar Amerika' atau 'dolar AS'."
+    },
+    {
+      "id": "num-0043",
+      "text": "IDR",
+      "normalized_text": "idr",
+      "spoken_form": "rupiah",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "i de er",
+          "ipa": "/i de er/",
+          "letter_system": "id",
+          "context": "Dieja (konteks teknis)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kode ISO 4217 rupiah; dibaca 'rupiah' (atau dieja 'i de er' dalam konteks teknis/perbankan)."
+    },
+    {
+      "id": "num-0044",
+      "text": "USD",
+      "normalized_text": "usd",
+      "spoken_form": "dolar Amerika",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "u es de",
+          "ipa": "/u es de/",
+          "letter_system": "id",
+          "context": "Dieja nama huruf Indonesia (HDI)",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "source": [
+        "iso-4217",
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "HDI mengeja 'u es de' (nama huruf Indonesia); dalam narasi umum lebih jelas 'dolar Amerika'."
+    },
+    {
+      "id": "num-0045",
+      "text": "EUR",
+      "normalized_text": "eur",
+      "spoken_form": "euro",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kode ISO 4217."
+    },
+    {
+      "id": "num-0046",
+      "text": "JPY",
+      "normalized_text": "jpy",
+      "spoken_form": "yen Jepang",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0047",
+      "text": "GBP",
+      "normalized_text": "gbp",
+      "spoken_form": "pound sterling",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk serapan: poundsterling."
+    },
+    {
+      "id": "num-0048",
+      "text": "SGD",
+      "normalized_text": "sgd",
+      "spoken_form": "dolar Singapura",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0049",
+      "text": "MYR",
+      "normalized_text": "myr",
+      "spoken_form": "ringgit Malaysia",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "currency",
+      "subcategory": "code",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0050",
+      "text": "€",
+      "normalized_text": "€",
+      "spoken_form": "euro",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "currency",
+      "subcategory": "symbol",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dibaca setelah bilangan: €10 → sepuluh euro."
+    },
+    {
+      "id": "num-0051",
+      "text": "£",
+      "normalized_text": "£",
+      "spoken_form": "pound sterling",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "currency",
+      "subcategory": "symbol",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dibaca setelah bilangan."
+    },
+    {
+      "id": "num-0052",
+      "text": "¥",
+      "normalized_text": "¥",
+      "spoken_form": "yen",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "currency",
+      "subcategory": "symbol",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "yuan",
+          "context": "Mata uang Tiongkok",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Konteks Jepang → yen; konteks Tiongkok → yuan (renminbi). Jika tidak jelas, tandai.",
+      "source": [
+        "iso-4217"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Simbol yang sama dipakai untuk yen Jepang dan yuan Tiongkok."
+    },
+    {
+      "id": "num-0053",
+      "text": "sen",
+      "normalized_text": "sen",
+      "spoken_form": "sen",
+      "respelling": null,
+      "ipa": "/sen/",
+      "language": "id",
+      "category": "currency",
+      "subcategory": "abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Seperseratus rupiah; jarang dipakai kini."
+    },
+    {
+      "id": "num-0054",
+      "text": "km",
+      "normalized_text": "km",
+      "spoken_form": "kilometer",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0055",
+      "text": "m",
+      "normalized_text": "m",
+      "spoken_form": "meter",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'m' setelah angka bisa meter, menit (informal), atau juta (Inggris). Cek konteks.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0056",
+      "text": "cm",
+      "normalized_text": "cm",
+      "spoken_form": "sentimeter",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0057",
+      "text": "mm",
+      "normalized_text": "mm",
+      "spoken_form": "milimeter",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0058",
+      "text": "kg",
+      "normalized_text": "kg",
+      "spoken_form": "kilogram",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kilo",
+          "register": "informal",
+          "context": "Informal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Informal 'kilo'."
+    },
+    {
+      "id": "num-0059",
+      "text": "g",
+      "normalized_text": "g",
+      "spoken_form": "gram",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Varian tulis 'gr'."
+    },
+    {
+      "id": "num-0060",
+      "text": "mg",
+      "normalized_text": "mg",
+      "spoken_form": "miligram",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0061",
+      "text": "l",
+      "normalized_text": "l",
+      "spoken_form": "liter",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Varian tulis 'L'."
+    },
+    {
+      "id": "num-0062",
+      "text": "ml",
+      "normalized_text": "ml",
+      "spoken_form": "mililiter",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Varian tulis 'mL'."
+    },
+    {
+      "id": "num-0063",
+      "text": "ha",
+      "normalized_text": "ha",
+      "spoken_form": "hektare",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'ha' juga bisa interjeksi atau nama huruf H; satuan hanya bila setelah angka.",
+      "source": [
+        "maintainer-interpretation",
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku 'hektare'."
+    },
+    {
+      "id": "num-0064",
+      "text": "km/jam",
+      "normalized_text": "km/jam",
+      "spoken_form": "kilometer per jam",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Garis miring satuan dibaca 'per'."
+    },
+    {
+      "id": "num-0065",
+      "text": "m²",
+      "normalized_text": "m²",
+      "spoken_form": "meter persegi",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0066",
+      "text": "m³",
+      "normalized_text": "m³",
+      "spoken_form": "meter kubik",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0067",
+      "text": "°C",
+      "normalized_text": "°c",
+      "spoken_form": "derajat Celsius",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "measurement",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0068",
+      "text": "KB",
+      "normalized_text": "kb",
+      "spoken_form": "kilobita",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kilobait",
+          "register": "neutral",
+          "context": "Bacaan umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation",
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk serapan baku 'bita' (byte); lazim diucapkan 'kilobait'."
+    },
+    {
+      "id": "num-0069",
+      "text": "MB",
+      "normalized_text": "mb",
+      "spoken_form": "megabita",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "megabait",
+          "register": "neutral",
+          "context": "Bacaan umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "em be",
+          "ipa": "/em be/",
+          "register": "informal",
+          "letter_system": "id",
+          "context": "Dieja Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation",
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'megabait' atau dieja 'em be'."
+    },
+    {
+      "id": "num-0070",
+      "text": "GB",
+      "normalized_text": "gb",
+      "spoken_form": "gigabita",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "gigabait",
+          "register": "neutral",
+          "context": "Bacaan umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "ji bi",
+          "register": "informal",
+          "letter_system": "en",
+          "context": "Dieja Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation",
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'gigabait', 'giga', atau dieja 'ji bi'."
+    },
+    {
+      "id": "num-0071",
+      "text": "TB",
+      "normalized_text": "tb",
+      "spoken_form": "terabita",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "terabait",
+          "register": "neutral",
+          "context": "Bacaan umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation",
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'terabait'."
+    },
+    {
+      "id": "num-0072",
+      "text": "Mbps",
+      "normalized_text": "mbps",
+      "spoken_form": "megabit per detik",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "em be pe es",
+          "ipa": "/em be pe es/",
+          "letter_system": "id",
+          "context": "Dieja",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'em be pe es'."
+    },
+    {
+      "id": "num-0073",
+      "text": "GHz",
+      "normalized_text": "ghz",
+      "spoken_form": "gigahertz",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0074",
+      "text": "mAh",
+      "normalized_text": "mah",
+      "spoken_form": "miliampere-jam",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "em a ha",
+          "ipa": "/em a ha/",
+          "letter_system": "id",
+          "context": "Dieja",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim dieja 'em a ha' pada spesifikasi gawai."
+    },
+    {
+      "id": "num-0075",
+      "text": "kWh",
+      "normalized_text": "kwh",
+      "spoken_form": "kilowatt-jam",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "digital",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ka we ha",
+          "ipa": "/ka we ha/",
+          "letter_system": "id",
+          "context": "Dieja",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'ka we ha'."
+    },
+    {
+      "id": "num-0076",
+      "text": "Hz",
+      "normalized_text": "hz",
+      "spoken_form": "hertz",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "num-0077",
+      "text": "fps",
+      "normalized_text": "fps",
+      "spoken_form": "ef pe es",
+      "respelling": null,
+      "ipa": "/ef pe es/",
+      "language": "en",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "frame per detik",
+          "register": "formal",
+          "context": "Ekspansi",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Frames per second; HDI mengeja nama huruf Indonesia (contoh: 'tiga puluh ef pe es')."
+    },
+    {
+      "id": "num-0078",
+      "text": "720p",
+      "normalized_text": "720p",
+      "spoken_form": "tujuh ratus dua puluh pe",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Resolusi video. HDI menulis lengkap walau bentuk mentah terbaca benar di Galeri Tes."
+    },
+    {
+      "id": "num-0079",
+      "text": "1080p",
+      "normalized_text": "1080p",
+      "spoken_form": "seribu delapan puluh pe",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ten eiti pi",
+          "register": "informal",
+          "context": "Bacaan Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Analog dengan 720p; sebagian kreator mengucapkan 'ten eighty pi' (Inggris)."
+    },
+    {
+      "id": "num-0080",
+      "text": "4K",
+      "normalized_text": "4k",
+      "spoken_form": "empat ka",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "for kei",
+          "register": "informal",
+          "context": "Bacaan Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Resolusi video/layar."
+    },
+    {
+      "id": "num-0081",
+      "text": "dB",
+      "normalized_text": "db",
+      "spoken_form": "desibel",
+      "respelling": null,
+      "ipa": "/de.si.bel/",
+      "language": "mul",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Satuan tingkat bunyi. HDI menulis 'desibel'."
+    },
+    {
+      "id": "num-0082",
+      "text": "LUFS",
+      "normalized_text": "lufs",
+      "spoken_form": "lufs",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "unit",
+      "subcategory": "media",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Loudness Units relative to Full Scale; dibaca sebagai kata. Target loudness YouTube/podcast lazim -14 LUFS."
+    }
+  ]
+}

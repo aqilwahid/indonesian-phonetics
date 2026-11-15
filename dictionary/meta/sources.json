@@ -1,0 +1,248 @@
+{
+  "version": "1.0.0",
+  "description": "Registri sumber. Setiap entri dataset merujuk id di sini melalui field `source`. Field `type` menentukan jenis provenance. Field `accessed_in_build` jujur menyatakan apakah sumber dibuka langsung saat repo ini dibangun (true) atau dikutip dari literatur yang dikenal dan WAJIB dicek reviewer (false).",
+  "sources": [
+    {
+      "id": "hdi-kamus-2026",
+      "type": "zip-reference",
+      "title": "Kamus Fonetik HDI buat ElevenLabs (Sheet pendamping ebook Voice Over AI pakai ElevenLabs), tab Kamus, 153 entri",
+      "author": "Hidup dari Internet (@hidupdariinternet)",
+      "year": 2026,
+      "url": null,
+      "license": "© 2026 Hidup dari Internet. Untuk pemakaian pribadi; tidak boleh disebar ulang atau dijual. Repo ini hanya mengadopsi fakta pasangan tulisan→bacaan; catatan ditulis ulang, berkas asli tidak disertakan.",
+      "accessed_in_build": true,
+      "notes": "Sumber internal kolom Sumber pada sheet: 'VO channel HDI' (bacaan yang benar-benar dipakai di VO channel, Okt 2026), 'Kamus skrip VO HDI' (daftar substitusi di program VO), 'Aturan HDI' (aturan rumah). Berlaku untuk suara ElevenLabs 'Pratama', model Multilingual v2; bukan norma bahasa baku."
+    },
+    {
+      "id": "hdi-ebook-2026",
+      "type": "zip-reference",
+      "title": "Voice Over AI pakai ElevenLabs: Dari Naskah sampai Caption Tanpa Ngoding, Edisi Oktober 2026 (Bab 05 'Nulis Teks buat AI', Bab 06 'Galeri Salah Baca')",
+      "author": "Hidup dari Internet (@hidupdariinternet)",
+      "year": 2026,
+      "url": null,
+      "license": "© 2026 Hidup dari Internet. Pemakaian pribadi; tidak disebar ulang. Hanya prinsip dan fakta yang diringkas dengan kata-kata sendiri.",
+      "accessed_in_build": true,
+      "notes": "Memuat 9 aturan menulis teks fonetik untuk TTS (angka jadi kata, uang lengkap dengan satuan, tanggal/jam seperti diucapkan, singkatan dieja, simbol jadi kata, kurung jadi koma, kalimat pendek, cek salah ketik) dan prinsip 'jangan menebak, masukkan ke daftar ragu'."
+    },
+    {
+      "id": "hdi-galeri-2026",
+      "type": "zip-reference",
+      "title": "Galeri Tes Salah Baca, 18 kalimat, 27 Oktober 2026 (ElevenLabs Multilingual v2, suara Pratama, stability 50, similarity 75; dicek dengan transkripsi Whisper dua kali)",
+      "author": "Hidup dari Internet (@hidupdariinternet)",
+      "year": 2026,
+      "url": null,
+      "license": "© 2026 Hidup dari Internet. Hanya ringkasan hasil (lolos/meragukan/salah baca) yang dirujuk; transkrip dan audio tidak disalin.",
+      "accessed_in_build": true,
+      "notes": "Bukti observasional satu mesin TTS, satu suara, satu tanggal. Hasil bisa berbeda antar-generate, suara, dan model."
+    },
+    {
+      "id": "hdi-toolkit-2026",
+      "type": "zip-reference",
+      "title": "Toolkit VO (config.py: kamus balik caption CAPTION_BALIK)",
+      "author": "Hidup dari Internet (@hidupdariinternet)",
+      "year": 2026,
+      "url": null,
+      "license": "© 2026 Hidup dari Internet. Kode tidak disertakan; hanya konsep pemetaan balik bentuk fonetik → bentuk tulis untuk caption.",
+      "accessed_in_build": true,
+      "notes": "Konsep 'reverse map' dipakai di skill: teks TTS tidak boleh bocor ke caption/teks layar."
+    },
+    {
+      "id": "eyd-v-2022",
+      "type": "external",
+      "title": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD) Edisi V",
+      "author": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek",
+      "year": 2022,
+      "url": "https://ejaan.kemdikbud.go.id/",
+      "license": "Dokumen pemerintah; dikutip untuk rujukan.",
+      "accessed_in_build": true,
+      "notes": "Diakses lewat ringkasan sekunder (tirto.id) untuk diftong ai/au/ei/oi, gabungan konsonan kh/ng/ny/sy, monoftong eu, dan diakritik ê. Teks lengkap wajib dicek di situs resmi."
+    },
+    {
+      "id": "puebi-2015",
+      "type": "external",
+      "title": "Pedoman Umum Ejaan Bahasa Indonesia (PUEBI), Lampiran Permendikbud No. 50 Tahun 2015",
+      "author": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+      "year": 2015,
+      "url": "https://lmsspada.kemdikbud.go.id/pluginfile.php/45217/mod_page/content/2/BAB%20II.pdf",
+      "license": "Dokumen pemerintah; dikutip untuk rujukan.",
+      "accessed_in_build": true,
+      "notes": "Sumber tabel nama huruf beserta pengucapan (B 'bé', F 'èf', Q 'ki', V 'vé', X 'èks', Z 'zèt'), diakritik é/è/ê (contoh téras, kécap, sèri/sêri, kêcap), dan aturan pemenggalan kata. Telah digantikan EYD V (2022); bagian yang dirujuk perlu dicocokkan ulang dengan EYD V."
+    },
+    {
+      "id": "kbbi-daring",
+      "type": "external",
+      "title": "Kamus Besar Bahasa Indonesia (KBBI) Daring, Edisi VI",
+      "author": "Badan Pengembangan dan Pembinaan Bahasa",
+      "year": 2023,
+      "url": "https://kbbi.kemdikbud.go.id/",
+      "license": "Rujukan; isi kamus tidak disalin.",
+      "accessed_in_build": false,
+      "notes": "Dirujuk untuk penanda lafal homograf (é/ê) dan bentuk baku kata serapan. Tidak dibuka langsung saat build (akses dibatasi); setiap entri yang merujuk sumber ini WAJIB dicek reviewer."
+    },
+    {
+      "id": "pupi-2007",
+      "type": "external",
+      "title": "Pedoman Umum Pembentukan Istilah, Edisi Ketiga",
+      "author": "Pusat Bahasa, Departemen Pendidikan Nasional",
+      "year": 2007,
+      "url": null,
+      "license": "Dokumen pemerintah; dikutip untuk rujukan.",
+      "accessed_in_build": false,
+      "notes": "Kaidah penyesuaian ejaan unsur serapan (c→k/s, ph→f, th→t, -tion→-si, -ty→-tas, dsb.)."
+    },
+    {
+      "id": "soderberg-olson-2008",
+      "type": "external",
+      "title": "Indonesian (Illustrations of the IPA). Journal of the International Phonetic Association 38(2): 209–213",
+      "author": "Craig D. Soderberg; Kenneth S. Olson",
+      "year": 2008,
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/indonesian/AE405481B94A4E0B7234A8BBE9C6F5FD",
+      "license": "Rujukan akademik.",
+      "accessed_in_build": true,
+      "notes": "Metadata dikonfirmasi via PHOIBLE (inventaris PH 1144: diftong ai̯ au̯ oi̯). Rujukan utama inventaris vokal/konsonan dan alofon."
+    },
+    {
+      "id": "alwi-tbbi-2017",
+      "type": "external",
+      "title": "Tata Bahasa Baku Bahasa Indonesia, Edisi Keempat",
+      "author": "Hasan Alwi; Soenjono Dardjowidjojo; Hans Lapoliwa; Anton M. Moeliono",
+      "year": 2017,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Rujukan fonem, pola suku kata (V, VK, KV, KVK, KKV, KKVK, KVKK, KKKV, KKKVK, KKVKK, KVKKK), dan proses morfofonemik meN-/peN-."
+    },
+    {
+      "id": "chaer-2009",
+      "type": "external",
+      "title": "Fonologi Bahasa Indonesia",
+      "author": "Abdul Chaer",
+      "year": 2009,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Rujukan konsep fonetik artikulatoris, fonem/alofon, dan variasi bunyi."
+    },
+    {
+      "id": "muslich-2008",
+      "type": "external",
+      "title": "Fonologi Bahasa Indonesia: Tinjauan Deskriptif Sistem Bunyi Bahasa Indonesia",
+      "author": "Masnur Muslich",
+      "year": 2008,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Rujukan distribusi alofon dan fonotaktik."
+    },
+    {
+      "id": "sneddon-2010",
+      "type": "external",
+      "title": "Indonesian: A Comprehensive Grammar, 2nd edition",
+      "author": "James Neil Sneddon; Alexander Adelaar; Dwi Noverini Djenar; Michael C. Ewing",
+      "year": 2010,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Rujukan fonologi, ragam formal vs informal, dan bilangan."
+    },
+    {
+      "id": "sneddon-2006",
+      "type": "external",
+      "title": "Colloquial Jakartan Indonesian (Pacific Linguistics 581)",
+      "author": "James Neil Sneddon",
+      "year": 2006,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Rujukan bentuk informal Jakarta (pakai→pake, sampai→sampe, -kan→-in)."
+    },
+    {
+      "id": "cohn-1989",
+      "type": "external",
+      "title": "Stress in Indonesian and bracketing paradoxes. Natural Language & Linguistic Theory 7: 167–216",
+      "author": "Abigail C. Cohn",
+      "year": 1989,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Analisis tekanan penultima dengan pergeseran bila penultima berisi schwa."
+    },
+    {
+      "id": "goedemans-vanzanten-2007",
+      "type": "external",
+      "title": "Stress and accent in Indonesian. In V. J. van Heuven & E. van Zanten (eds.), Prosody in Indonesian Languages (LOT Occasional Series 9), 35–62",
+      "author": "Rob Goedemans; Ellen van Zanten",
+      "year": 2007,
+      "url": "https://hdl.handle.net/11245/1.275780",
+      "license": "Rujukan akademik.",
+      "accessed_in_build": true,
+      "notes": "Metadata dikonfirmasi (UvA DARE). Rujukan untuk temuan bahwa tekanan kata dalam bahasa Indonesia lemah/diperdebatkan dan prominensi lebih banyak ditentukan di tingkat frasa."
+    },
+    {
+      "id": "ipa-handbook-1999",
+      "type": "external",
+      "title": "Handbook of the International Phonetic Association",
+      "author": "International Phonetic Association",
+      "year": 1999,
+      "url": null,
+      "license": "Rujukan akademik.",
+      "accessed_in_build": false,
+      "notes": "Konvensi notasi IPA: /.../ fonemis, [...] fonetis, titik sebagai batas suku kata."
+    },
+    {
+      "id": "ipa-chart-2020",
+      "type": "external",
+      "title": "The International Phonetic Alphabet (revised to 2020)",
+      "author": "International Phonetic Association",
+      "year": 2020,
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "license": "CC BY-SA 3.0 (bagan tidak disertakan di repo).",
+      "accessed_in_build": false,
+      "notes": "Set simbol IPA yang diizinkan validator."
+    },
+    {
+      "id": "iso-4217",
+      "type": "external",
+      "title": "ISO 4217 Currency codes",
+      "author": "International Organization for Standardization",
+      "year": 2015,
+      "url": "https://www.iso.org/iso-4217-currency-codes.html",
+      "license": "Rujukan standar.",
+      "accessed_in_build": false,
+      "notes": "Kode mata uang IDR, USD, EUR, JPY, GBP, SGD, MYR."
+    },
+    {
+      "id": "bi-qris",
+      "type": "external",
+      "title": "QRIS (Quick Response Code Indonesian Standard), materi publik Bank Indonesia",
+      "author": "Bank Indonesia",
+      "year": 2019,
+      "url": "https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/default.aspx",
+      "license": "Rujukan.",
+      "accessed_in_build": false,
+      "notes": "Materi kampanye BI menyebut QRIS dibaca 'KRIS'. Perlu dicek ulang."
+    },
+    {
+      "id": "agentskills-spec",
+      "type": "external",
+      "title": "Agent Skills Specification",
+      "author": "agentskills.io",
+      "year": 2026,
+      "url": "https://agentskills.io/specification",
+      "license": "Rujukan.",
+      "accessed_in_build": true,
+      "notes": "Aturan frontmatter SKILL.md (name, description, license, compatibility, metadata), struktur scripts/references/assets, progressive disclosure (< 500 baris)."
+    },
+    {
+      "id": "maintainer-interpretation",
+      "type": "interpretation",
+      "title": "Interpretasi dan rekomendasi maintainer repo indonesian-phonetics",
+      "author": "Kontributor indonesian-phonetics",
+      "year": 2026,
+      "url": null,
+      "license": "CC BY 4.0 (mengikuti lisensi data repo).",
+      "accessed_in_build": true,
+      "notes": "Dipakai untuk rekomendasi praktis, konsolidasi variasi, dan bacaan yang diturunkan dari aturan. Selalu disertai confidence yang sesuai; bukan klaim norma baku."
+    }
+  ]
+}

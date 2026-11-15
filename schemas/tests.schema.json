@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aqilwahid/indonesian-phonetics/schemas/tests.schema.json",
+  "title": "Pronunciation test suite",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "description", "tests"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "version": {"type": "string"},
+    "description": {"type": "string"},
+    "tests": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "type", "input", "expected", "rationale"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^t-[0-9]{3}$"},
+          "category": {"enum": ["common-word", "abbreviation", "acronym", "loanword", "technology", "number-currency", "symbol", "date-time", "ambiguity", "variation", "ipa", "uncertainty"]},
+          "type": {"enum": ["lookup", "variant", "ambiguity", "ipa", "normalize", "flag"]},
+          "input": {"type": "string"},
+          "options": {"type": "object"},
+          "expected": {
+            "description": "lookup: {spoken_form, respelling?}; variant: {spoken_form}; ambiguity: {min_variants?}; ipa: {ipa}; normalize: {output}; flag: {contains}",
+            "type": "object"
+          },
+          "rationale": {"type": "string"},
+          "source": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

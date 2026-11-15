@@ -1,0 +1,3531 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "acronyms",
+  "version": "1.0.0",
+  "description": "Akronim (dibaca sebagai kata) dan initialism (dieja per huruf) umum, kelembagaan, profesional, dan akademik. Istilah teknologi/kreator ada di technology.json.",
+  "entries": [
+    {
+      "id": "acr-0001",
+      "text": "HP",
+      "normalized_text": "hp",
+      "spoken_form": "ha pe",
+      "respelling": null,
+      "ipa": "/ha pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "context": "Telepon genggam (paling umum)",
+      "variants": [
+        {
+          "spoken_form": "hape",
+          "context": "Bentuk satu kata; juga muncul di korpus HDI. Pilih satu dan konsisten.",
+          "source": [
+            "hdi-kamus-2026"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Konteks gawai/telepon → 'ha pe'. 'HP' merek komputer (Hewlett-Packard) → 'ha pe' atau 'eic pi'. 'HP' daya mesin (horsepower) → 'tenaga kuda'. 'HP' gim (health points) → 'eic pi'.",
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI 27 Okt 2026: 'HP' tertulis biasa sudah terbaca 'hape'.",
+      "notes": ""
+    },
+    {
+      "id": "acr-0002",
+      "text": "PO",
+      "normalized_text": "po",
+      "spoken_form": "pe o",
+      "respelling": null,
+      "ipa": "/pe o/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'PO' pesanan (pre-order/purchase order) → 'pe o'; 'PO' perusahaan otobus → 'pe o' juga, makna berbeda tetapi bacaan sama.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Purchase order / pre-order."
+    },
+    {
+      "id": "acr-0003",
+      "text": "HPP",
+      "normalized_text": "hpp",
+      "spoken_form": "ha pe pe",
+      "respelling": null,
+      "ipa": "/ha pe pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Harga pokok penjualan (akuntansi)."
+    },
+    {
+      "id": "acr-0004",
+      "text": "HDI",
+      "normalized_text": "hdi",
+      "spoken_form": "ha de i",
+      "respelling": null,
+      "ipa": "/ha de i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Nama channel Hidup dari Internet (sumber referensi ZIP).",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "acr-0005",
+      "text": "A4",
+      "normalized_text": "a4",
+      "spoken_form": "a empat",
+      "respelling": null,
+      "ipa": "/a əm.pat/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "HDI menulis 'a empat'.",
+      "notes": "Ukuran kertas."
+    },
+    {
+      "id": "acr-0006",
+      "text": "US Letter",
+      "normalized_text": "us letter",
+      "spoken_form": "yu es letter",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "mixed",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "mixed",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Ukuran kertas Amerika; 'US' dieja Inggris, 'Letter' dibaca kata Inggris."
+    },
+    {
+      "id": "acr-0007",
+      "text": "Q&A",
+      "normalized_text": "q&a",
+      "spoken_form": "kyu en ei",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "tanya jawab",
+          "context": "Padanan Indonesia untuk narasi formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Question and answer. '&' di sini dibaca 'en' (Inggris), pengecualian dari aturan '&' → 'dan'."
+    },
+    {
+      "id": "acr-0008",
+      "text": "QA",
+      "normalized_text": "qa",
+      "spoken_form": "kyu ei",
+      "respelling": "kyu ey",
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Quality assurance. Respelling HDI 'kyu ey'; dikonsolidasikan ke kanonik 'kyu ei'."
+    },
+    {
+      "id": "acr-0009",
+      "text": "QC",
+      "normalized_text": "qc",
+      "spoken_form": "kyu si",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Quality control."
+    },
+    {
+      "id": "acr-0010",
+      "text": "TV",
+      "normalized_text": "tv",
+      "spoken_form": "ti vi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "te ve",
+          "ipa": "/te ve/",
+          "register": "formal",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia; ragam formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "televisi",
+          "register": "formal",
+          "context": "Bentuk lengkap",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bacaan 'tivi' sangat umum dalam percakapan."
+    },
+    {
+      "id": "acr-0011",
+      "text": "KTP",
+      "normalized_text": "ktp",
+      "spoken_form": "ka te pe",
+      "respelling": null,
+      "ipa": "/ka te pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Kartu Tanda Penduduk."
+    },
+    {
+      "id": "acr-0012",
+      "text": "SD",
+      "normalized_text": "sd",
+      "spoken_form": "es de",
+      "respelling": null,
+      "ipa": "/es de/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Pendidikan → 'es de'; kartu memori 'SD card' → 'es di' (Inggris).",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Sekolah dasar."
+    },
+    {
+      "id": "acr-0013",
+      "text": "SMP",
+      "normalized_text": "smp",
+      "spoken_form": "es em pe",
+      "respelling": null,
+      "ipa": "/es em pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Sekolah menengah pertama."
+    },
+    {
+      "id": "acr-0014",
+      "text": "TK",
+      "normalized_text": "tk",
+      "spoken_form": "te ka",
+      "respelling": null,
+      "ipa": "/te ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Taman kanak-kanak."
+    },
+    {
+      "id": "acr-0015",
+      "text": "DP",
+      "normalized_text": "dp",
+      "spoken_form": "de pe",
+      "respelling": null,
+      "ipa": "/de pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Transaksi → 'de pe' (uang muka). Media sosial 'DP' (display picture/foto profil) → 'de pe' atau 'di pi'.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Down payment (uang muka)."
+    },
+    {
+      "id": "acr-0016",
+      "text": "ER",
+      "normalized_text": "er",
+      "spoken_form": "i er",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "mixed",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Media sosial → engagement rate; medis 'ER' (emergency room) → 'i ar' atau 'unit gawat darurat'.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Engagement rate (metrik media sosial). HDI: huruf E dibaca Inggris 'i', R dibaca Indonesia 'er' (campuran)."
+    },
+    {
+      "id": "acr-0017",
+      "text": "ID",
+      "normalized_text": "id",
+      "spoken_form": "ai di",
+      "respelling": "aidi",
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "i de",
+          "ipa": "/i de/",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia; kode negara",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "'ID' identitas/identifier (user ID, Content ID) → 'ai di'. Kode negara 'ID' (Indonesia) → 'i de' atau sebut 'Indonesia'. Kata 'Id' (Idulfitri) → bukan singkatan.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "HDI menulis 'aidi' (satu kata) sebagai respelling TTS."
+    },
+    {
+      "id": "acr-0018",
+      "text": "RT",
+      "normalized_text": "rt",
+      "spoken_form": "er te",
+      "respelling": null,
+      "ipa": "/er te/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Alamat/administrasi → 'er te' (rukun tetangga). Media sosial 'RT' (retweet) → 'er te' atau 'ar ti'.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Rukun tetangga."
+    },
+    {
+      "id": "acr-0019",
+      "text": "CEO",
+      "normalized_text": "ceo",
+      "spoken_form": "si i o",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Chief executive officer."
+    },
+    {
+      "id": "acr-0020",
+      "text": "CV",
+      "normalized_text": "cv",
+      "spoken_form": "si vi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "se ve",
+          "register": "neutral",
+          "letter_system": "mixed",
+          "context": "Badan usaha (CV Maju Jaya); warisan nama huruf Belanda",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "ce ve",
+          "ipa": "/tʃe ve/",
+          "register": "formal",
+          "letter_system": "id",
+          "context": "Badan usaha; nama huruf Indonesia baku",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Lamaran kerja (curriculum vitae) → 'si vi'. Bentuk badan usaha 'CV' (commanditaire vennootschap) → umumnya 'se ve' atau 'ce ve'. Tentukan dari konteks.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "acr-0021",
+      "text": "ATM",
+      "normalized_text": "atm",
+      "spoken_form": "a te em",
+      "respelling": null,
+      "ipa": "/a te em/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Anjungan tunai mandiri / automated teller machine. Lazim dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0022",
+      "text": "SMS",
+      "normalized_text": "sms",
+      "spoken_form": "es em es",
+      "respelling": null,
+      "ipa": "/es em es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Short message service; lazim dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0023",
+      "text": "SOP",
+      "normalized_text": "sop",
+      "spoken_form": "es o pe",
+      "respelling": null,
+      "ipa": "/es o pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Standard operating procedure; lazim dieja Indonesia."
+    },
+    {
+      "id": "acr-0024",
+      "text": "THR",
+      "normalized_text": "thr",
+      "spoken_form": "te ha er",
+      "respelling": null,
+      "ipa": "/te ha er/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Tunjangan hari raya."
+    },
+    {
+      "id": "acr-0025",
+      "text": "UMKM",
+      "normalized_text": "umkm",
+      "spoken_form": "u em ka em",
+      "respelling": null,
+      "ipa": "/u em ka em/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Usaha mikro, kecil, dan menengah."
+    },
+    {
+      "id": "acr-0026",
+      "text": "NIK",
+      "normalized_text": "nik",
+      "spoken_form": "nik",
+      "respelling": null,
+      "ipa": "/nik/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Teknik HDI: tulis huruf kecil 'nik' di teks TTS.",
+      "notes": "Nomor induk kependudukan; dibaca sebagai kata. HDI menulisnya huruf kecil agar mesin TTS tidak mengeja."
+    },
+    {
+      "id": "acr-0027",
+      "text": "SIM",
+      "normalized_text": "sim",
+      "spoken_form": "sim",
+      "respelling": null,
+      "ipa": "/sim/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'SIM' surat izin mengemudi → 'sim'. 'SIM card' (kartu SIM) → 'sim' juga. Bacaan sama, makna dari konteks.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Teknik HDI: tulis huruf kecil 'sim'.",
+      "notes": "Surat izin mengemudi; dibaca sebagai kata."
+    },
+    {
+      "id": "acr-0028",
+      "text": "HVS",
+      "normalized_text": "hvs",
+      "spoken_form": "ha fe es",
+      "respelling": null,
+      "ipa": "/ha fe es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ha ve es",
+          "ipa": "/ha ve es/",
+          "register": "formal",
+          "context": "Nama huruf V menurut PUEBI ('vé')",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Jenis kertas (houtvrij schrijfpapier). Huruf V direalisasikan 'fe'."
+    },
+    {
+      "id": "acr-0029",
+      "text": "P1",
+      "normalized_text": "p1",
+      "spoken_form": "pe satu",
+      "respelling": null,
+      "ipa": "/pe sa.tu/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Label urutan (mis. prompt 1)."
+    },
+    {
+      "id": "acr-0030",
+      "text": "P2",
+      "normalized_text": "p2",
+      "spoken_form": "pe dua",
+      "respelling": null,
+      "ipa": "/pe du.a/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Label urutan (mis. prompt 2)."
+    },
+    {
+      "id": "acr-0031",
+      "text": "KDP",
+      "normalized_text": "kdp",
+      "spoken_form": "ka de pe",
+      "respelling": null,
+      "ipa": "/ka de pe/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kei di pi",
+          "letter_system": "en",
+          "context": "Nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Kindle Direct Publishing. HDI mengeja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0032",
+      "text": "AIR",
+      "normalized_text": "air",
+      "spoken_form": "eir",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "air",
+          "ipa": "/a.ir/",
+          "letter_system": "na",
+          "context": "Kata Indonesia 'air' (water) yang ditulis kapital",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Tulisan kapital 'AIR' bisa berupa kata Inggris 'air' (dibaca 'eir'), kata Indonesia 'air' (/a.ir/, water), atau singkatan. Jangan memutuskan tanpa konteks.",
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari kamus HDI tanpa keterangan makna; dibaca seperti kata Inggris 'air'. Makna aslinya tidak terdokumentasi di referensi."
+    },
+    {
+      "id": "acr-0033",
+      "text": "CER",
+      "normalized_text": "cer",
+      "spoken_form": "se e er",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "mixed",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari 'Kamus skrip VO HDI' tanpa keterangan makna. Huruf C dibaca 'se' (campuran). Makna perlu dikonfirmasi."
+    },
+    {
+      "id": "acr-0034",
+      "text": "SAL",
+      "normalized_text": "sal",
+      "spoken_form": "es a el",
+      "respelling": null,
+      "ipa": "/es a el/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari 'Kamus skrip VO HDI' tanpa keterangan makna. Dieja nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0035",
+      "text": "di-DM",
+      "normalized_text": "di-dm",
+      "spoken_form": "di di em",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "acronym",
+      "subcategory": "mixed",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Prefiks 'di-' + DM (direct message). Prefiks dibaca 'di' Indonesia, DM dieja Inggris. Contoh pembentukan kata dengan initialism (lihat docs/pronunciation-rules.md)."
+    },
+    {
+      "id": "acr-0036",
+      "text": "NPWP",
+      "normalized_text": "npwp",
+      "spoken_form": "en pe we pe",
+      "respelling": null,
+      "ipa": "/en pe we pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nomor pokok wajib pajak. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0037",
+      "text": "BPJS",
+      "normalized_text": "bpjs",
+      "spoken_form": "be pe je es",
+      "respelling": null,
+      "ipa": "/be pe dʒe es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Badan Penyelenggara Jaminan Sosial. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0038",
+      "text": "PLN",
+      "normalized_text": "pln",
+      "spoken_form": "pe el en",
+      "respelling": null,
+      "ipa": "/pe el en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Perusahaan Listrik Negara. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0039",
+      "text": "DPR",
+      "normalized_text": "dpr",
+      "spoken_form": "de pe er",
+      "respelling": null,
+      "ipa": "/de pe er/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dewan Perwakilan Rakyat. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0040",
+      "text": "MPR",
+      "normalized_text": "mpr",
+      "spoken_form": "em pe er",
+      "respelling": null,
+      "ipa": "/em pe er/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Majelis Permusyawaratan Rakyat. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0041",
+      "text": "KPK",
+      "normalized_text": "kpk",
+      "spoken_form": "ka pe ka",
+      "respelling": null,
+      "ipa": "/ka pe ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Komisi Pemberantasan Korupsi. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0042",
+      "text": "TNI",
+      "normalized_text": "tni",
+      "spoken_form": "te en i",
+      "respelling": null,
+      "ipa": "/te en i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Tentara Nasional Indonesia. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0043",
+      "text": "BUMN",
+      "normalized_text": "bumn",
+      "spoken_form": "be u em en",
+      "respelling": null,
+      "ipa": "/be u em en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Badan usaha milik negara. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0044",
+      "text": "PNS",
+      "normalized_text": "pns",
+      "spoken_form": "pe en es",
+      "respelling": null,
+      "ipa": "/pe en es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pegawai negeri sipil. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0045",
+      "text": "ASN",
+      "normalized_text": "asn",
+      "spoken_form": "a es en",
+      "respelling": null,
+      "ipa": "/a es en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Aparatur sipil negara. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0046",
+      "text": "SMA",
+      "normalized_text": "sma",
+      "spoken_form": "es em a",
+      "respelling": null,
+      "ipa": "/es em a/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Sekolah menengah atas. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0047",
+      "text": "SMK",
+      "normalized_text": "smk",
+      "spoken_form": "es em ka",
+      "respelling": null,
+      "ipa": "/es em ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Sekolah menengah kejuruan. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0048",
+      "text": "RW",
+      "normalized_text": "rw",
+      "spoken_form": "er we",
+      "respelling": null,
+      "ipa": "/er we/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Rukun warga. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0049",
+      "text": "UUD",
+      "normalized_text": "uud",
+      "spoken_form": "u u de",
+      "respelling": null,
+      "ipa": "/u u de/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Undang-Undang Dasar. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0050",
+      "text": "NKRI",
+      "normalized_text": "nkri",
+      "spoken_form": "en ka er i",
+      "respelling": null,
+      "ipa": "/en ka er i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Negara Kesatuan Republik Indonesia. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0051",
+      "text": "APBN",
+      "normalized_text": "apbn",
+      "spoken_form": "a pe be en",
+      "respelling": null,
+      "ipa": "/a pe be en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Anggaran Pendapatan dan Belanja Negara. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0052",
+      "text": "APBD",
+      "normalized_text": "apbd",
+      "spoken_form": "a pe be de",
+      "respelling": null,
+      "ipa": "/a pe be de/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Anggaran Pendapatan dan Belanja Daerah. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0053",
+      "text": "OJK",
+      "normalized_text": "ojk",
+      "spoken_form": "o je ka",
+      "respelling": null,
+      "ipa": "/o dʒe ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Otoritas Jasa Keuangan. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0054",
+      "text": "BPS",
+      "normalized_text": "bps",
+      "spoken_form": "be pe es",
+      "respelling": null,
+      "ipa": "/be pe es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Badan Pusat Statistik. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0055",
+      "text": "DKI",
+      "normalized_text": "dki",
+      "spoken_form": "de ka i",
+      "respelling": null,
+      "ipa": "/de ka i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Daerah Khusus Ibukota. Initialism asal Indonesia: dieja dengan nama huruf Indonesia. Nomenklatur provinsi Jakarta berubah setelah UU 2/2024; bacaan singkatan tetap 'de ka i'."
+    },
+    {
+      "id": "acr-0056",
+      "text": "WNI",
+      "normalized_text": "wni",
+      "spoken_form": "we en i",
+      "respelling": null,
+      "ipa": "/we en i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Warga negara Indonesia. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0057",
+      "text": "WNA",
+      "normalized_text": "wna",
+      "spoken_form": "we en a",
+      "respelling": null,
+      "ipa": "/we en a/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Warga negara asing. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0058",
+      "text": "SPBU",
+      "normalized_text": "spbu",
+      "spoken_form": "es pe be u",
+      "respelling": null,
+      "ipa": "/es pe be u/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Stasiun pengisian bahan bakar umum. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0059",
+      "text": "STNK",
+      "normalized_text": "stnk",
+      "spoken_form": "es te en ka",
+      "respelling": null,
+      "ipa": "/es te en ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Surat tanda nomor kendaraan. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0060",
+      "text": "BPKB",
+      "normalized_text": "bpkb",
+      "spoken_form": "be pe ka be",
+      "respelling": null,
+      "ipa": "/be pe ka be/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Buku pemilik kendaraan bermotor. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0061",
+      "text": "KK",
+      "normalized_text": "kk",
+      "spoken_form": "ka ka",
+      "respelling": null,
+      "ipa": "/ka ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kartu keluarga. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0062",
+      "text": "SKCK",
+      "normalized_text": "skck",
+      "spoken_form": "es ka ce ka",
+      "respelling": null,
+      "ipa": "/es ka tʃe ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Surat keterangan catatan kepolisian. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0063",
+      "text": "PPN",
+      "normalized_text": "ppn",
+      "spoken_form": "pe pe en",
+      "respelling": null,
+      "ipa": "/pe pe en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pajak pertambahan nilai. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0064",
+      "text": "PHK",
+      "normalized_text": "phk",
+      "spoken_form": "pe ha ka",
+      "respelling": null,
+      "ipa": "/pe ha ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemutusan hubungan kerja. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0065",
+      "text": "UMR",
+      "normalized_text": "umr",
+      "spoken_form": "u em er",
+      "respelling": null,
+      "ipa": "/u em er/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Upah minimum regional. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0066",
+      "text": "HUT",
+      "normalized_text": "hut",
+      "spoken_form": "ha u te",
+      "respelling": null,
+      "ipa": "/ha u te/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Hari ulang tahun. Lazim dieja 'ha u te', bukan dibaca 'hut'."
+    },
+    {
+      "id": "acr-0067",
+      "text": "RSUD",
+      "normalized_text": "rsud",
+      "spoken_form": "er es u de",
+      "respelling": null,
+      "ipa": "/er es u de/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Rumah sakit umum daerah. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0068",
+      "text": "IGD",
+      "normalized_text": "igd",
+      "spoken_form": "i ge de",
+      "respelling": null,
+      "ipa": "/i ge de/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Instalasi gawat darurat. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0069",
+      "text": "PKK",
+      "normalized_text": "pkk",
+      "spoken_form": "pe ka ka",
+      "respelling": null,
+      "ipa": "/pe ka ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemberdayaan Kesejahteraan Keluarga. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0070",
+      "text": "ITB",
+      "normalized_text": "itb",
+      "spoken_form": "i te be",
+      "respelling": null,
+      "ipa": "/i te be/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Institut Teknologi Bandung. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0071",
+      "text": "UGM",
+      "normalized_text": "ugm",
+      "spoken_form": "u ge em",
+      "respelling": null,
+      "ipa": "/u ge em/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Universitas Gadjah Mada. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0072",
+      "text": "UI",
+      "normalized_text": "ui",
+      "spoken_form": "u i",
+      "respelling": null,
+      "ipa": "/u i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "yu ai",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "User interface (teknologi)",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Kampus (Universitas Indonesia) → 'u i'. Desain antarmuka (user interface) → 'yu ai'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Universitas Indonesia. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0073",
+      "text": "UNS",
+      "normalized_text": "uns",
+      "spoken_form": "u en es",
+      "respelling": null,
+      "ipa": "/u en es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Universitas Sebelas Maret. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0074",
+      "text": "PTN",
+      "normalized_text": "ptn",
+      "spoken_form": "pe te en",
+      "respelling": null,
+      "ipa": "/pe te en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Perguruan tinggi negeri. Initialism asal Indonesia: dieja dengan nama huruf Indonesia."
+    },
+    {
+      "id": "acr-0075",
+      "text": "PT",
+      "normalized_text": "pt",
+      "spoken_form": "pe te",
+      "respelling": null,
+      "ipa": "/pe te/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Sebelum nama perusahaan (PT Maju) → perseroan terbatas; konteks pendidikan → perguruan tinggi. Bacaan sama 'pe te'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Perseroan terbatas / perguruan tinggi."
+    },
+    {
+      "id": "acr-0076",
+      "text": "PPh",
+      "normalized_text": "pph",
+      "spoken_form": "pe pe ha",
+      "respelling": null,
+      "ipa": "/pe pe ha/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pajak penghasilan. Huruf kecil 'h' tetap dieja."
+    },
+    {
+      "id": "acr-0077",
+      "text": "KKN",
+      "normalized_text": "kkn",
+      "spoken_form": "ka ka en",
+      "respelling": null,
+      "ipa": "/ka ka en/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "Kampus → Kuliah Kerja Nyata; politik/hukum → korupsi, kolusi, dan nepotisme. Bacaan sama 'ka ka en'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Dua makna umum."
+    },
+    {
+      "id": "acr-0078",
+      "text": "S1",
+      "normalized_text": "s1",
+      "spoken_form": "es satu",
+      "respelling": null,
+      "ipa": "/es sa.tu/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "strata satu",
+          "register": "formal",
+          "context": "Formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Strata satu (sarjana). S2/S3 mengikuti pola yang sama."
+    },
+    {
+      "id": "acr-0079",
+      "text": "D3",
+      "normalized_text": "d3",
+      "spoken_form": "de tiga",
+      "respelling": null,
+      "ipa": "/de ti.ga/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "diploma tiga",
+          "register": "formal",
+          "context": "Formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Diploma tiga."
+    },
+    {
+      "id": "acr-0080",
+      "text": "IPK",
+      "normalized_text": "ipk",
+      "spoken_form": "i pe ka",
+      "respelling": null,
+      "ipa": "/i pe ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Indeks prestasi kumulatif."
+    },
+    {
+      "id": "acr-0081",
+      "text": "SKS",
+      "normalized_text": "sks",
+      "spoken_form": "es ka es",
+      "respelling": null,
+      "ipa": "/es ka es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Satuan kredit semester."
+    },
+    {
+      "id": "acr-0082",
+      "text": "ISBN",
+      "normalized_text": "isbn",
+      "spoken_form": "i es be en",
+      "respelling": null,
+      "ipa": "/i es be en/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ai es bi en",
+          "letter_system": "en",
+          "context": "Nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "International Standard Book Number; di lingkungan perbukuan Indonesia lazim dieja Indonesia."
+    },
+    {
+      "id": "acr-0083",
+      "text": "UTBK",
+      "normalized_text": "utbk",
+      "spoken_form": "u te be ka",
+      "respelling": null,
+      "ipa": "/u te be ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Ujian Tulis Berbasis Komputer."
+    },
+    {
+      "id": "acr-0084",
+      "text": "SNBT",
+      "normalized_text": "snbt",
+      "spoken_form": "es en be te",
+      "respelling": null,
+      "ipa": "/es en be te/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Seleksi Nasional Berdasarkan Tes."
+    },
+    {
+      "id": "acr-0085",
+      "text": "LPSE",
+      "normalized_text": "lpse",
+      "spoken_form": "el pe es e",
+      "respelling": null,
+      "ipa": "/el pe es e/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Layanan Pengadaan Secara Elektronik."
+    },
+    {
+      "id": "acr-0086",
+      "text": "RAB",
+      "normalized_text": "rab",
+      "spoken_form": "er a be",
+      "respelling": null,
+      "ipa": "/er a be/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Rencana anggaran biaya."
+    },
+    {
+      "id": "acr-0087",
+      "text": "HPS",
+      "normalized_text": "hps",
+      "spoken_form": "ha pe es",
+      "respelling": null,
+      "ipa": "/ha pe es/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Harga perkiraan sendiri (pengadaan)."
+    },
+    {
+      "id": "acr-0088",
+      "text": "KAK",
+      "normalized_text": "kak",
+      "spoken_form": "ka a ka",
+      "respelling": null,
+      "ipa": "/ka a ka/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kerangka acuan kerja; padanan TOR."
+    },
+    {
+      "id": "acr-0089",
+      "text": "HRD",
+      "normalized_text": "hrd",
+      "spoken_form": "ha er de",
+      "respelling": null,
+      "ipa": "/ha er de/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "eic ar di",
+          "letter_system": "en",
+          "context": "Nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Human resource development. Dalam percakapan kantor Indonesia lazim 'ha er de' (nama huruf Indonesia), bukan Inggris."
+    },
+    {
+      "id": "acr-0090",
+      "text": "KPI",
+      "normalized_text": "kpi",
+      "spoken_form": "ka pe i",
+      "respelling": null,
+      "ipa": "/ka pe i/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kei pi ai",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Key performance indicator; lazim 'ka pe i'. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0091",
+      "text": "ROI",
+      "normalized_text": "roi",
+      "spoken_form": "er o i",
+      "respelling": null,
+      "ipa": "/er o i/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ar o ai",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Return on investment. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0092",
+      "text": "MoU",
+      "normalized_text": "mou",
+      "spoken_form": "em o u",
+      "respelling": null,
+      "ipa": "/em o u/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "em o yu",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Memorandum of understanding; lazim 'em o u'. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0093",
+      "text": "TOR",
+      "normalized_text": "tor",
+      "spoken_form": "te o er",
+      "respelling": null,
+      "ipa": "/te o er/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ti o ar",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Terms of reference. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0094",
+      "text": "PMO",
+      "normalized_text": "pmo",
+      "spoken_form": "pi em o",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "pe em o",
+          "register": "neutral",
+          "letter_system": "id",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Project management office. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0095",
+      "text": "CSR",
+      "normalized_text": "csr",
+      "spoken_form": "ce es er",
+      "respelling": null,
+      "ipa": "/tʃe es er/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "si es ar",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Corporate social responsibility; lazim 'ce es er' atau 'si es ar'. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0096",
+      "text": "B2B",
+      "normalized_text": "b2b",
+      "spoken_form": "bi tu bi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "be tu be",
+          "register": "neutral",
+          "letter_system": "mixed",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Business to business; '2' dibaca Inggris 'tu'."
+    },
+    {
+      "id": "acr-0097",
+      "text": "B2C",
+      "normalized_text": "b2c",
+      "spoken_form": "bi tu si",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "alphanumeric",
+      "entry_type": "lexical",
+      "reading_type": "mixed",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "be tu ce",
+          "register": "neutral",
+          "letter_system": "mixed",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Business to consumer."
+    },
+    {
+      "id": "acr-0098",
+      "text": "CFO",
+      "normalized_text": "cfo",
+      "spoken_form": "si ef o",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Chief financial officer. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0099",
+      "text": "CTO",
+      "normalized_text": "cto",
+      "spoken_form": "si ti o",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Chief technology officer. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0100",
+      "text": "COO",
+      "normalized_text": "coo",
+      "spoken_form": "si o o",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Chief operating officer. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0101",
+      "text": "OKR",
+      "normalized_text": "okr",
+      "spoken_form": "o kei ar",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "o ka er",
+          "register": "neutral",
+          "letter_system": "id",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Objectives and key results. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0102",
+      "text": "SLA",
+      "normalized_text": "sla",
+      "spoken_form": "es el ei",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "es el a",
+          "register": "neutral",
+          "letter_system": "id",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Service level agreement. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0103",
+      "text": "NDA",
+      "normalized_text": "nda",
+      "spoken_form": "en di ei",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "en de a",
+          "register": "neutral",
+          "letter_system": "id",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Non-disclosure agreement. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0104",
+      "text": "PIC",
+      "normalized_text": "pic",
+      "spoken_form": "pe i ce",
+      "respelling": null,
+      "ipa": "/pe i tʃe/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "pi ai si",
+          "register": "technical",
+          "letter_system": "en",
+          "context": "Varian sistem nama huruf lain",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Person in charge; di kantor Indonesia lazim 'pe i ce' atau 'pi ai si'. Konvensi bervariasi; perlu validasi."
+    },
+    {
+      "id": "acr-0105",
+      "text": "SNI",
+      "normalized_text": "sni",
+      "spoken_form": "es en i",
+      "respelling": null,
+      "ipa": "/es en i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Standar Nasional Indonesia."
+    },
+    {
+      "id": "acr-0106",
+      "text": "BNSP",
+      "normalized_text": "bnsp",
+      "spoken_form": "be en es pe",
+      "respelling": null,
+      "ipa": "/be en es pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Badan Nasional Sertifikasi Profesi."
+    },
+    {
+      "id": "acr-0107",
+      "text": "SKKNI",
+      "normalized_text": "skkni",
+      "spoken_form": "es ka ka en i",
+      "respelling": null,
+      "ipa": "/es ka ka en i/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Standar Kompetensi Kerja Nasional Indonesia."
+    },
+    {
+      "id": "acr-0108",
+      "text": "JP",
+      "normalized_text": "jp",
+      "spoken_form": "je pe",
+      "respelling": null,
+      "ipa": "/dʒe pe/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "jam pelajaran",
+          "register": "formal",
+          "context": "Ekspansi untuk narasi formal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Konteks pelatihan/kurikulum → jam pelajaran ('je pe'). Bisa juga Jepang (kode negara JP) atau inisial nama.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Jam pelajaran (satuan durasi pelatihan)."
+    },
+    {
+      "id": "acr-0109",
+      "text": "ISO",
+      "normalized_text": "iso",
+      "spoken_form": "iso",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "i es o",
+          "ipa": "/i es o/",
+          "letter_system": "id",
+          "context": "Dieja nama huruf Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "ai es o",
+          "letter_system": "en",
+          "context": "Dieja nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "International Organization for Standardization. Di Indonesia lazim dibaca sebagai kata 'iso'; sebagian penutur mengeja 'ai es o' atau 'i es o'. Nomor standar sesudahnya (27001) lazim dibaca per digit."
+    },
+    {
+      "id": "acr-0110",
+      "text": "IEC",
+      "normalized_text": "iec",
+      "spoken_form": "i e ce",
+      "respelling": null,
+      "ipa": "/i e tʃe/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ai i si",
+          "letter_system": "en",
+          "context": "Nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "International Electrotechnical Commission; sering muncul sebagai 'ISO/IEC'."
+    },
+    {
+      "id": "acr-0111",
+      "text": "COBIT",
+      "normalized_text": "cobit",
+      "spoken_form": "kobit",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kerangka tata kelola TI (ISACA); dibaca sebagai kata."
+    },
+    {
+      "id": "acr-0112",
+      "text": "ITIL",
+      "normalized_text": "itil",
+      "spoken_form": "aitil",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "itil",
+          "context": "Bacaan sesuai ejaan Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kerangka manajemen layanan TI; bacaan 'itil' juga terdengar."
+    },
+    {
+      "id": "acr-0113",
+      "text": "TOGAF",
+      "normalized_text": "togaf",
+      "spoken_form": "togaf",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kerangka arsitektur enterprise (The Open Group)."
+    },
+    {
+      "id": "acr-0114",
+      "text": "PMP",
+      "normalized_text": "pmp",
+      "spoken_form": "pi em pi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "pe em pe",
+          "ipa": "/pe em pe/",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Project Management Professional (sertifikasi PMI)."
+    },
+    {
+      "id": "acr-0115",
+      "text": "CISSP",
+      "normalized_text": "cissp",
+      "spoken_form": "si ai es es pi",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Certified Information Systems Security Professional."
+    },
+    {
+      "id": "acr-0116",
+      "text": "NIST",
+      "normalized_text": "nist",
+      "spoken_form": "nist",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "National Institute of Standards and Technology; dibaca sebagai kata."
+    },
+    {
+      "id": "acr-0117",
+      "text": "Polri",
+      "normalized_text": "polri",
+      "spoken_form": "polri",
+      "respelling": null,
+      "ipa": "/pol.ri/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Kepolisian Negara Republik Indonesia."
+    },
+    {
+      "id": "acr-0118",
+      "text": "Pemilu",
+      "normalized_text": "pemilu",
+      "spoken_form": "pemilu",
+      "respelling": null,
+      "ipa": "/pə.mi.lu/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemilihan umum."
+    },
+    {
+      "id": "acr-0119",
+      "text": "Pilkada",
+      "normalized_text": "pilkada",
+      "spoken_form": "pilkada",
+      "respelling": null,
+      "ipa": "/pil.ka.da/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemilihan kepala daerah."
+    },
+    {
+      "id": "acr-0120",
+      "text": "Puskesmas",
+      "normalized_text": "puskesmas",
+      "spoken_form": "puskesmas",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Pusat kesehatan masyarakat. IPA dikosongkan: kualitas e pada 'kes' dalam akronim tidak bisa diturunkan dari kata asal."
+    },
+    {
+      "id": "acr-0121",
+      "text": "Posyandu",
+      "normalized_text": "posyandu",
+      "spoken_form": "posyandu",
+      "respelling": null,
+      "ipa": "/po.sjan.du/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pos pelayanan terpadu."
+    },
+    {
+      "id": "acr-0122",
+      "text": "Bappenas",
+      "normalized_text": "bappenas",
+      "spoken_form": "bappenas",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Badan Perencanaan Pembangunan Nasional. Konsonan ganda 'pp' dalam ejaan; realisasi geminasi perlu validasi."
+    },
+    {
+      "id": "acr-0123",
+      "text": "Balita",
+      "normalized_text": "balita",
+      "spoken_form": "balita",
+      "respelling": null,
+      "ipa": "/ba.li.ta/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bawah lima tahun; sudah menjadi kata umum."
+    },
+    {
+      "id": "acr-0124",
+      "text": "Satpam",
+      "normalized_text": "satpam",
+      "spoken_form": "satpam",
+      "respelling": null,
+      "ipa": "/sat.pam/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Satuan pengamanan."
+    },
+    {
+      "id": "acr-0125",
+      "text": "rudal",
+      "normalized_text": "rudal",
+      "spoken_form": "rudal",
+      "respelling": null,
+      "ipa": "/ru.dal/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Peluru kendali."
+    },
+    {
+      "id": "acr-0126",
+      "text": "tilang",
+      "normalized_text": "tilang",
+      "spoken_form": "tilang",
+      "respelling": null,
+      "ipa": "/ti.laŋ/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bukti pelanggaran."
+    },
+    {
+      "id": "acr-0127",
+      "text": "Jabodetabek",
+      "normalized_text": "jabodetabek",
+      "spoken_form": "jabodetabek",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Jakarta, Bogor, Depok, Tangerang, Bekasi. IPA dikosongkan: kualitas e dalam akronim."
+    },
+    {
+      "id": "acr-0128",
+      "text": "ABRI",
+      "normalized_text": "abri",
+      "spoken_form": "abri",
+      "respelling": null,
+      "ipa": "/ab.ri/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Angkatan Bersenjata Republik Indonesia (historis)."
+    },
+    {
+      "id": "acr-0129",
+      "text": "ASEAN",
+      "normalized_text": "asean",
+      "spoken_form": "asean",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Association of Southeast Asian Nations; lazim [a.se.an] di Indonesia, berbeda dari bacaan Inggris. Perlu validasi IPA."
+    },
+    {
+      "id": "acr-0130",
+      "text": "NASA",
+      "normalized_text": "nasa",
+      "spoken_form": "nasa",
+      "respelling": null,
+      "ipa": "/na.sa/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Lembaga antariksa AS; dibaca sebagai kata."
+    },
+    {
+      "id": "acr-0131",
+      "text": "UNESCO",
+      "normalized_text": "unesco",
+      "spoken_form": "unesko",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "yunesko",
+          "context": "Pengaruh bacaan Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim 'yunesko' (pengaruh Inggris) atau 'unesko'."
+    },
+    {
+      "id": "acr-0132",
+      "text": "QRIS",
+      "normalized_text": "qris",
+      "spoken_form": "kris",
+      "respelling": null,
+      "ipa": "/kris/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kyu ar ai es",
+          "register": "informal",
+          "letter_system": "en",
+          "context": "Dieja huruf Inggris; tidak dianjurkan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "bi-qris"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Quick Response Code Indonesian Standard. Bank Indonesia mengampanyekan bacaan 'KRIS', bukan 'kyu ris' atau dieja."
+    },
+    {
+      "id": "acr-0133",
+      "text": "PIN",
+      "normalized_text": "pin",
+      "spoken_form": "pin",
+      "respelling": null,
+      "ipa": "/pin/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Personal identification number; dibaca sebagai kata."
+    },
+    {
+      "id": "acr-0134",
+      "text": "SINTA",
+      "normalized_text": "sinta",
+      "spoken_form": "sinta",
+      "respelling": null,
+      "ipa": "/sin.ta/",
+      "language": "en",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Science and Technology Index (indeks jurnal Kemdiktisaintek)."
+    },
+    {
+      "id": "acr-0135",
+      "text": "Damkar",
+      "normalized_text": "damkar",
+      "spoken_form": "damkar",
+      "respelling": null,
+      "ipa": "/dam.kar/",
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "acronym-word",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Pemadam kebakaran."
+    },
+    {
+      "id": "acr-0136",
+      "text": "AC",
+      "normalized_text": "ac",
+      "spoken_form": "a se",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "acronym",
+      "subcategory": "initialism",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "mixed",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ei si",
+          "letter_system": "en",
+          "context": "Nama huruf Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "a ce",
+          "ipa": "/a tʃe/",
+          "register": "formal",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia baku",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Pendingin udara → 'a se'. Arus bolak-balik (alternating current) dalam konteks kelistrikan → 'a se' atau 'ei si'.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Air conditioner. Bacaan 'a se' (warisan nama huruf Belanda untuk C) sangat umum; 'a ce' (baku) jarang."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: JSON syntax + schema
+        run: python scripts/validate-data.py
+      - name: Dictionary semantics
+        run: python scripts/validate-dictionary.py --stats
+      - name: Skill lexicon in sync
+        run: python scripts/build-skill-assets.py --check
+      - name: Pronunciation tests
+        run: python scripts/run-tests.py
+      - name: Links, skill spec, hygiene
+        run: python scripts/check-repo.py

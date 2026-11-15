@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/aqilwahid/indonesian-phonetics/schemas/pronunciation.schema.json",
+  "title": "Indonesian Phonetics Dictionary File",
+  "description": "Skema satu berkas dataset di dictionary/. Kosakata terkendali (category, subcategory, confidence, dll.) dicek silang terhadap dictionary/meta/taxonomy.json oleh scripts/validate-dictionary.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["dataset", "version", "description", "entries"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "dataset": {"type": "string", "pattern": "^[a-z][a-z-]*$"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+    "description": {"type": "string", "minLength": 10},
+    "entries": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/entry"}}
+  },
+  "$defs": {
+    "ipa": {
+      "description": "Transkripsi IPA FONEMIS diapit garis miring, suku kata dipisah titik, kata dipisah spasi. null jika tidak didukung data yang memadai. Jangan diisi tebakan.",
+      "type": ["string", "null"],
+      "pattern": "^/[^/]+/$"
+    },
+    "sourceList": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}
+    },
+    "register": {"enum": ["formal", "neutral", "informal", "technical"]},
+    "letterSystem": {"enum": ["id", "en", "mixed", "na"]},
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spoken_form", "context", "source"],
+      "properties": {
+        "spoken_form": {"type": "string", "minLength": 1},
+        "respelling": {"type": ["string", "null"]},
+        "ipa": {"$ref": "#/$defs/ipa"},
+        "register": {"$ref": "#/$defs/register"},
+        "letter_system": {"$ref": "#/$defs/letterSystem"},
+        "region": {"type": ["string", "null"]},
+        "context": {"type": "string", "minLength": 1},
+        "meaning_changing": {"type": "boolean", "description": "true jika varian ini menandai makna/rujukan berbeda (homograf), bukan sekadar variasi lafal."},
+        "note": {"type": "string"},
+        "source": {"$ref": "#/$defs/sourceList"}
+      }
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input", "output"],
+      "properties": {
+        "input": {"type": "string"},
+        "output": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "text", "normalized_text", "spoken_form", "respelling", "ipa", "language",
+        "category", "subcategory", "entry_type", "register", "variants", "source",
+        "provenance", "confidence", "review_status", "notes"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z]+-[0-9]{4}$"},
+        "text": {"type": "string", "minLength": 1, "description": "Bentuk tulis asli seperti muncul di teks/layar/caption."},
+        "normalized_text": {"type": "string", "minLength": 1, "description": "Kunci pencarian: NFC, huruf kecil, spasi tunggal. Unik bersama text."},
+        "spoken_form": {"type": "string", "minLength": 1, "description": "Bacaan default yang direkomendasikan, ditulis dengan ejaan biasa (keluaran normalisasi teks)."},
+        "respelling": {"type": ["string", "null"], "description": "Ejaan bantu pelafalan untuk mesin TTS bila berbeda dari spoken_form; null jika spoken_form sudah aman."},
+        "ipa": {"$ref": "#/$defs/ipa"},
+        "ipa_note": {"type": "string"},
+        "language": {"type": "string", "pattern": "^[a-z]{2,3}$", "description": "Bahasa asal bentuk tulis (kode di taxonomy.languages)."},
+        "category": {"type": "string"},
+        "subcategory": {"type": "string"},
+        "entry_type": {"enum": ["lexical", "pattern", "example"]},
+        "reading_type": {"enum": ["letter-by-letter", "word", "mixed", "expansion", "context-dependent"]},
+        "letter_system": {"$ref": "#/$defs/letterSystem"},
+        "register": {"$ref": "#/$defs/register"},
+        "context": {"type": "string"},
+        "variants": {"type": "array", "items": {"$ref": "#/$defs/variant"}},
+        "ambiguous": {"type": "boolean"},
+        "disambiguation": {"type": "string"},
+        "pattern": {"type": "string", "description": "Regex (sintaks umum Python/JavaScript) untuk entry_type=pattern."},
+        "examples": {"type": "array", "items": {"$ref": "#/$defs/example"}},
+        "source": {"$ref": "#/$defs/sourceList"},
+        "provenance": {"enum": ["zip-reference", "external-source", "interpretation", "mixed"]},
+        "confidence": {"enum": ["standard", "attested", "derived", "needs_validation"]},
+        "review_status": {"enum": ["unreviewed", "reviewed"]},
+        "tts_notes": {"type": "string", "description": "Observasi spesifik mesin TTS (bukan aturan bahasa). Sebutkan mesin/suara/tanggal."},
+        "notes": {"type": "string"},
+        "related": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z]+-[0-9]{4}$"}},
+        "tags": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}}
+      },
+      "allOf": [
+        {
+          "if": {"required": ["entry_type"], "properties": {"entry_type": {"const": "pattern"}}},
+          "then": {"required": ["pattern", "examples"]}
+        },
+        {
+          "if": {"required": ["ambiguous"], "properties": {"ambiguous": {"const": true}}},
+          "then": {"required": ["disambiguation"]}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2435 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "pronunciation-dictionary",
+  "version": "1.0.0",
+  "description": "Kosakata umum bahasa Indonesia yang pelafalannya perlu perhatian: homograf e pepet/taling, kualitas vokal e, hentian glotal, gabungan konsonan, bentuk informal, istilah profesional/akademik, dan nama diri dengan ejaan lama.",
+  "entries": [
+    {
+      "id": "word-0001",
+      "text": "teras",
+      "normalized_text": "teras",
+      "spoken_form": "teras",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "teras",
+          "respelling": "téras",
+          "ipa": "/te.ras/",
+          "context": "Bagian depan rumah (PUEBI: téras)",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        },
+        {
+          "spoken_form": "teras",
+          "respelling": "têras",
+          "ipa": "/tə.ras/",
+          "context": "Inti kayu; 'pejabat teras' = pejabat inti",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Bangunan/rumah → /te.ras/. 'pejabat teras', 'kayu teras' → /tə.ras/.",
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0002",
+      "text": "kecap",
+      "normalized_text": "kecap",
+      "spoken_form": "kecap",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kecap",
+          "respelling": "kécap",
+          "ipa": "/ke.tʃap/",
+          "context": "Saus kedelai (PUEBI: kécap)",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        },
+        {
+          "spoken_form": "kecap",
+          "respelling": "kêcap",
+          "ipa": "/kə.tʃap/",
+          "context": "Mengecap/merasakan; bunyi decap (PUEBI: kêcap)",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Makanan/bumbu → /ke.tʃap/. Verba 'mengecap', 'kecap dulu' (cicipi) → /kə.tʃap/.",
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0003",
+      "text": "seri",
+      "normalized_text": "seri",
+      "spoken_form": "seri",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "seri",
+          "respelling": "sèri",
+          "ipa": "/se.ri/",
+          "context": "Rangkaian/series: film seri (PUEBI: sèri)",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        },
+        {
+          "spoken_form": "seri",
+          "respelling": "sêri",
+          "ipa": "/sə.ri/",
+          "context": "Hasil imbang: berakhir seri (PUEBI: sêri)",
+          "meaning_changing": true,
+          "source": [
+            "puebi-2015"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Film/buku/nomor → /se.ri/. Pertandingan imbang → /sə.ri/.",
+      "source": [
+        "puebi-2015"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0004",
+      "text": "seret",
+      "normalized_text": "seret",
+      "spoken_form": "seret",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "seret",
+          "respelling": "séret",
+          "ipa": "/se.ret/",
+          "context": "Menarik sambil bergeser",
+          "meaning_changing": true,
+          "source": [
+            "eyd-v-2022"
+          ]
+        },
+        {
+          "spoken_form": "seret",
+          "respelling": "sêrêt",
+          "ipa": "/sə.rət/",
+          "context": "Tersendat, tidak lancar",
+          "meaning_changing": true,
+          "source": [
+            "eyd-v-2022"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Gerak menarik (diseret, menyeret) → /se.ret/. Keadaan tersendat (rezeki seret, tenggorokan seret) → /sə.rət/.",
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0005",
+      "text": "apel",
+      "normalized_text": "apel",
+      "spoken_form": "apel",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "apel",
+          "respelling": "apél",
+          "ipa": "/a.pel/",
+          "context": "Buah",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "apel",
+          "respelling": "apêl",
+          "ipa": "/a.pəl/",
+          "context": "Upacara/rapat barisan; apel pagi",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Buah, makanan, warna → /a.pel/. 'apel pagi', 'apel siaga', 'mengikuti apel' → /a.pəl/.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0006",
+      "text": "mental",
+      "normalized_text": "mental",
+      "spoken_form": "mental",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "mental",
+          "respelling": "méntal",
+          "ipa": "/men.tal/",
+          "context": "Kejiwaan: kesehatan mental",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "mental",
+          "respelling": "mêntal",
+          "ipa": "/mən.tal/",
+          "context": "Terpelanting: bola itu mental",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Kejiwaan/batin → /men.tal/. Benda memantul/terlempar → /mən.tal/.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0007",
+      "text": "per",
+      "normalized_text": "per",
+      "spoken_form": "per",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "per",
+          "respelling": "pêr",
+          "ipa": "/pər/",
+          "context": "Tiap/demi: per hari, per orang",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "per",
+          "respelling": "pér",
+          "ipa": "/per/",
+          "context": "Pegas: per mobil",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Sebelum satuan/bilangan (per hari, satu per satu) → /pər/. Komponen mekanis (per sepeda, per kasur) → /per/.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0008",
+      "text": "memerah",
+      "normalized_text": "memerah",
+      "spoken_form": "memerah",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "memerah",
+          "respelling": "memérah",
+          "ipa": "/mə.me.rah/",
+          "context": "Menjadi merah: wajahnya memerah",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "memerah",
+          "respelling": "memêrah",
+          "ipa": "/mə.mə.rah/",
+          "context": "Memeras: memerah susu sapi",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Perubahan warna → /mə.me.rah/ (dasar 'merah'). Memeras susu/tenaga → /mə.mə.rah/ (dasar 'perah').",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0009",
+      "text": "semi",
+      "normalized_text": "semi",
+      "spoken_form": "semi",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "semi",
+          "respelling": "sêmi",
+          "ipa": "/sə.mi/",
+          "context": "Tunas; musim semi",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "semi",
+          "respelling": "sémi",
+          "ipa": "/se.mi/",
+          "context": "Setengah (semifinal, semipermanen)",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Musim/tunas → /sə.mi/. Prefiks serapan 'semi-' → /se.mi/.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0010",
+      "text": "sedan",
+      "normalized_text": "sedan",
+      "spoken_form": "sedan",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "sedan",
+          "respelling": "sédan",
+          "ipa": "/se.dan/",
+          "context": "Jenis mobil",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "sedan",
+          "respelling": "sêdan",
+          "ipa": "/sə.dan/",
+          "context": "Isak tangis: sedu sedan",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Kendaraan → /se.dan/. Tangisan (sedu sedan, tersedan) → /sə.dan/.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0011",
+      "text": "perang",
+      "normalized_text": "perang",
+      "spoken_form": "perang",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "perang",
+          "respelling": "pêrang",
+          "ipa": "/pə.raŋ/",
+          "context": "Pertempuran",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        },
+        {
+          "spoken_form": "perang",
+          "respelling": "pérang",
+          "ipa": "/pe.raŋ/",
+          "context": "Warna rambut pirang (ragam tertentu)",
+          "meaning_changing": true,
+          "source": [
+            "kbbi-daring"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Hampir selalu /pə.raŋ/ (pertempuran). Makna 'pirang' jarang; perlu konteks warna rambut.",
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0012",
+      "text": "Serang",
+      "normalized_text": "serang",
+      "spoken_form": "Serang",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA ada di setiap varian; tidak ada bacaan default tanpa konteks.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Serang",
+          "respelling": "Sérang",
+          "ipa": "/se.raŋ/",
+          "context": "Nama kota/kabupaten di Banten",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "Serang",
+          "respelling": "sêrang",
+          "ipa": "/sə.raŋ/",
+          "context": "Verba: serang, menyerang",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Huruf kapital di tengah kalimat atau didahului 'kota/kabupaten' → nama tempat. Perintah/aksi → /sə.raŋ/.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Homograf: ejaan sama, lafal dan makna berbeda. Respelling memakai diakritik PUEBI (é = [e], è = [ɛ], ê = [ə]); dukungan diakritik pada mesin TTS perlu diuji.",
+      "tags": [
+        "e-pepet-taling"
+      ]
+    },
+    {
+      "id": "word-0013",
+      "text": "beruang",
+      "normalized_text": "beruang",
+      "spoken_form": "beruang",
+      "respelling": null,
+      "ipa": null,
+      "ipa_note": "IPA per varian.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "homograph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "beruang",
+          "ipa": "/bə.ru.aŋ/",
+          "context": "Hewan (bear)",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "ber-uang",
+          "ipa": "/bər.u.aŋ/",
+          "context": "Memiliki uang",
+          "meaning_changing": true,
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "Konteks hewan → be.ru.ang. Konteks keuangan ('orang beruang') → ber.u.ang.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Batas morfem mengubah pemenggalan: be.ru.ang (hewan) vs ber.u.ang (memiliki uang)."
+    },
+    {
+      "id": "word-0014",
+      "text": "enak",
+      "normalized_text": "enak",
+      "spoken_form": "enak",
+      "respelling": null,
+      "ipa": "/e.nak/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0015",
+      "text": "ekor",
+      "normalized_text": "ekor",
+      "spoken_form": "ekor",
+      "respelling": null,
+      "ipa": "/e.kor/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0016",
+      "text": "emas",
+      "normalized_text": "emas",
+      "spoken_form": "emas",
+      "respelling": null,
+      "ipa": "/ə.mas/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0017",
+      "text": "merah",
+      "normalized_text": "merah",
+      "spoken_form": "merah",
+      "respelling": null,
+      "ipa": "/me.rah/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0018",
+      "text": "meja",
+      "normalized_text": "meja",
+      "spoken_form": "meja",
+      "respelling": null,
+      "ipa": "/me.dʒa/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0019",
+      "text": "sate",
+      "normalized_text": "sate",
+      "spoken_form": "sate",
+      "respelling": null,
+      "ipa": "/sa.te/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0020",
+      "text": "tempe",
+      "normalized_text": "tempe",
+      "spoken_form": "tempe",
+      "respelling": null,
+      "ipa": "/tem.pe/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0021",
+      "text": "bebek",
+      "normalized_text": "bebek",
+      "spoken_form": "bebek",
+      "respelling": null,
+      "ipa": "/be.bek/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0022",
+      "text": "nenek",
+      "normalized_text": "nenek",
+      "spoken_form": "nenek",
+      "respelling": null,
+      "ipa": "/ne.nek/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0023",
+      "text": "sehat",
+      "normalized_text": "sehat",
+      "spoken_form": "sehat",
+      "respelling": null,
+      "ipa": "/se.hat/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0024",
+      "text": "peta",
+      "normalized_text": "peta",
+      "spoken_form": "peta",
+      "respelling": null,
+      "ipa": "/pe.ta/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0025",
+      "text": "beres",
+      "normalized_text": "beres",
+      "spoken_form": "beres",
+      "respelling": null,
+      "ipa": "/be.res/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0026",
+      "text": "besar",
+      "normalized_text": "besar",
+      "spoken_form": "besar",
+      "respelling": null,
+      "ipa": "/bə.sar/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0027",
+      "text": "kecil",
+      "normalized_text": "kecil",
+      "spoken_form": "kecil",
+      "respelling": null,
+      "ipa": "/kə.tʃil/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0028",
+      "text": "telur",
+      "normalized_text": "telur",
+      "spoken_form": "telur",
+      "respelling": null,
+      "ipa": "/tə.lur/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0029",
+      "text": "lemari",
+      "normalized_text": "lemari",
+      "spoken_form": "lemari",
+      "respelling": null,
+      "ipa": "/lə.ma.ri/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0030",
+      "text": "pedas",
+      "normalized_text": "pedas",
+      "spoken_form": "pedas",
+      "respelling": null,
+      "ipa": "/pə.das/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0031",
+      "text": "segar",
+      "normalized_text": "segar",
+      "spoken_form": "segar",
+      "respelling": null,
+      "ipa": "/sə.gar/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0032",
+      "text": "cepat",
+      "normalized_text": "cepat",
+      "spoken_form": "cepat",
+      "respelling": null,
+      "ipa": "/tʃə.pat/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e pepet /ə/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0033",
+      "text": "ember",
+      "normalized_text": "ember",
+      "spoken_form": "ember",
+      "respelling": null,
+      "ipa": "/em.bər/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: campuran /ə/ dan /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0034",
+      "text": "kemeja",
+      "normalized_text": "kemeja",
+      "spoken_form": "kemeja",
+      "respelling": null,
+      "ipa": "/kə.me.dʒa/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: campuran /ə/ dan /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0035",
+      "text": "lele",
+      "normalized_text": "lele",
+      "spoken_form": "lele",
+      "respelling": null,
+      "ipa": "/le.le/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "e-quality",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh kualitas vokal: e taling /e/. Huruf e tidak menandai perbedaan ini; mesin TTS harus mengandalkan leksikon."
+    },
+    {
+      "id": "word-0036",
+      "text": "saat",
+      "normalized_text": "saat",
+      "spoken_form": "saat",
+      "respelling": null,
+      "ipa": "/sa.ʔat/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "glottal-stop",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "soderberg-olson-2008",
+        "alwi-tbbi-2017"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Vokal sama berurutan dipisah [ʔ]."
+    },
+    {
+      "id": "word-0037",
+      "text": "taat",
+      "normalized_text": "taat",
+      "spoken_form": "taat",
+      "respelling": null,
+      "ipa": "/ta.ʔat/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "glottal-stop",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "soderberg-olson-2008",
+        "alwi-tbbi-2017"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Vokal sama berurutan dipisah [ʔ]."
+    },
+    {
+      "id": "word-0038",
+      "text": "anak",
+      "normalized_text": "anak",
+      "spoken_form": "anak",
+      "respelling": null,
+      "ipa": "/a.nak/",
+      "ipa_note": "Konvensi repo: k akhir suku ditulis /k/ dalam IPA fonemis; realisasi [ʔ] dijelaskan di knowledge/consonants.md.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "glottal-stop",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "soderberg-olson-2008",
+        "alwi-tbbi-2017"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "k akhir direalisasikan [ʔ]: [anaʔ]."
+    },
+    {
+      "id": "word-0039",
+      "text": "tidak",
+      "normalized_text": "tidak",
+      "spoken_form": "tidak",
+      "respelling": null,
+      "ipa": "/ti.dak/",
+      "ipa_note": "Konvensi repo: k akhir suku ditulis /k/ dalam IPA fonemis; realisasi [ʔ] dijelaskan di knowledge/consonants.md.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "glottal-stop",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "soderberg-olson-2008",
+        "alwi-tbbi-2017"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "k akhir → [ʔ]: [tidaʔ]."
+    },
+    {
+      "id": "word-0040",
+      "text": "bapak",
+      "normalized_text": "bapak",
+      "spoken_form": "bapak",
+      "respelling": null,
+      "ipa": "/ba.pak/",
+      "ipa_note": "Konvensi repo: k akhir suku ditulis /k/ dalam IPA fonemis; realisasi [ʔ] dijelaskan di knowledge/consonants.md.",
+      "language": "id",
+      "category": "general",
+      "subcategory": "glottal-stop",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "soderberg-olson-2008",
+        "alwi-tbbi-2017"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "k akhir → [ʔ]: [bapaʔ]."
+    },
+    {
+      "id": "word-0041",
+      "text": "bangun",
+      "normalized_text": "bangun",
+      "spoken_form": "bangun",
+      "respelling": null,
+      "ipa": "/ba.ŋun/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ng = satu bunyi /ŋ/; tidak dipenggal (ba-ngun)."
+    },
+    {
+      "id": "word-0042",
+      "text": "mangga",
+      "normalized_text": "mangga",
+      "spoken_form": "mangga",
+      "respelling": null,
+      "ipa": "/maŋ.ga/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ngg = /ŋ/ + /g/ (mang-ga). Bandingkan 'bangun'."
+    },
+    {
+      "id": "word-0043",
+      "text": "tinggi",
+      "normalized_text": "tinggi",
+      "spoken_form": "tinggi",
+      "respelling": null,
+      "ipa": "/tiŋ.gi/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ngg = /ŋg/."
+    },
+    {
+      "id": "word-0044",
+      "text": "nyanyi",
+      "normalized_text": "nyanyi",
+      "spoken_form": "nyanyi",
+      "respelling": null,
+      "ipa": "/ɲa.ɲi/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ny = satu bunyi /ɲ/."
+    },
+    {
+      "id": "word-0045",
+      "text": "banyak",
+      "normalized_text": "banyak",
+      "spoken_form": "banyak",
+      "respelling": null,
+      "ipa": "/ba.ɲak/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ny tidak muncul di akhir kata (EYD)."
+    },
+    {
+      "id": "word-0046",
+      "text": "ngeri",
+      "normalized_text": "ngeri",
+      "spoken_form": "ngeri",
+      "respelling": null,
+      "ipa": "/ŋə.ri/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "ng di awal kata."
+    },
+    {
+      "id": "word-0047",
+      "text": "mengapa",
+      "normalized_text": "mengapa",
+      "spoken_form": "mengapa",
+      "respelling": null,
+      "ipa": "/mə.ŋa.pa/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "consonant-digraph",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "soderberg-olson-2008"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "word-0048",
+      "text": "nggak",
+      "normalized_text": "nggak",
+      "spoken_form": "nggak",
+      "respelling": null,
+      "ipa": "/ŋgak/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "tidak",
+          "ipa": "/ti.dak/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'tidak'. Varian: enggak, gak, ga. k akhir [ʔ]."
+    },
+    {
+      "id": "word-0049",
+      "text": "enggak",
+      "normalized_text": "enggak",
+      "spoken_form": "enggak",
+      "respelling": null,
+      "ipa": "/əŋ.gak/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "tidak",
+          "ipa": "/ti.dak/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'tidak'."
+    },
+    {
+      "id": "word-0050",
+      "text": "gimana",
+      "normalized_text": "gimana",
+      "spoken_form": "gimana",
+      "respelling": null,
+      "ipa": "/gi.ma.na/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "bagaimana",
+          "ipa": "/ba.gai̯.ma.na/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'bagaimana'."
+    },
+    {
+      "id": "word-0051",
+      "text": "udah",
+      "normalized_text": "udah",
+      "spoken_form": "udah",
+      "respelling": null,
+      "ipa": "/u.dah/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "sudah",
+          "ipa": "/su.dah/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'sudah'."
+    },
+    {
+      "id": "word-0052",
+      "text": "aja",
+      "normalized_text": "aja",
+      "spoken_form": "aja",
+      "respelling": null,
+      "ipa": "/a.dʒa/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "saja",
+          "ipa": "/sa.dʒa/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'saja'."
+    },
+    {
+      "id": "word-0053",
+      "text": "pake",
+      "normalized_text": "pake",
+      "spoken_form": "pake",
+      "respelling": null,
+      "ipa": "/pa.ke/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "pakai",
+          "ipa": "/pa.kai̯/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'pakai'. Monoftongisasi ai → e (ragam Jakarta)."
+    },
+    {
+      "id": "word-0054",
+      "text": "kalo",
+      "normalized_text": "kalo",
+      "spoken_form": "kalo",
+      "respelling": null,
+      "ipa": "/ka.lo/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "kalau",
+          "ipa": "/ka.lau̯/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'kalau'. Monoftongisasi au → o."
+    },
+    {
+      "id": "word-0055",
+      "text": "sampe",
+      "normalized_text": "sampe",
+      "spoken_form": "sampe",
+      "respelling": null,
+      "ipa": "/sam.pe/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "sampai",
+          "ipa": "/sam.pai̯/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'sampai'. Monoftongisasi ai → e."
+    },
+    {
+      "id": "word-0056",
+      "text": "kayak",
+      "normalized_text": "kayak",
+      "spoken_form": "kayak",
+      "respelling": null,
+      "ipa": "/ka.jak/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "seperti",
+          "ipa": "/sə.pər.ti/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'seperti'. Juga ditulis 'kaya'."
+    },
+    {
+      "id": "word-0057",
+      "text": "gue",
+      "normalized_text": "gue",
+      "spoken_form": "gue",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "saya",
+          "ipa": "/sa.ja/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'saya'. Pronomina ragam Jakarta; varian tulis 'gua', 'gw'. IPA dikosongkan (variasi [gue]/[guə]/[gua])."
+    },
+    {
+      "id": "word-0058",
+      "text": "lu",
+      "normalized_text": "lu",
+      "spoken_form": "lu",
+      "respelling": null,
+      "ipa": "/lu/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "informal-form",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [
+        {
+          "spoken_form": "kamu",
+          "ipa": "/ka.mu/",
+          "register": "formal",
+          "context": "Bentuk baku untuk naskah formal",
+          "source": [
+            "sneddon-2006",
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "sneddon-2006",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk informal dari 'kamu'. Varian tulis 'lo', 'loe'."
+    },
+    {
+      "id": "word-0059",
+      "text": "data",
+      "normalized_text": "data",
+      "spoken_form": "data",
+      "respelling": null,
+      "ipa": "/da.ta/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "deta",
+          "respelling": "deta",
+          "register": "informal",
+          "context": "Bacaan mengikuti Inggris (informal teknologi)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bacaan Indonesia [data]; bacaan Inggris 'deta' lazim di kalangan teknologi."
+    },
+    {
+      "id": "word-0060",
+      "text": "hipotesis",
+      "normalized_text": "hipotesis",
+      "spoken_form": "hipotesis",
+      "respelling": null,
+      "ipa": "/hi.po.te.sis/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'hipotesa' tidak baku."
+    },
+    {
+      "id": "word-0061",
+      "text": "signifikan",
+      "normalized_text": "signifikan",
+      "spoken_form": "signifikan",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Gugus gn sering direalisasikan [gn] atau [ŋn]; IPA dikosongkan."
+    },
+    {
+      "id": "word-0062",
+      "text": "sampel",
+      "normalized_text": "sampel",
+      "spoken_form": "sampel",
+      "respelling": null,
+      "ipa": "/sam.pəl/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku 'sampel'."
+    },
+    {
+      "id": "word-0063",
+      "text": "efisien",
+      "normalized_text": "efisien",
+      "spoken_form": "efisien",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Deret ie: [efisien]; IPA dikosongkan sampai dicek."
+    },
+    {
+      "id": "word-0064",
+      "text": "kualitatif",
+      "normalized_text": "kualitatif",
+      "spoken_form": "kualitatif",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "u sebelum a → luncuran [w] dalam ujaran: [kwalitatif]."
+    },
+    {
+      "id": "word-0065",
+      "text": "kuantitatif",
+      "normalized_text": "kuantitatif",
+      "spoken_form": "kuantitatif",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim [kwantitatif]."
+    },
+    {
+      "id": "word-0066",
+      "text": "implementasi",
+      "normalized_text": "implementasi",
+      "spoken_form": "implementasi",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kualitas e (é) perlu dicek."
+    },
+    {
+      "id": "word-0067",
+      "text": "evaluasi",
+      "normalized_text": "evaluasi",
+      "spoken_form": "evaluasi",
+      "respelling": null,
+      "ipa": "/e.va.lu.a.si/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Huruf v sering [f]."
+    },
+    {
+      "id": "word-0068",
+      "text": "metode",
+      "normalized_text": "metode",
+      "spoken_form": "metode",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim [metodə]; perlu validasi kualitas e kedua."
+    },
+    {
+      "id": "word-0069",
+      "text": "variabel",
+      "normalized_text": "variabel",
+      "spoken_form": "variabel",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "general",
+      "subcategory": "professional-academic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kualitas e akhir bervariasi; perlu dicek KBBI."
+    },
+    {
+      "id": "word-0070",
+      "text": "Yogyakarta",
+      "normalized_text": "yogyakarta",
+      "spoken_form": "Yogyakarta",
+      "respelling": null,
+      "ipa": "/jog.ja.kar.ta/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Jogja",
+          "context": "Bentuk singkat populer",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Nama resmi; bentuk lisan populer 'Jogja' (juga ditulis Jogja/Yogya). Ejaan 'Jogjakarta' tidak resmi.",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0071",
+      "text": "Jakarta",
+      "normalized_text": "jakarta",
+      "spoken_form": "Jakarta",
+      "respelling": null,
+      "ipa": "/dʒa.kar.ta/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0072",
+      "text": "Surakarta",
+      "normalized_text": "surakarta",
+      "spoken_form": "Surakarta",
+      "respelling": null,
+      "ipa": "/su.ra.kar.ta/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Solo",
+          "context": "Nama lain yang umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Juga disebut Solo.",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0073",
+      "text": "Bandung",
+      "normalized_text": "bandung",
+      "spoken_form": "Bandung",
+      "respelling": null,
+      "ipa": "/ban.duŋ/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Penutur berlatar Jawa sering memprenasalisasi: [mbandʊŋ] (lihat regional-variations).",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0074",
+      "text": "Semarang",
+      "normalized_text": "semarang",
+      "spoken_form": "Semarang",
+      "respelling": null,
+      "ipa": "/sə.ma.raŋ/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0075",
+      "text": "Medan",
+      "normalized_text": "medan",
+      "spoken_form": "Medan",
+      "respelling": null,
+      "ipa": "/me.dan/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0076",
+      "text": "Cirebon",
+      "normalized_text": "cirebon",
+      "spoken_form": "Cirebon",
+      "respelling": null,
+      "ipa": "/tʃi.rə.bon/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0077",
+      "text": "Sulawesi",
+      "normalized_text": "sulawesi",
+      "spoken_form": "Sulawesi",
+      "respelling": null,
+      "ipa": "/su.la.we.si/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0078",
+      "text": "Bekasi",
+      "normalized_text": "bekasi",
+      "spoken_form": "Bekasi",
+      "respelling": null,
+      "ipa": "/bə.ka.si/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0079",
+      "text": "Soekarno",
+      "normalized_text": "soekarno",
+      "spoken_form": "Soekarno",
+      "respelling": null,
+      "ipa": "/su.kar.no/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation",
+        "eyd-v-2022"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Ejaan lama Van Ophuijsen/Soewandi: 'oe' dibaca /u/. Nama diri boleh mempertahankan ejaan lama.",
+      "tags": [
+        "proper-name"
+      ]
+    },
+    {
+      "id": "word-0080",
+      "text": "Gadjah Mada",
+      "normalized_text": "gadjah mada",
+      "spoken_form": "Gadjah Mada",
+      "respelling": null,
+      "ipa": "/ga.dʒah ma.da/",
+      "language": "id",
+      "category": "general",
+      "subcategory": "proper-name",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation",
+        "eyd-v-2022"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Ejaan lama: 'dj' dibaca /dʒ/ (ejaan baru: j).",
+      "tags": [
+        "proper-name"
+      ]
+    }
+  ]
+}

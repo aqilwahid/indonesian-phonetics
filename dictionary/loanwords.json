@@ -1,0 +1,2042 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "loanwords",
+  "version": "1.0.0",
+  "description": "Kata asing dan kata serapan: kata Inggris yang dipakai apa adanya, serapan dengan ejaan disesuaikan, serta serapan Arab, Belanda, dan bahasa daerah. Mencatat bacaan umum, varian, dan bentuk baku.",
+  "entries": [
+    {
+      "id": "loan-0001",
+      "text": "ghost mannequin",
+      "normalized_text": "ghost mannequin",
+      "spoken_form": "ghost mannequin",
+      "respelling": "gost manekin",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Teknik foto produk."
+    },
+    {
+      "id": "loan-0002",
+      "text": "prewed",
+      "normalized_text": "prewed",
+      "spoken_form": "prewed",
+      "respelling": "priwed",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Pre-wedding (foto pranikah)."
+    },
+    {
+      "id": "loan-0003",
+      "text": "co-working",
+      "normalized_text": "co-working",
+      "spoken_form": "co-working",
+      "respelling": "ko woking",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Ruang kerja bersama."
+    },
+    {
+      "id": "loan-0004",
+      "text": "deploy",
+      "normalized_text": "deploy",
+      "spoken_form": "deploy",
+      "respelling": "diploi",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Menerapkan aplikasi ke server."
+    },
+    {
+      "id": "loan-0005",
+      "text": "paylater",
+      "normalized_text": "paylater",
+      "spoken_form": "paylater",
+      "respelling": "pei leiter",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Layanan bayar nanti."
+    },
+    {
+      "id": "loan-0006",
+      "text": "rate card",
+      "normalized_text": "rate card",
+      "spoken_form": "rate card",
+      "respelling": "reit kard",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Daftar tarif jasa."
+    },
+    {
+      "id": "loan-0007",
+      "text": "voice-over",
+      "normalized_text": "voice-over",
+      "spoken_form": "voice-over",
+      "respelling": "vois over",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Sulih suara/narasi; padanan 'sulih suara'."
+    },
+    {
+      "id": "loan-0008",
+      "text": "Viewer",
+      "normalized_text": "viewer",
+      "spoken_form": "Viewer",
+      "respelling": "viuwer",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "context": "Antarmuka YouTube Studio",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Peran akses di YouTube Studio (penonton)."
+    },
+    {
+      "id": "loan-0009",
+      "text": "Commenter",
+      "normalized_text": "commenter",
+      "spoken_form": "Commenter",
+      "respelling": "komenter",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "context": "Antarmuka YouTube Studio",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Peran akses di YouTube Studio."
+    },
+    {
+      "id": "loan-0010",
+      "text": "Manager",
+      "normalized_text": "manager",
+      "spoken_form": "Manager",
+      "respelling": "menejer",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "context": "Antarmuka YouTube Studio",
+      "variants": [
+        {
+          "spoken_form": "manajer",
+          "respelling": null,
+          "register": "formal",
+          "context": "Bentuk serapan baku",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Peran akses; bentuk serapan baku 'manajer' dibaca [manadʒər]."
+    },
+    {
+      "id": "loan-0011",
+      "text": "Owner",
+      "normalized_text": "owner",
+      "spoken_form": "Owner",
+      "respelling": "ouner",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "context": "Antarmuka YouTube Studio",
+      "variants": [],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Peran akses di YouTube Studio."
+    },
+    {
+      "id": "loan-0012",
+      "text": "Geography",
+      "normalized_text": "geography",
+      "spoken_form": "Geography",
+      "respelling": "jiografi",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "context": "Antarmuka YouTube Studio",
+      "variants": [
+        {
+          "spoken_form": "geografi",
+          "register": "formal",
+          "context": "Bentuk serapan baku",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Menu laporan geografi di YouTube Analytics; bentuk serapan baku 'geografi' [geografi]."
+    },
+    {
+      "id": "loan-0013",
+      "text": "OK",
+      "normalized_text": "ok",
+      "spoken_form": "oke",
+      "respelling": null,
+      "ipa": "/o.ke/",
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-adapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "okei",
+          "register": "informal",
+          "context": "Bacaan mengikuti Inggris",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Dari 'Kamus skrip VO HDI'. Bentuk tulis 'oke' juga lazim."
+    },
+    {
+      "id": "loan-0014",
+      "text": "meeting",
+      "normalized_text": "meeting",
+      "spoken_form": "meeting",
+      "respelling": "miting",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: rapat. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0015",
+      "text": "deadline",
+      "normalized_text": "deadline",
+      "spoken_form": "deadline",
+      "respelling": "dedlain",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: tenggat. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0016",
+      "text": "feedback",
+      "normalized_text": "feedback",
+      "spoken_form": "feedback",
+      "respelling": "fidbek",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: umpan balik. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0017",
+      "text": "update",
+      "normalized_text": "update",
+      "spoken_form": "update",
+      "respelling": "apdet",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: pembaruan; bentuk informal 'apdet' juga ditulis. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0018",
+      "text": "follow up",
+      "normalized_text": "follow up",
+      "spoken_form": "follow up",
+      "respelling": "folo ap",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: tindak lanjut. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0019",
+      "text": "briefing",
+      "normalized_text": "briefing",
+      "spoken_form": "briefing",
+      "respelling": "brifing",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: taklimat. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0020",
+      "text": "event",
+      "normalized_text": "event",
+      "spoken_form": "event",
+      "respelling": "ivent",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: acara. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0021",
+      "text": "budget",
+      "normalized_text": "budget",
+      "spoken_form": "budget",
+      "respelling": "bajet",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: anggaran. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0022",
+      "text": "sharing",
+      "normalized_text": "sharing",
+      "spoken_form": "sharing",
+      "respelling": "syering",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: berbagi. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0023",
+      "text": "mindset",
+      "normalized_text": "mindset",
+      "spoken_form": "mindset",
+      "respelling": "maindset",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: pola pikir. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0024",
+      "text": "skill",
+      "normalized_text": "skill",
+      "spoken_form": "skill",
+      "respelling": "skil",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: keterampilan. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0025",
+      "text": "workshop",
+      "normalized_text": "workshop",
+      "spoken_form": "workshop",
+      "respelling": "wokshop",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: lokakarya. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0026",
+      "text": "webinar",
+      "normalized_text": "webinar",
+      "spoken_form": "webinar",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Sudah lazim dibaca sesuai ejaan Indonesia. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0027",
+      "text": "weekend",
+      "normalized_text": "weekend",
+      "spoken_form": "weekend",
+      "respelling": "wikend",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: akhir pekan. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0028",
+      "text": "cashback",
+      "normalized_text": "cashback",
+      "spoken_form": "cashback",
+      "respelling": "kesbek",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: uang kembali. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0029",
+      "text": "gadget",
+      "normalized_text": "gadget",
+      "spoken_form": "gadget",
+      "respelling": "gajet",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: gawai. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0030",
+      "text": "insight",
+      "normalized_text": "insight",
+      "spoken_form": "insight",
+      "respelling": "insait",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: wawasan. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0031",
+      "text": "random",
+      "normalized_text": "random",
+      "spoken_form": "random",
+      "respelling": "rendom",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Padanan: acak. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0032",
+      "text": "healing",
+      "normalized_text": "healing",
+      "spoken_form": "healing",
+      "respelling": "hiling",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Slang: rekreasi untuk melepas penat. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0033",
+      "text": "vibes",
+      "normalized_text": "vibes",
+      "spoken_form": "vibes",
+      "respelling": "vaibs",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Slang: suasana. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0034",
+      "text": "year on year",
+      "normalized_text": "year on year",
+      "spoken_form": "year on year",
+      "respelling": "yir on yir",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Istilah ekonomi (yoy); padanan: tahunan/dibanding tahun sebelumnya. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0035",
+      "text": "overthinking",
+      "normalized_text": "overthinking",
+      "spoken_form": "overthinking",
+      "respelling": "overtingking",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0036",
+      "text": "sorry",
+      "normalized_text": "sorry",
+      "spoken_form": "sorry",
+      "respelling": "sori",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Informal. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0037",
+      "text": "thank you",
+      "normalized_text": "thank you",
+      "spoken_form": "thank you",
+      "respelling": "tengkyu",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "informal",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Informal. Respelling perlu validasi."
+    },
+    {
+      "id": "loan-0038",
+      "text": "meme",
+      "normalized_text": "meme",
+      "spoken_form": "meme",
+      "respelling": "mim",
+      "ipa": null,
+      "language": "en",
+      "category": "loanword",
+      "subcategory": "english-unadapted",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "meme",
+          "respelling": "meme",
+          "context": "Bacaan sesuai ejaan Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Contoh variasi: banyak penutur Indonesia membaca sesuai ejaan [meme], sebagian mengikuti Inggris [mim]. Keduanya diterima; pilih konsisten."
+    },
+    {
+      "id": "loan-0039",
+      "text": "standar",
+      "normalized_text": "standar",
+      "spoken_form": "standar",
+      "respelling": null,
+      "ipa": "/stan.dar/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; bukan 'standard'. Bacaan sesuai ejaan."
+    },
+    {
+      "id": "loan-0040",
+      "text": "kualitas",
+      "normalized_text": "kualitas",
+      "spoken_form": "kualitas",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kualitas",
+          "respelling": "kwalitas",
+          "context": "Realisasi umum dengan luncuran [w]",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim dilafalkan [kwalitas]: u sebelum vokal menjadi luncuran [w]. Ejaan baku tetap 'kualitas', bukan 'kwalitas'."
+    },
+    {
+      "id": "loan-0041",
+      "text": "kuitansi",
+      "normalized_text": "kuitansi",
+      "spoken_form": "kuitansi",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kuitansi",
+          "respelling": "kwitansi",
+          "context": "Realisasi umum dengan luncuran [w]",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim dilafalkan [kwitansi]; ejaan baku 'kuitansi'."
+    },
+    {
+      "id": "loan-0042",
+      "text": "frekuensi",
+      "normalized_text": "frekuensi",
+      "spoken_form": "frekuensi",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "frekuensi",
+          "respelling": "frekwensi",
+          "context": "Realisasi umum dengan luncuran [w]",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Lazim [frekwensi]; ejaan baku 'frekuensi'."
+    },
+    {
+      "id": "loan-0043",
+      "text": "analisis",
+      "normalized_text": "analisis",
+      "spoken_form": "analisis",
+      "respelling": null,
+      "ipa": "/a.na.li.sis/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku 'analisis'; 'analisa' tidak baku tetapi sering terdengar."
+    },
+    {
+      "id": "loan-0044",
+      "text": "praktik",
+      "normalized_text": "praktik",
+      "spoken_form": "praktik",
+      "respelling": null,
+      "ipa": "/prak.tik/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'praktek' tidak baku."
+    },
+    {
+      "id": "loan-0045",
+      "text": "sistem",
+      "normalized_text": "sistem",
+      "spoken_form": "sistem",
+      "respelling": null,
+      "ipa": "/sis.tem/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; bukan 'sistim'."
+    },
+    {
+      "id": "loan-0046",
+      "text": "efektif",
+      "normalized_text": "efektif",
+      "spoken_form": "efektif",
+      "respelling": null,
+      "ipa": "/e.fek.tif/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "efektip",
+          "respelling": "efektip",
+          "region": "beragam; lihat knowledge/regional-variations.md",
+          "context": "Realisasi f→p (sebagian penutur)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'efektip' adalah realisasi f→p pada sebagian penutur."
+    },
+    {
+      "id": "loan-0047",
+      "text": "objek",
+      "normalized_text": "objek",
+      "spoken_form": "objek",
+      "respelling": null,
+      "ipa": "/ob.dʒek/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'obyek' tidak baku."
+    },
+    {
+      "id": "loan-0048",
+      "text": "survei",
+      "normalized_text": "survei",
+      "spoken_form": "survei",
+      "respelling": null,
+      "ipa": "/sur.vei̯/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007",
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Diftong 'ei' diakui EYD; bukan 'survey'. Huruf v sering [f]."
+    },
+    {
+      "id": "loan-0049",
+      "text": "karier",
+      "normalized_text": "karier",
+      "spoken_form": "karier",
+      "respelling": null,
+      "ipa": "/ka.ri.er/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "karir",
+          "respelling": "karir",
+          "register": "informal",
+          "context": "Informal",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'karir' tidak baku. Bacaan [karier] atau [karir] (informal)."
+    },
+    {
+      "id": "loan-0050",
+      "text": "risiko",
+      "normalized_text": "risiko",
+      "spoken_form": "risiko",
+      "respelling": null,
+      "ipa": "/ri.si.ko/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'resiko' tidak baku."
+    },
+    {
+      "id": "loan-0051",
+      "text": "apotek",
+      "normalized_text": "apotek",
+      "spoken_form": "apotek",
+      "respelling": null,
+      "ipa": "/a.po.tek/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku (dari Belanda apotheek); 'apotik' tidak baku."
+    },
+    {
+      "id": "loan-0052",
+      "text": "video",
+      "normalized_text": "video",
+      "spoken_form": "video",
+      "respelling": null,
+      "ipa": "/vi.de.o/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Huruf v lazim direalisasikan [f]: [fideo]."
+    },
+    {
+      "id": "loan-0053",
+      "text": "zaman",
+      "normalized_text": "zaman",
+      "spoken_form": "zaman",
+      "respelling": null,
+      "ipa": "/za.man/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "jaman",
+          "respelling": "jaman",
+          "register": "informal",
+          "context": "Realisasi informal z→j",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; informal 'jaman' [dʒaman] menunjukkan realisasi z→j."
+    },
+    {
+      "id": "loan-0054",
+      "text": "ijazah",
+      "normalized_text": "ijazah",
+      "spoken_form": "ijazah",
+      "respelling": null,
+      "ipa": "/i.dʒa.zah/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'ijasah' tidak baku. z sering [s]/[dʒ] pada sebagian penutur."
+    },
+    {
+      "id": "loan-0055",
+      "text": "teknik",
+      "normalized_text": "teknik",
+      "spoken_form": "teknik",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Kualitas vokal e ([tɛknik]) — IPA dikosongkan sampai dicek KBBI."
+    },
+    {
+      "id": "loan-0056",
+      "text": "aktivitas",
+      "normalized_text": "aktivitas",
+      "spoken_form": "aktivitas",
+      "respelling": null,
+      "ipa": "/ak.ti.vi.tas/",
+      "language": "mul",
+      "category": "loanword",
+      "subcategory": "adapted-spelling",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring",
+        "pupi-2007"
+      ],
+      "provenance": "external-source",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku; 'aktifitas' tidak baku."
+    },
+    {
+      "id": "loan-0057",
+      "text": "khusus",
+      "normalized_text": "khusus",
+      "spoken_form": "khusus",
+      "respelling": null,
+      "ipa": "/xu.sus/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "khusus",
+          "respelling": "kusus",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "kh = /x/; banyak penutur merealisasikan [k] atau [h]."
+    },
+    {
+      "id": "loan-0058",
+      "text": "akhir",
+      "normalized_text": "akhir",
+      "spoken_form": "akhir",
+      "respelling": null,
+      "ipa": "/a.xir/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "akhir",
+          "respelling": "ahir",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "kh = /x/; realisasi [h] umum."
+    },
+    {
+      "id": "loan-0059",
+      "text": "ikhlas",
+      "normalized_text": "ikhlas",
+      "spoken_form": "ikhlas",
+      "respelling": null,
+      "ipa": "/ix.las/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ikhlas",
+          "respelling": "iklas",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "loan-0060",
+      "text": "syukur",
+      "normalized_text": "syukur",
+      "spoken_form": "syukur",
+      "respelling": null,
+      "ipa": "/ʃu.kur/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "syukur",
+          "respelling": "sukur",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "sy = /ʃ/; realisasi [s] umum pada ragam santai."
+    },
+    {
+      "id": "loan-0061",
+      "text": "syarat",
+      "normalized_text": "syarat",
+      "spoken_form": "syarat",
+      "respelling": null,
+      "ipa": "/ʃa.rat/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "syarat",
+          "respelling": "sarat",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Perhatikan: realisasi [sarat] berhomofon dengan kata 'sarat' (penuh)."
+    },
+    {
+      "id": "loan-0062",
+      "text": "musyawarah",
+      "normalized_text": "musyawarah",
+      "spoken_form": "musyawarah",
+      "respelling": null,
+      "ipa": "/mu.ʃa.wa.rah/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "musyawarah",
+          "respelling": "musawarah",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "loan-0063",
+      "text": "maaf",
+      "normalized_text": "maaf",
+      "spoken_form": "maaf",
+      "respelling": null,
+      "ipa": "/ma.ʔaf/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dua vokal sama berurutan dipisah hentian glotal [ʔ]. f akhir kadang [p]."
+    },
+    {
+      "id": "loan-0064",
+      "text": "Al-Qur'an",
+      "normalized_text": "al-qur'an",
+      "spoken_form": "Al-Qur'an",
+      "respelling": null,
+      "ipa": "/al.qur.ʔan/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Alquran",
+          "respelling": "alkuran",
+          "context": "Ejaan alternatif umum",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Apostrof menandai hentian glotal. q lazim direalisasikan [k] dalam ragam umum; [q] pada ragam keagamaan."
+    },
+    {
+      "id": "loan-0065",
+      "text": "rakyat",
+      "normalized_text": "rakyat",
+      "spoken_form": "rakyat",
+      "respelling": null,
+      "ipa": "/rak.jat/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "k di akhir suku kata direalisasikan [ʔ]: [raʔjat]."
+    },
+    {
+      "id": "loan-0066",
+      "text": "doa",
+      "normalized_text": "doa",
+      "spoken_form": "doa",
+      "respelling": null,
+      "ipa": "/do.a/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Deret o-a direalisasikan dengan luncuran atau hentian: [dowa] / [doʔa]."
+    },
+    {
+      "id": "loan-0067",
+      "text": "ziarah",
+      "normalized_text": "ziarah",
+      "spoken_form": "ziarah",
+      "respelling": null,
+      "ipa": "/zi.a.rah/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "ziarah",
+          "respelling": "jiarah",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "z kadang [dʒ] atau [s] pada sebagian penutur."
+    },
+    {
+      "id": "loan-0068",
+      "text": "fajar",
+      "normalized_text": "fajar",
+      "spoken_form": "fajar",
+      "respelling": null,
+      "ipa": "/fa.dʒar/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "fajar",
+          "respelling": "pajar",
+          "register": "informal",
+          "context": "Realisasi umum tanpa fonem serapan",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "f kadang [p] pada sebagian penutur."
+    },
+    {
+      "id": "loan-0069",
+      "text": "takwa",
+      "normalized_text": "takwa",
+      "spoken_form": "takwa",
+      "respelling": null,
+      "ipa": "/tak.wa/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "k akhir suku → [ʔ]: [taʔwa]."
+    },
+    {
+      "id": "loan-0070",
+      "text": "Ramadan",
+      "normalized_text": "ramadan",
+      "spoken_form": "Ramadan",
+      "respelling": null,
+      "ipa": "/ra.ma.dan/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku 'Ramadan'; 'Ramadhan' tidak baku tetapi umum."
+    },
+    {
+      "id": "loan-0071",
+      "text": "Idulfitri",
+      "normalized_text": "idulfitri",
+      "spoken_form": "Idulfitri",
+      "respelling": null,
+      "ipa": "/i.dul.fit.ri/",
+      "language": "ar",
+      "category": "loanword",
+      "subcategory": "arabic",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Bentuk baku ditulis serangkai."
+    },
+    {
+      "id": "loan-0072",
+      "text": "kantor",
+      "normalized_text": "kantor",
+      "spoken_form": "kantor",
+      "respelling": null,
+      "ipa": "/kan.tor/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari kantoor."
+    },
+    {
+      "id": "loan-0073",
+      "text": "handuk",
+      "normalized_text": "handuk",
+      "spoken_form": "handuk",
+      "respelling": null,
+      "ipa": "/han.duk/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari handdoek; k akhir → [ʔ]."
+    },
+    {
+      "id": "loan-0074",
+      "text": "wortel",
+      "normalized_text": "wortel",
+      "spoken_form": "wortel",
+      "respelling": null,
+      "ipa": "/wor.təl/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari wortel."
+    },
+    {
+      "id": "loan-0075",
+      "text": "kulkas",
+      "normalized_text": "kulkas",
+      "spoken_form": "kulkas",
+      "respelling": null,
+      "ipa": "/kul.kas/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari koelkast."
+    },
+    {
+      "id": "loan-0076",
+      "text": "gratis",
+      "normalized_text": "gratis",
+      "spoken_form": "gratis",
+      "respelling": null,
+      "ipa": "/gra.tis/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari gratis."
+    },
+    {
+      "id": "loan-0077",
+      "text": "knalpot",
+      "normalized_text": "knalpot",
+      "spoken_form": "knalpot",
+      "respelling": null,
+      "ipa": "/knal.pot/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "kenalpot",
+          "respelling": "kenalpot",
+          "register": "informal",
+          "context": "Penyisipan schwa memecah gugus",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "mixed",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Gugus awal kn- tidak asli Indonesia; sebagian penutur menyisipkan schwa [kənalpot]."
+    },
+    {
+      "id": "loan-0078",
+      "text": "rem",
+      "normalized_text": "rem",
+      "spoken_form": "rem",
+      "respelling": null,
+      "ipa": "/rem/",
+      "language": "nl",
+      "category": "loanword",
+      "subcategory": "dutch",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "kbbi-daring"
+      ],
+      "provenance": "external-source",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Dari rem; e taling [rɛm]."
+    },
+    {
+      "id": "loan-0079",
+      "text": "seudati",
+      "normalized_text": "seudati",
+      "spoken_form": "seudati",
+      "respelling": null,
+      "ipa": null,
+      "language": "ace",
+      "category": "loanword",
+      "subcategory": "regional",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Tarian Aceh. Gabungan huruf 'eu' melambangkan monoftong [ɘ] (EYD V). IPA lengkap dikosongkan."
+    }
+  ]
+}

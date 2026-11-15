@@ -1,0 +1,1518 @@
+{
+  "$schema": "../schemas/pronunciation.schema.json",
+  "dataset": "dates-and-times",
+  "version": "1.0.0",
+  "description": "Tanggal, hari, bulan, zona waktu, format jam, dan periode waktu. Termasuk pola normalisasi tanggal/jam dan ambiguitas formatnya.",
+  "entries": [
+    {
+      "id": "dt-0001",
+      "text": "Januari",
+      "normalized_text": "januari",
+      "spoken_form": "Januari",
+      "respelling": null,
+      "ipa": "/dʒa.nu.a.ri/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0002",
+      "text": "Jan",
+      "normalized_text": "jan",
+      "spoken_form": "Januari",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Januari'. Varian tulis dengan titik: 'Jan.'"
+    },
+    {
+      "id": "dt-0003",
+      "text": "Februari",
+      "normalized_text": "februari",
+      "spoken_form": "Februari",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Pebruari",
+          "respelling": "pebruari",
+          "register": "informal",
+          "context": "Realisasi f→p (tidak baku)",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. Realisasi [pebruari] umum pada sebagian penutur (f→p); IPA dikosongkan karena variasi."
+    },
+    {
+      "id": "dt-0004",
+      "text": "Feb",
+      "normalized_text": "feb",
+      "spoken_form": "Februari",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Februari'. Varian tulis dengan titik: 'Feb.'"
+    },
+    {
+      "id": "dt-0005",
+      "text": "Maret",
+      "normalized_text": "maret",
+      "spoken_form": "Maret",
+      "respelling": null,
+      "ipa": "/ma.rət/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. Akhir -ret berisi schwa."
+    },
+    {
+      "id": "dt-0006",
+      "text": "Mar",
+      "normalized_text": "mar",
+      "spoken_form": "Maret",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Mar' juga bisa nama orang; 'Jun' bisa nama; 'Des' bisa nama orang (Des). Ekspansi hanya jika berdampingan dengan angka tanggal/tahun.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Maret'. Varian tulis dengan titik: 'Mar.'"
+    },
+    {
+      "id": "dt-0007",
+      "text": "April",
+      "normalized_text": "april",
+      "spoken_form": "April",
+      "respelling": null,
+      "ipa": "/ap.ril/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0008",
+      "text": "Apr",
+      "normalized_text": "apr",
+      "spoken_form": "April",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'April'. Varian tulis dengan titik: 'Apr.'"
+    },
+    {
+      "id": "dt-0009",
+      "text": "Mei",
+      "normalized_text": "mei",
+      "spoken_form": "Mei",
+      "respelling": null,
+      "ipa": "/mei̯/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0010",
+      "text": "Juni",
+      "normalized_text": "juni",
+      "spoken_form": "Juni",
+      "respelling": null,
+      "ipa": "/dʒu.ni/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0011",
+      "text": "Jun",
+      "normalized_text": "jun",
+      "spoken_form": "Juni",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Mar' juga bisa nama orang; 'Jun' bisa nama; 'Des' bisa nama orang (Des). Ekspansi hanya jika berdampingan dengan angka tanggal/tahun.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Juni'. Varian tulis dengan titik: 'Jun.'"
+    },
+    {
+      "id": "dt-0012",
+      "text": "Juli",
+      "normalized_text": "juli",
+      "spoken_form": "Juli",
+      "respelling": null,
+      "ipa": "/dʒu.li/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0013",
+      "text": "Jul",
+      "normalized_text": "jul",
+      "spoken_form": "Juli",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Juli'. Varian tulis dengan titik: 'Jul.'"
+    },
+    {
+      "id": "dt-0014",
+      "text": "Agustus",
+      "normalized_text": "agustus",
+      "spoken_form": "Agustus",
+      "respelling": null,
+      "ipa": "/a.gus.tus/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. Singkatan baku 'Agu.' (bukan 'Ags.'), varian 'Agt.' juga ditemukan."
+    },
+    {
+      "id": "dt-0015",
+      "text": "Agu",
+      "normalized_text": "agu",
+      "spoken_form": "Agustus",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Agustus'. Varian tulis dengan titik: 'Agu.'"
+    },
+    {
+      "id": "dt-0016",
+      "text": "September",
+      "normalized_text": "september",
+      "spoken_form": "September",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. IPA dikosongkan: kualitas e pada suku 'tem/to/vem/sem' dan akhiran -ber perlu dicek KBBI."
+    },
+    {
+      "id": "dt-0017",
+      "text": "Sep",
+      "normalized_text": "sep",
+      "spoken_form": "September",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'September'. Varian tulis dengan titik: 'Sep.'"
+    },
+    {
+      "id": "dt-0018",
+      "text": "Oktober",
+      "normalized_text": "oktober",
+      "spoken_form": "Oktober",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. IPA dikosongkan: kualitas e pada suku 'tem/to/vem/sem' dan akhiran -ber perlu dicek KBBI."
+    },
+    {
+      "id": "dt-0019",
+      "text": "Okt",
+      "normalized_text": "okt",
+      "spoken_form": "Oktober",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Oktober'. Varian tulis dengan titik: 'Okt.'"
+    },
+    {
+      "id": "dt-0020",
+      "text": "November",
+      "normalized_text": "november",
+      "spoken_form": "November",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. IPA dikosongkan: kualitas e pada suku 'tem/to/vem/sem' dan akhiran -ber perlu dicek KBBI."
+    },
+    {
+      "id": "dt-0021",
+      "text": "Nov",
+      "normalized_text": "nov",
+      "spoken_form": "November",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'November'. Varian tulis dengan titik: 'Nov.'"
+    },
+    {
+      "id": "dt-0022",
+      "text": "Desember",
+      "normalized_text": "desember",
+      "spoken_form": "Desember",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Nama bulan ditulis dengan huruf kapital. IPA dikosongkan: kualitas e pada suku 'tem/to/vem/sem' dan akhiran -ber perlu dicek KBBI."
+    },
+    {
+      "id": "dt-0023",
+      "text": "Des",
+      "normalized_text": "des",
+      "spoken_form": "Desember",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "month-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Mar' juga bisa nama orang; 'Jun' bisa nama; 'Des' bisa nama orang (Des). Ekspansi hanya jika berdampingan dengan angka tanggal/tahun.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama bulan; ekspansi ke 'Desember'. Varian tulis dengan titik: 'Des.'"
+    },
+    {
+      "id": "dt-0024",
+      "text": "Senin",
+      "normalized_text": "senin",
+      "spoken_form": "Senin",
+      "respelling": null,
+      "ipa": "/sə.nin/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0025",
+      "text": "Sen",
+      "normalized_text": "sen",
+      "spoken_form": "Senin",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0026",
+      "text": "Selasa",
+      "normalized_text": "selasa",
+      "spoken_form": "Selasa",
+      "respelling": null,
+      "ipa": "/sə.la.sa/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0027",
+      "text": "Sel",
+      "normalized_text": "sel",
+      "spoken_form": "Selasa",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Min' juga bisa 'minimum' atau 'admin'; 'Sel' bisa sel (biologi/spreadsheet). Ekspansi hanya di konteks jadwal.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0028",
+      "text": "Rabu",
+      "normalized_text": "rabu",
+      "spoken_form": "Rabu",
+      "respelling": null,
+      "ipa": "/ra.bu/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0029",
+      "text": "Rab",
+      "normalized_text": "rab",
+      "spoken_form": "Rabu",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0030",
+      "text": "Kamis",
+      "normalized_text": "kamis",
+      "spoken_form": "Kamis",
+      "respelling": null,
+      "ipa": "/ka.mis/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0031",
+      "text": "Kam",
+      "normalized_text": "kam",
+      "spoken_form": "Kamis",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0032",
+      "text": "Jumat",
+      "normalized_text": "jumat",
+      "spoken_form": "Jumat",
+      "respelling": null,
+      "ipa": "/dʒu.mat/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital. Realisasi lazim [dʒumʔat]; ejaan baku 'Jumat' (bukan Jum'at)."
+    },
+    {
+      "id": "dt-0033",
+      "text": "Jum",
+      "normalized_text": "jum",
+      "spoken_form": "Jumat",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0034",
+      "text": "Sabtu",
+      "normalized_text": "sabtu",
+      "spoken_form": "Sabtu",
+      "respelling": null,
+      "ipa": "/sab.tu/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0035",
+      "text": "Sab",
+      "normalized_text": "sab",
+      "spoken_form": "Sabtu",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0036",
+      "text": "Minggu",
+      "normalized_text": "minggu",
+      "spoken_form": "Minggu",
+      "respelling": null,
+      "ipa": "/miŋ.gu/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Minggu' (kapital, nama hari) vs 'minggu' (pekan). Bacaan sama /miŋ.gu/; kapitalisasi dan konteks menentukan makna.",
+      "source": [
+        "eyd-v-2022",
+        "maintainer-interpretation"
+      ],
+      "provenance": "mixed",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Nama hari ditulis dengan huruf kapital."
+    },
+    {
+      "id": "dt-0037",
+      "text": "Min",
+      "normalized_text": "min",
+      "spoken_form": "Minggu",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "day-abbreviation",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'Min' juga bisa 'minimum' atau 'admin'; 'Sel' bisa sel (biologi/spreadsheet). Ekspansi hanya di konteks jadwal.",
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Singkatan nama hari (kalender/jadwal)."
+    },
+    {
+      "id": "dt-0038",
+      "text": "WIB",
+      "normalized_text": "wib",
+      "spoken_form": "we i be",
+      "respelling": null,
+      "ipa": "/we i be/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-zone",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Waktu Indonesia Barat",
+          "register": "formal",
+          "context": "Bentuk lengkap; ragam formal/siaran",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI: '19.00 WIB' terbaca kacau; versi 'jam tujuh malam, we i be' benar.",
+      "notes": "Waktu Indonesia Barat (UTC+7)."
+    },
+    {
+      "id": "dt-0039",
+      "text": "WITA",
+      "normalized_text": "wita",
+      "spoken_form": "wita",
+      "respelling": null,
+      "ipa": "/wi.ta/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-zone",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Waktu Indonesia Tengah",
+          "register": "formal",
+          "context": "Bentuk lengkap; ragam formal/siaran",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Waktu Indonesia Tengah (UTC+8); dibaca sebagai kata."
+    },
+    {
+      "id": "dt-0040",
+      "text": "WIT",
+      "normalized_text": "wit",
+      "spoken_form": "we i te",
+      "respelling": null,
+      "ipa": "/we i te/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-zone",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "id",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "Waktu Indonesia Timur",
+          "register": "formal",
+          "context": "Bentuk lengkap; ragam formal/siaran",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Waktu Indonesia Timur (UTC+9)."
+    },
+    {
+      "id": "dt-0041",
+      "text": "UTC",
+      "normalized_text": "utc",
+      "spoken_form": "yu ti si",
+      "respelling": null,
+      "ipa": null,
+      "language": "en",
+      "category": "date-time",
+      "subcategory": "time-zone",
+      "entry_type": "lexical",
+      "reading_type": "letter-by-letter",
+      "letter_system": "en",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "u te ce",
+          "ipa": "/u te tʃe/",
+          "register": "formal",
+          "letter_system": "id",
+          "context": "Nama huruf Indonesia",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Coordinated Universal Time."
+    },
+    {
+      "id": "dt-0042",
+      "text": "tanggal angka (hari/bulan/tahun)",
+      "normalized_text": "tanggal angka (hari/bulan/tahun)",
+      "spoken_form": "(tanggal) (nama bulan) (tahun)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "date-format",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "ambiguous": true,
+      "disambiguation": "'02/01/2027' bisa 2 Januari (Indonesia, d/m/y) atau 1 Februari (AS, m/d/y). Default repo: d/m/y untuk teks Indonesia; tandai jika sumber dokumen berbahasa Inggris AS.",
+      "pattern": "\\b\\d{1,2}/\\d{1,2}/\\d{2,4}\\b",
+      "examples": [
+        {
+          "input": "1/2/2027",
+          "output": "satu Februari dua ribu dua puluh tujuh",
+          "note": "Contoh HDI; Galeri Tes: bentuk garis miring salah baca (bulan tidak terbaca sebagai nama bulan)"
+        },
+        {
+          "input": "17/08/1945",
+          "output": "tujuh belas Agustus seribu sembilan ratus empat puluh lima"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI 27 Okt 2026: tanggal bergaris miring salah baca. Selalu ekspansi.",
+      "notes": "Konvensi Indonesia: hari/bulan/tahun. Bulan diucapkan dengan nama, bukan angka."
+    },
+    {
+      "id": "dt-0043",
+      "text": "tanggal ISO",
+      "normalized_text": "tanggal iso",
+      "spoken_form": "(tanggal) (nama bulan) (tahun)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "date-format",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\b\\d{4}-\\d{2}-\\d{2}\\b",
+      "examples": [
+        {
+          "input": "2026-11-15",
+          "output": "lima belas November dua ribu dua puluh enam"
+        }
+      ],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "derived",
+      "review_status": "unreviewed",
+      "notes": "Format ISO 8601 (tahun-bulan-hari) tidak ambigu."
+    },
+    {
+      "id": "dt-0044",
+      "text": "tanggal dengan nama bulan",
+      "normalized_text": "tanggal dengan nama bulan",
+      "spoken_form": "(tanggal) (nama bulan) (tahun)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "date-format",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\b\\d{1,2}\\s(?:Jan|Feb|Mar|Apr|Mei|Jun|Jul|Agu|Agt|Sep|Okt|Nov|Des)[a-z]*\\.?\\s\\d{4}\\b",
+      "examples": [
+        {
+          "input": "1 Feb 2027",
+          "output": "satu Februari dua ribu dua puluh tujuh",
+          "note": "Contoh HDI"
+        },
+        {
+          "input": "17 Agustus 1945",
+          "output": "tujuh belas Agustus seribu sembilan ratus empat puluh lima"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Singkatan bulan diekspansi."
+    },
+    {
+      "id": "dt-0045",
+      "text": "tanggal (dalam kalimat)",
+      "normalized_text": "tanggal (dalam kalimat)",
+      "spoken_form": "tanggal",
+      "respelling": null,
+      "ipa": "/taŋ.gal/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "date-format",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "pattern": "\\btanggal\\s\\d{1,2}\\b",
+      "examples": [
+        {
+          "input": "tiap tanggal 21",
+          "output": "tiap tanggal dua puluh satu",
+          "note": "Contoh kalimat Galeri Tes HDI"
+        }
+      ],
+      "source": [
+        "hdi-ebook-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "zip-reference",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Angka tanggal dibaca sebagai bilangan pokok, bukan ordinal."
+    },
+    {
+      "id": "dt-0046",
+      "text": "jam 24-jam dengan titik",
+      "normalized_text": "jam 24-jam dengan titik",
+      "spoken_form": "pukul (jam) (menit)",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "pattern",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "pukul sembilan belas we i be",
+          "register": "formal",
+          "context": "Ragam formal/siaran untuk 19.00 WIB",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "pukul tujuh tiga puluh",
+          "register": "neutral",
+          "context": "Ragam netral tanpa 'lewat … menit' untuk 07.30",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "setengah delapan pagi",
+          "register": "informal",
+          "context": "Ragam santai untuk 07.30: 'setengah delapan' = 07.30, bukan 08.30",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "ambiguous": true,
+      "disambiguation": "'19.00' bisa jam atau bilangan 19 (gaya Inggris). Anggap jam bila diikuti WIB/WITA/WIT, didahului 'pukul/jam', atau dalam jadwal. Menit '00' tidak diucapkan ('pukul tujuh belas' atau 'pukul tujuh belas tepat').",
+      "pattern": "\\b(?:[01]?\\d|2[0-3])[.:][0-5]\\d\\b",
+      "examples": [
+        {
+          "input": "19.00 WIB",
+          "output": "jam tujuh malam, we i be",
+          "note": "Contoh HDI (ragam santai)"
+        },
+        {
+          "input": "pukul 07.30",
+          "output": "pukul tujuh lewat tiga puluh menit",
+          "note": "Ragam formal (keluaran normalize.py)"
+        },
+        {
+          "input": "13.15 WITA",
+          "output": "pukul tiga belas lewat lima belas menit wita",
+          "note": "Ragam formal 24 jam"
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026",
+        "hdi-ebook-2026",
+        "hdi-galeri-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "tts_notes": "Galeri Tes HDI: '19.00 WIB' salah baca total. Selalu ekspansi.",
+      "notes": "EYD memakai titik sebagai pemisah jam dan menit. Ragam formal memakai 'pukul' + sistem 24 jam; ragam santai memakai 'jam' + 12 jam + penanda pagi/siang/sore/malam."
+    },
+    {
+      "id": "dt-0047",
+      "text": "24/7",
+      "normalized_text": "24/7",
+      "spoken_form": "dua puluh empat jam sehari",
+      "respelling": null,
+      "ipa": null,
+      "language": "mul",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "lexical",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [
+        {
+          "spoken_form": "setiap saat",
+          "register": "neutral",
+          "context": "Parafrase",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        },
+        {
+          "spoken_form": "dua puluh empat jam, tujuh hari seminggu",
+          "register": "formal",
+          "context": "Ekspansi lengkap",
+          "source": [
+            "maintainer-interpretation"
+          ]
+        }
+      ],
+      "source": [
+        "hdi-kamus-2026"
+      ],
+      "provenance": "mixed",
+      "confidence": "attested",
+      "review_status": "unreviewed",
+      "notes": "Aturan HDI: ubah ke kalimat."
+    },
+    {
+      "id": "dt-0048",
+      "text": "pukul",
+      "normalized_text": "pukul",
+      "spoken_form": "pukul",
+      "respelling": null,
+      "ipa": "/pu.kul/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022",
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Penanda jam ragam formal (pukul 08.00)."
+    },
+    {
+      "id": "dt-0049",
+      "text": "setengah (jam)",
+      "normalized_text": "setengah (jam)",
+      "spoken_form": "setengah",
+      "respelling": null,
+      "ipa": "/sə.tə.ŋah/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "examples": [
+        {
+          "input": "07.30",
+          "output": "setengah delapan",
+          "note": "Ragam santai"
+        }
+      ],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "'setengah delapan' = pukul 07.30 (setengah jalan menuju delapan). Sumber kesalahan umum bagi penutur asing."
+    },
+    {
+      "id": "dt-0050",
+      "text": "kurang seperempat",
+      "normalized_text": "kurang seperempat",
+      "spoken_form": "kurang seperempat",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "'jam delapan kurang seperempat' = 07.45."
+    },
+    {
+      "id": "dt-0051",
+      "text": "lewat",
+      "normalized_text": "lewat",
+      "spoken_form": "lewat",
+      "respelling": null,
+      "ipa": "/le.wat/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "time-format",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "sneddon-2010"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "'jam tujuh lewat sepuluh (menit)' = 07.10."
+    },
+    {
+      "id": "dt-0052",
+      "text": "pagi",
+      "normalized_text": "pagi",
+      "spoken_form": "pagi",
+      "respelling": null,
+      "ipa": "/pa.gi/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "period",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Penanda bagian hari untuk jam 12-an: kira-kira dini hari sampai ±10.00/11.00. Batas bersifat konvensi dan bervariasi antarpenutur/daerah."
+    },
+    {
+      "id": "dt-0053",
+      "text": "siang",
+      "normalized_text": "siang",
+      "spoken_form": "siang",
+      "respelling": null,
+      "ipa": "/si.aŋ/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "period",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Penanda bagian hari untuk jam 12-an: kira-kira 11.00–15.00. Batas bersifat konvensi dan bervariasi antarpenutur/daerah."
+    },
+    {
+      "id": "dt-0054",
+      "text": "sore",
+      "normalized_text": "sore",
+      "spoken_form": "sore",
+      "respelling": null,
+      "ipa": "/so.re/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "period",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Penanda bagian hari untuk jam 12-an: kira-kira 15.00–18.00. Batas bersifat konvensi dan bervariasi antarpenutur/daerah."
+    },
+    {
+      "id": "dt-0055",
+      "text": "malam",
+      "normalized_text": "malam",
+      "spoken_form": "malam",
+      "respelling": null,
+      "ipa": "/ma.lam/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "period",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "maintainer-interpretation"
+      ],
+      "provenance": "interpretation",
+      "confidence": "needs_validation",
+      "review_status": "unreviewed",
+      "notes": "Penanda bagian hari untuk jam 12-an: kira-kira 18.00–24.00. Batas bersifat konvensi dan bervariasi antarpenutur/daerah."
+    },
+    {
+      "id": "dt-0056",
+      "text": "abad",
+      "normalized_text": "abad",
+      "spoken_form": "abad",
+      "respelling": null,
+      "ipa": "/a.bad/",
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "era",
+      "entry_type": "lexical",
+      "reading_type": "word",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Final /d/ direalisasikan [t]: [abat]. Lihat pola 'abad XXI' di numbers.json."
+    },
+    {
+      "id": "dt-0057",
+      "text": "tahun 90-an",
+      "normalized_text": "tahun 90-an",
+      "spoken_form": "tahun sembilan puluhan",
+      "respelling": null,
+      "ipa": null,
+      "language": "id",
+      "category": "date-time",
+      "subcategory": "era",
+      "entry_type": "example",
+      "reading_type": "expansion",
+      "letter_system": "na",
+      "register": "neutral",
+      "variants": [],
+      "source": [
+        "eyd-v-2022"
+      ],
+      "provenance": "external-source",
+      "confidence": "standard",
+      "review_status": "unreviewed",
+      "notes": "Contoh dasawarsa; lihat pola '-an' di numbers.json."
+    }
+  ]
+}
